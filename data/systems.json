@@ -6,7 +6,13 @@
       "logo": "https://material.io/static/assets/material-logo.svg",
       "maintainer": "Google",
       "license": "Apache 2.0",
-      "frameworks": ["React", "Web Components", "Flutter", "Android", "iOS"],
+      "frameworks": [
+        "React",
+        "Web Components",
+        "Flutter",
+        "Android",
+        "iOS"
+      ],
       "componentCount": 50,
       "githubUrl": "https://github.com/material-components/material-web",
       "githubStars": 8900,
@@ -20,6 +26,7 @@
       "theming": "Advanced",
       "maturity": "Stable",
       "cms": null,
+      "typescript": true,
       "aiCodeGen": {
         "supported": true,
         "quality": "excellent",
@@ -32,7 +39,9 @@
       "logo": "",
       "maintainer": "MUI Team",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 50,
       "githubUrl": "https://github.com/mui/material-ui",
       "githubStars": 93000,
@@ -50,7 +59,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Most popular React UI library, excellent documentation and AI support"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "bootstrap",
@@ -58,7 +68,12 @@
       "logo": "",
       "maintainer": "Bootstrap Team",
       "license": "MIT",
-      "frameworks": ["CSS", "React", "Vue", "Angular"],
+      "frameworks": [
+        "CSS",
+        "React",
+        "Vue",
+        "Angular"
+      ],
       "componentCount": 40,
       "githubUrl": "https://github.com/twbs/bootstrap",
       "githubStars": 170000,
@@ -76,7 +91,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Most widely known CSS framework with decades of training data"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "carbon",
@@ -84,7 +100,13 @@
       "logo": "",
       "maintainer": "IBM",
       "license": "Apache 2.0",
-      "frameworks": ["React", "Vue", "Angular", "Web Components", "Svelte"],
+      "frameworks": [
+        "React",
+        "Vue",
+        "Angular",
+        "Web Components",
+        "Svelte"
+      ],
       "componentCount": 65,
       "githubUrl": "https://github.com/carbon-design-system/carbon",
       "githubStars": 7600,
@@ -102,7 +124,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Comprehensive documentation and widely used in enterprise"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "fluent",
@@ -110,7 +133,11 @@
       "logo": "",
       "maintainer": "Microsoft",
       "license": "MIT",
-      "frameworks": ["React", "Web Components", "Angular"],
+      "frameworks": [
+        "React",
+        "Web Components",
+        "Angular"
+      ],
       "componentCount": 55,
       "githubUrl": "https://github.com/microsoft/fluentui",
       "githubStars": 18200,
@@ -128,7 +155,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Extensive Microsoft documentation and training data"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "polaris",
@@ -136,7 +164,9 @@
       "logo": "",
       "maintainer": "Shopify",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 45,
       "githubUrl": "https://github.com/Shopify/polaris",
       "githubStars": 5700,
@@ -154,7 +184,8 @@
         "supported": true,
         "quality": "good",
         "notes": "Well-documented but more niche use case"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "ant-design",
@@ -162,7 +193,11 @@
       "logo": "",
       "maintainer": "Ant Group",
       "license": "MIT",
-      "frameworks": ["React", "Vue", "Angular"],
+      "frameworks": [
+        "React",
+        "Vue",
+        "Angular"
+      ],
       "componentCount": 70,
       "githubUrl": "https://github.com/ant-design/ant-design",
       "githubStars": 92000,
@@ -180,7 +215,8 @@
         "supported": true,
         "quality": "good",
         "notes": "Popular but some API inconsistencies"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "chakra-ui",
@@ -188,7 +224,9 @@
       "logo": "",
       "maintainer": "Segun Adebayo",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 50,
       "githubUrl": "https://github.com/chakra-ui/chakra-ui",
       "githubStars": 37500,
@@ -206,7 +244,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Simple API and clear documentation"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "mantine",
@@ -214,7 +253,9 @@
       "logo": "",
       "maintainer": "Vitaly Rtishchev",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 100,
       "githubUrl": "https://github.com/mantinedev/mantine",
       "githubStars": 26000,
@@ -232,7 +273,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Excellent documentation with interactive examples"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "shadcn-ui",
@@ -240,7 +282,9 @@
       "logo": "",
       "maintainer": "shadcn",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 45,
       "githubUrl": "https://github.com/shadcn-ui/ui",
       "githubStars": 75000,
@@ -258,7 +302,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Copy-paste approach makes it highly AI-friendly"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "radix-ui",
@@ -266,7 +311,9 @@
       "logo": "",
       "maintainer": "WorkOS",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 30,
       "githubUrl": "https://github.com/radix-ui/primitives",
       "githubStars": 15000,
@@ -284,7 +331,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Unstyled primitives with excellent accessibility, foundation for shadcn/ui"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "headless-ui",
@@ -292,7 +340,10 @@
       "logo": "",
       "maintainer": "Tailwind Labs",
       "license": "MIT",
-      "frameworks": ["React", "Vue"],
+      "frameworks": [
+        "React",
+        "Vue"
+      ],
       "componentCount": 15,
       "githubUrl": "https://github.com/tailwindlabs/headlessui",
       "githubStars": 25000,
@@ -310,7 +361,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Unstyled components from Tailwind Labs, excellent docs"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "vuetify",
@@ -318,7 +370,9 @@
       "logo": "",
       "maintainer": "Vuetify Team",
       "license": "MIT",
-      "frameworks": ["Vue"],
+      "frameworks": [
+        "Vue"
+      ],
       "componentCount": 80,
       "githubUrl": "https://github.com/vuetifyjs/vuetify",
       "githubStars": 40000,
@@ -336,7 +390,8 @@
         "supported": true,
         "quality": "good",
         "notes": "Popular Vue Material Design implementation"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "daisyui",
@@ -344,7 +399,9 @@
       "logo": "",
       "maintainer": "Pouya Saadeghi",
       "license": "MIT",
-      "frameworks": ["CSS"],
+      "frameworks": [
+        "CSS"
+      ],
       "componentCount": 50,
       "githubUrl": "https://github.com/saadeghi/daisyui",
       "githubStars": 32000,
@@ -362,7 +419,8 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Tailwind CSS component library with clean API"
-      }
+      },
+      "typescript": false
     },
     {
       "id": "primereact",
@@ -370,7 +428,9 @@
       "logo": "",
       "maintainer": "PrimeTek",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 90,
       "githubUrl": "https://github.com/primefaces/primereact",
       "githubStars": 6500,
@@ -388,7 +448,8 @@
         "supported": true,
         "quality": "good",
         "notes": "Comprehensive component library for business applications"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "atlassian",
@@ -396,7 +457,9 @@
       "logo": "",
       "maintainer": "Atlassian",
       "license": "Apache 2.0",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 40,
       "githubUrl": "https://github.com/atlassian/atlassian-frontend-mirror",
       "githubStars": 500,
@@ -414,7 +477,8 @@
         "supported": true,
         "quality": "good",
         "notes": "Well-documented but less common in training data"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "primer",
@@ -422,7 +486,10 @@
       "logo": "",
       "maintainer": "GitHub",
       "license": "MIT",
-      "frameworks": ["React", "CSS"],
+      "frameworks": [
+        "React",
+        "CSS"
+      ],
       "componentCount": 35,
       "githubUrl": "https://github.com/primer/react",
       "githubStars": 3100,
@@ -440,7 +507,8 @@
         "supported": true,
         "quality": "good",
         "notes": "GitHub's own system with solid documentation"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "wordpress-components",
@@ -448,10 +516,13 @@
       "logo": "",
       "maintainer": "WordPress",
       "license": "GPL-2.0",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React",
+        "CSS"
+      ],
       "componentCount": 50,
       "githubUrl": "https://github.com/WordPress/gutenberg",
-      "githubStars": 10000,
+      "githubStars": 11400,
       "docsUrl": "https://developer.wordpress.org/block-editor/reference-guides/components/",
       "demoUrl": "https://wordpress.github.io/gutenberg/",
       "storybookUrl": "https://wordpress.github.io/gutenberg/",
@@ -466,7 +537,8 @@
         "supported": true,
         "quality": "good",
         "notes": "WordPress Gutenberg components, extensive documentation"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "forma-36",
@@ -474,10 +546,12 @@
       "logo": "",
       "maintainer": "Contentful",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 40,
       "githubUrl": "https://github.com/contentful/forma-36",
-      "githubStars": 340,
+      "githubStars": 354,
       "docsUrl": "https://f36.contentful.com",
       "demoUrl": "https://f36.contentful.com",
       "storybookUrl": "https://f36-storybook.contentful.com",
@@ -492,7 +566,8 @@
         "supported": true,
         "quality": "good",
         "notes": "Contentful design system, can be used standalone"
-      }
+      },
+      "typescript": true
     },
     {
       "id": "sanity-ui",
@@ -500,10 +575,12 @@
       "logo": "",
       "maintainer": "Sanity.io",
       "license": "MIT",
-      "frameworks": ["React"],
+      "frameworks": [
+        "React"
+      ],
       "componentCount": 30,
       "githubUrl": "https://github.com/sanity-io/ui",
-      "githubStars": 740,
+      "githubStars": 153,
       "docsUrl": "https://www.sanity.io/ui",
       "demoUrl": "https://www.sanity.io/ui",
       "storybookUrl": "https://ui.sanity.io",
@@ -518,7 +595,124 @@
         "supported": true,
         "quality": "good",
         "notes": "Sanity CMS design system, usable standalone"
-      }
+      },
+      "typescript": true
+    },
+    {
+      "id": "strapi-design-system",
+      "name": "Strapi Design System",
+      "logo": "",
+      "maintainer": "Strapi",
+      "license": "MIT",
+      "frameworks": [
+        "React"
+      ],
+      "componentCount": 50,
+      "githubUrl": "https://github.com/strapi/design-system",
+      "githubStars": 519,
+      "docsUrl": "https://design-system.strapi.io",
+      "demoUrl": "https://design-system.strapi.io",
+      "storybookUrl": "https://design-system.strapi.io",
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-01",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Moderate",
+      "maturity": "Stable",
+      "cms": "Strapi",
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "good",
+        "notes": "Strapi headless CMS design system, can be used standalone"
+      },
+      "typescript": true
+    },
+    {
+      "id": "emulsify",
+      "name": "Emulsify",
+      "logo": "",
+      "maintainer": "Emulsify Team",
+      "license": "GPL-2.0",
+      "frameworks": [
+        "Drupal"
+      ],
+      "componentCount": 30,
+      "githubUrl": "https://github.com/emulsify-ds/emulsify-drupal",
+      "githubStars": 96,
+      "docsUrl": "https://docs.emulsify.info",
+      "demoUrl": "https://www.emulsify.info",
+      "storybookUrl": null,
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-01",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Advanced",
+      "maturity": "Stable",
+      "cms": "Drupal",
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "fair",
+        "notes": "Drupal design system with Storybook, Figma integration via design tokens"
+      },
+      "typescript": false
+    },
+    {
+      "id": "civictheme",
+      "name": "CivicTheme",
+      "logo": "",
+      "maintainer": "Salsa Digital",
+      "license": "GPL-2.0",
+      "frameworks": [
+        "Drupal"
+      ],
+      "componentCount": 40,
+      "githubUrl": "https://github.com/civictheme/uikit",
+      "githubStars": 17,
+      "docsUrl": "https://docs.civictheme.io",
+      "demoUrl": "https://www.civictheme.io",
+      "storybookUrl": "https://uikit.civictheme.io",
+      "figmaUrl": "https://www.figma.com/community/file/1231275633223632888",
+      "penpotUrl": null,
+      "lastUpdated": "2025-01",
+      "accessibility": "WCAG 2.2 AA",
+      "theming": "Advanced",
+      "maturity": "Stable",
+      "cms": "Drupal",
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "fair",
+        "notes": "Government-focused Drupal design system with atomic design principles"
+      },
+      "typescript": false
+    },
+    {
+      "id": "openeuropa",
+      "name": "OpenEuropa Theme",
+      "logo": "",
+      "maintainer": "European Commission",
+      "license": "EUPL-1.2",
+      "frameworks": [
+        "Drupal"
+      ],
+      "componentCount": 35,
+      "githubUrl": "https://github.com/openeuropa/oe_theme",
+      "githubStars": 36,
+      "docsUrl": "https://github.com/openeuropa/oe_theme",
+      "demoUrl": "https://github.com/openeuropa/oe_showcase",
+      "storybookUrl": null,
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-01",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Moderate",
+      "maturity": "Stable",
+      "cms": "Drupal",
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "fair",
+        "notes": "EU institutions Drupal theme based on Europa Component Library"
+      },
+      "typescript": false
     }
   ]
 }

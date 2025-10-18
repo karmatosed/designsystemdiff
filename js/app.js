@@ -13,6 +13,7 @@ class DesignSystemComparison {
         await this.loadData();
         this.populateFilters();
         this.renderTable();
+        this.updateFilterStatus();
         this.attachEventListeners();
     }
 
@@ -87,14 +88,16 @@ class DesignSystemComparison {
                 : '—';
 
             const aiTick = system.aiCodeGen?.supported ? '✓' : '';
+            const tsTick = system.typescript ? '✓' : '';
 
             const isChecked = this.selectedSystems.has(system.id);
+            const licenseSlug = this.getLicenseSlug(system.license);
 
             row.innerHTML = `
                 <td><input type="checkbox" class="system-checkbox" data-system-id="${system.id}" ${isChecked ? 'checked' : ''} aria-label="Select ${system.name} for comparison"></td>
                 <td class="system-name">${system.name}</td>
                 <td>${system.maintainer}</td>
-                <td>${system.license}</td>
+                <td><a href="licenses.html#${licenseSlug}" class="license-link">${system.license}</a></td>
                 <td>
                     <div class="frameworks">
                         ${system.frameworks.map(fw => `<span class="framework-tag">${fw}</span>`).join('')}
@@ -104,6 +107,7 @@ class DesignSystemComparison {
                 <td>${this.formatStars(system.githubStars)}</td>
                 <td>${system.accessibility}</td>
                 <td>${system.theming}</td>
+                <td style="text-align: center;">${tsTick}</td>
                 <td style="text-align: center;">${aiTick}</td>
                 <td>${aiQuality}</td>
                 <td>
@@ -137,6 +141,16 @@ class DesignSystemComparison {
             return (stars / 1000).toFixed(1) + 'k';
         }
         return stars.toString();
+    }
+
+    getLicenseSlug(license) {
+        const slugMap = {
+            'MIT': 'mit',
+            'Apache 2.0': 'apache-2-0',
+            'GPL-2.0': 'gpl-2-0',
+            'EUPL-1.2': 'eupl-1-2'
+        };
+        return slugMap[license] || license.toLowerCase().replace(/\s+/g, '-');
     }
 
     applyFilters() {
@@ -182,6 +196,62 @@ class DesignSystemComparison {
         }
 
         this.renderTable();
+        this.updateFilterStatus();
+    }
+
+    updateFilterStatus() {
+        const totalCount = this.systems.length;
+        const filteredCount = this.filteredSystems.length;
+        const resultCount = document.getElementById('resultCount');
+
+        // Only show count when filtering is active
+        if (filteredCount < totalCount) {
+            resultCount.textContent = `Showing ${filteredCount} of ${totalCount} systems`;
+        } else {
+            resultCount.textContent = '';
+        }
+
+        // Update active filters display
+        this.updateActiveFilters();
+    }
+
+    updateActiveFilters() {
+        const activeFiltersDiv = document.getElementById('activeFilters');
+        const filters = [];
+
+        const searchTerm = document.getElementById('searchInput').value;
+        const frameworkFilter = document.getElementById('frameworkFilter').value;
+        const licenseFilter = document.getElementById('licenseFilter').value;
+        const maintainerFilter = document.getElementById('maintainerFilter').value;
+        const cmsFilter = document.getElementById('cmsFilter').value;
+        const aiFilter = document.getElementById('aiFilter').checked;
+
+        if (searchTerm) filters.push({ type: 'search', value: `Search: "${searchTerm}"` });
+        if (frameworkFilter) filters.push({ type: 'framework', value: frameworkFilter });
+        if (licenseFilter) filters.push({ type: 'license', value: licenseFilter });
+        if (maintainerFilter) filters.push({ type: 'maintainer', value: maintainerFilter });
+        if (cmsFilter) filters.push({ type: 'cms', value: cmsFilter === 'cms' ? 'CMS Only' : 'Non-CMS Only' });
+        if (aiFilter) filters.push({ type: 'ai', value: 'AI Code-Gen' });
+
+        if (filters.length === 0) {
+            activeFiltersDiv.innerHTML = '';
+            return;
+        }
+
+        activeFiltersDiv.innerHTML = filters.map(filter =>
+            `<span class="filter-pill">${filter.value}</span>`
+        ).join('');
+    }
+
+    clearAllFilters() {
+        document.getElementById('searchInput').value = '';
+        document.getElementById('frameworkFilter').value = '';
+        document.getElementById('licenseFilter').value = '';
+        document.getElementById('maintainerFilter').value = '';
+        document.getElementById('cmsFilter').value = '';
+        document.getElementById('aiFilter').checked = false;
+
+        this.applyFilters();
     }
 
     sortBy(key, toggleDirection = true) {
@@ -217,6 +287,7 @@ class DesignSystemComparison {
         // Reset all sort indicators
         document.querySelectorAll('th[data-sort]').forEach(th => {
             th.classList.remove('sort-asc', 'sort-desc');
+            th.removeAttribute('aria-sort');
         });
 
         // Add indicator to current sort column
@@ -224,6 +295,7 @@ class DesignSystemComparison {
             const th = document.querySelector(`th[data-sort="${this.currentSort.key}"]`);
             if (th) {
                 th.classList.add(`sort-${this.currentSort.direction}`);
+                th.setAttribute('aria-sort', this.currentSort.direction === 'asc' ? 'ascending' : 'descending');
             }
         }
     }
@@ -254,6 +326,11 @@ class DesignSystemComparison {
         // AI filter checkbox
         document.getElementById('aiFilter').addEventListener('change', () => {
             this.applyFilters();
+        });
+
+        // Clear filters button
+        document.getElementById('clearFiltersBtn').addEventListener('click', () => {
+            this.clearAllFilters();
         });
 
         // Compare button

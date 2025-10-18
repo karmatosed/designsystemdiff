@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Design System Finder - Find Your Perfect Design System</title>
+    <meta name="title" content="Design System Finder - Find Your Perfect Design System">
+    <meta name="description" content="Answer a few quick questions to find the best design system for your project. Get personalized recommendations based on your framework, requirements, and priorities.">
+    <meta name="keywords" content="design system finder, design system quiz, choose design system, design system recommendation, React design system, Vue design system">
+    <link rel="canonical" href="https://designsystemdiff.com/finder.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://designsystemdiff.com/finder.html">
+    <meta property="og:title" content="Design System Finder - Find Your Perfect Design System">
+    <meta property="og:description" content="Answer a few quick questions to find the best design system for your project. Get personalized recommendations based on your framework, requirements, and priorities.">
+    <meta property="og:site_name" content="Design System Diff">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://designsystemdiff.com/finder.html">
+    <meta property="twitter:title" content="Design System Finder - Find Your Perfect Design System">
+    <meta property="twitter:description" content="Answer a few quick questions to find the best design system for your project. Get personalized recommendations based on your framework, requirements, and priorities.">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="header">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <div>
+                    <div class="title">Design System Finder</div>
+                    <p class="subtitle">Find your perfect design system</p>
+                </div>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="index.html" class="about-link">Compare</a>
+                    <a href="licenses.html" class="about-link">Licenses</a>
+                    <a href="about.html" class="about-link">About</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="main-content">
+        <div class="finder-container">
+            <!-- Progress Bar -->
+            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <!-- Wizard Steps -->
+            <div class="wizard-step active" id="step1" data-step="1">
+                <h2 class="wizard-heading">What framework are you using?</h2>
+                <p class="wizard-description">Choose the JavaScript framework or platform for your project</p>
+                <div class="option-grid">
+                    <button class="option-btn" data-value="React">React</button>
+                    <button class="option-btn" data-value="Vue">Vue</button>
+                    <button class="option-btn" data-value="Angular">Angular</button>
+                    <button class="option-btn" data-value="CSS">CSS Only</button>
+                    <button class="option-btn" data-value="Svelte">Svelte</button>
+                    <button class="option-btn" data-value="any">Any / Flexible</button>
+                </div>
+            </div>
+
+            <div class="wizard-step" id="step2" data-step="2">
+                <h2 class="wizard-heading">Do you need TypeScript support?</h2>
+                <p class="wizard-description">Built-in TypeScript definitions and type safety</p>
+                <div class="option-grid">
+                    <button class="option-btn" data-value="required">Yes, required</button>
+                    <button class="option-btn" data-value="nice">Nice to have</button>
+                    <button class="option-btn" data-value="no">Not needed</button>
+                </div>
+            </div>
+
+            <div class="wizard-step" id="step3" data-step="3">
+                <h2 class="wizard-heading">What's your experience level?</h2>
+                <p class="wizard-description">Help us recommend systems that match your expertise</p>
+                <div class="option-grid">
+                    <button class="option-btn" data-value="beginner">
+                        <strong>Beginner</strong>
+                        <span>New to design systems</span>
+                    </button>
+                    <button class="option-btn" data-value="intermediate">
+                        <strong>Intermediate</strong>
+                        <span>Used design systems before</span>
+                    </button>
+                    <button class="option-btn" data-value="advanced">
+                        <strong>Advanced</strong>
+                        <span>Deep customization needed</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="wizard-step" id="step4" data-step="4">
+                <h2 class="wizard-heading">What matters most to you?</h2>
+                <p class="wizard-description">Select up to 2 priorities</p>
+                <div class="option-grid">
+                    <button class="option-btn multi-select" data-value="speed">
+                        <strong>Speed</strong>
+                        <span>Fast development</span>
+                    </button>
+                    <button class="option-btn multi-select" data-value="customization">
+                        <strong>Customization</strong>
+                        <span>Full design control</span>
+                    </button>
+                    <button class="option-btn multi-select" data-value="components">
+                        <strong>Components</strong>
+                        <span>Large library</span>
+                    </button>
+                    <button class="option-btn multi-select" data-value="community">
+                        <strong>Community</strong>
+                        <span>Popular & supported</span>
+                    </button>
+                    <button class="option-btn multi-select" data-value="accessibility">
+                        <strong>Accessibility</strong>
+                        <span>WCAG compliance</span>
+                    </button>
+                    <button class="option-btn multi-select" data-value="ai">
+                        <strong>AI Friendly</strong>
+                        <span>Good with LLMs</span>
+                    </button>
+                </div>
+                <button class="next-btn" id="findSystemsBtn" disabled>Find My System</button>
+            </div>
+
+            <!-- Results -->
+            <div class="wizard-step" id="results" data-step="5">
+                <h2 class="wizard-heading">Your Top Matches</h2>
+                <div id="resultsContainer"></div>
+                <div class="results-actions">
+                    <button class="secondary-btn" id="startOverBtn">Start Over</button>
+                    <a href="index.html" class="primary-btn">View All Systems</a>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="wizard-nav">
+                <button class="back-btn" id="backBtn" style="display: none;">← Back</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Open source design system comparison tool • <a href="https://github.com/karmatosed/desginsystemdiff.com" target="_blank" rel="noopener">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="js/finder.js" defer></script>
+</body>
+</html>

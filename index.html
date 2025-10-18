@@ -54,7 +54,10 @@
                     <div class="title">Design System Diff</div>
                     <p class="subtitle">Compare popular open source design systems</p>
                 </div>
-                <a href="about.html" class="about-link">About</a>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="licenses.html" class="about-link">Licenses</a>
+                    <a href="about.html" class="about-link">About</a>
+                </div>
             </div>
         </div>
     </header>
@@ -66,6 +69,11 @@
         </section>
 
         <div class="controls">
+            <div class="filter-status" id="filterStatus" role="status" aria-live="polite" aria-atomic="true">
+                <span id="resultCount"></span>
+                <div id="activeFilters" class="active-filters"></div>
+            </div>
+
             <div class="search-box">
                 <input
                     type="text"
@@ -99,6 +107,7 @@
                     <span>AI Code-Gen Friendly</span>
                 </label>
 
+                <button id="clearFiltersBtn" class="clear-filters-btn">Clear Filters</button>
                 <button id="compareBtn" class="compare-btn" disabled>Compare Selected (0)</button>
                 <button id="fullscreenBtn" class="fullscreen-btn" aria-label="Toggle fullscreen table view (press F)" title="Toggle fullscreen (F)">[ ]</button>
             </div>
@@ -117,6 +126,7 @@
                         <th data-sort="githubStars">GitHub Stars</th>
                         <th data-sort="accessibility">Accessibility</th>
                         <th data-sort="theming">Theming</th>
+                        <th style="width: 50px;">TS</th>
                         <th style="width: 50px;">AI</th>
                         <th>AI Support</th>
                         <th>Design Tools</th>
