@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Design System Diff - Compare Open Source Design Systems</title>
+    <meta name="title" content="Design System Diff - Compare Open Source Design Systems">
+    <meta name="description" content="Compare popular open source design systems like Material Design, Carbon, and Fluent. Filter by framework, AI support, and features to find the best design system for your project.">
+    <meta name="keywords" content="design systems, compare design systems, material design, carbon design, fluent ui, design system comparison, react components, vue components, angular components, UI library comparison, component library">
+    <link rel="canonical" href="https://designsystemdiff.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://designsystemdiff.com/">
+    <meta property="og:title" content="Design System Diff - Compare Open Source Design Systems">
+    <meta property="og:description" content="Compare popular open source design systems like Material Design, Carbon, and Fluent. Filter by framework, AI support, and features to find the best design system for your project.">
+    <meta property="og:site_name" content="Design System Diff">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://designsystemdiff.com/">
+    <meta property="twitter:title" content="Design System Diff - Compare Open Source Design Systems">
+    <meta property="twitter:description" content="Compare popular open source design systems like Material Design, Carbon, and Fluent. Filter by framework, AI support, and features to find the best design system for your project.">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Design System Diff",
+      "applicationCategory": "DeveloperApplication",
+      "description": "Compare popular open source design systems side by side. Find the best design system for your React, Vue, or Angular project.",
+      "url": "https://designsystemdiff.com/",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript enabled"
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="header">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <div>
+                    <div class="title">Design System Diff</div>
+                    <p class="subtitle">Compare popular open source design systems</p>
+                </div>
+                <a href="about.html" class="about-link">About</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="main-content">
+        <section class="intro-section">
+            <h1 class="page-heading">Compare Open Source Design Systems</h1>
+            <p class="intro-text">Compare popular open source design systems side by side. Find the best design system for your React, Vue, or Angular project by comparing frameworks, component libraries, accessibility support, and AI code generation compatibility. Make informed decisions with our comprehensive design system comparison tool.</p>
+        </section>
+
+        <div class="controls">
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search by name or maintainer..."
+                    aria-label="Search design systems"
+                >
+            </div>
+
+            <div class="filters">
+                <select id="frameworkFilter" aria-label="Filter by framework">
+                    <option value="">All Frameworks</option>
+                </select>
+
+                <select id="licenseFilter" aria-label="Filter by license">
+                    <option value="">All Licenses</option>
+                </select>
+
+                <select id="maintainerFilter" aria-label="Filter by maintainer">
+                    <option value="">All Maintainers</option>
+                </select>
+
+                <select id="cmsFilter" aria-label="Filter by CMS">
+                    <option value="">All Systems</option>
+                    <option value="cms">CMS Only</option>
+                    <option value="non-cms">Non-CMS Only</option>
+                </select>
+
+                <label class="ai-filter">
+                    <input type="checkbox" id="aiFilter" aria-label="AI Code-Gen Friendly">
+                    <span>AI Code-Gen Friendly</span>
+                </label>
+
+                <button id="compareBtn" class="compare-btn" disabled>Compare Selected (0)</button>
+                <button id="fullscreenBtn" class="fullscreen-btn" aria-label="Toggle fullscreen table view (press F)" title="Toggle fullscreen (F)">[ ]</button>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table class="comparison-table" id="comparisonTable" aria-label="Design systems comparison table">
+                <thead>
+                    <tr>
+                        <th style="width: 40px;"></th>
+                        <th data-sort="name">Name</th>
+                        <th data-sort="maintainer">Maintainer</th>
+                        <th data-sort="license">License</th>
+                        <th>Frameworks</th>
+                        <th data-sort="componentCount">Components</th>
+                        <th data-sort="githubStars">GitHub Stars</th>
+                        <th data-sort="accessibility">Accessibility</th>
+                        <th data-sort="theming">Theming</th>
+                        <th style="width: 50px;">AI</th>
+                        <th>AI Support</th>
+                        <th>Design Tools</th>
+                        <th>Links</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none;" role="status" aria-live="polite">
+            <p>No design systems match your criteria</p>
+        </div>
+
+        <div class="diff-view" id="diffView" style="display: none;">
+            <div class="diff-header">
+                <h2>System Comparison</h2>
+                <button id="closeDiff" class="close-diff">Close</button>
+            </div>
+            <div id="diffContent"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Open source design system comparison tool • <a href="https://github.com/karmatosed/desginsystemdiff.com" target="_blank" rel="noopener">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>
