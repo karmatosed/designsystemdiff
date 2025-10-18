@@ -1,0 +1,357 @@
+{
+  "systemId": "strapi-design-system",
+  "systemName": "Strapi Design System",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Actions",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Primary, secondary, and danger buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-button--docs"
+        },
+        {
+          "name": "Icon Button",
+          "description": "Button with only icon",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-iconbutton--docs"
+        },
+        {
+          "name": "Link Button",
+          "description": "Link styled as button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-linkbutton--docs"
+        }
+      ]
+    },
+    {
+      "category": "Form",
+      "items": [
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-checkbox--docs"
+        },
+        {
+          "name": "Date Picker",
+          "description": "Date selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-datepicker--docs"
+        },
+        {
+          "name": "Field",
+          "description": "Form field wrapper",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-field--docs"
+        },
+        {
+          "name": "Number Input",
+          "description": "Numeric input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-numberinput--docs"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-radio--docs"
+        },
+        {
+          "name": "Search Input",
+          "description": "Search field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-searchinput--docs"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-select--docs"
+        },
+        {
+          "name": "Text Input",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-textinput--docs"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-textarea--docs"
+        },
+        {
+          "name": "Time Input",
+          "description": "Time selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-timeinput--docs"
+        },
+        {
+          "name": "Toggle",
+          "description": "Toggle switch",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-toggle--docs"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Box",
+          "description": "Flexible container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-box--docs"
+        },
+        {
+          "name": "Divider",
+          "description": "Content separator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-divider--docs"
+        },
+        {
+          "name": "Flex",
+          "description": "Flexbox layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-flex--docs"
+        },
+        {
+          "name": "Grid",
+          "description": "Grid layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-grid--docs"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Breadcrumbs",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-breadcrumbs--docs"
+        },
+        {
+          "name": "Link",
+          "description": "Hyperlink component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-link--docs"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-pagination--docs"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-tabs--docs"
+        }
+      ]
+    },
+    {
+      "category": "Display",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-accordion--docs"
+        },
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-avatar--docs"
+        },
+        {
+          "name": "Badge",
+          "description": "Status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-badge--docs"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-card--docs"
+        },
+        {
+          "name": "Icon",
+          "description": "SVG icon",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-icon--docs"
+        },
+        {
+          "name": "Table",
+          "description": "Data table",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-table--docs"
+        },
+        {
+          "name": "Tag",
+          "description": "Label tag",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-tag--docs"
+        },
+        {
+          "name": "Typography",
+          "description": "Text display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-typography--docs"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Alert message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-alert--docs"
+        },
+        {
+          "name": "Loader",
+          "description": "Loading indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-loader--docs"
+        },
+        {
+          "name": "Progress Bar",
+          "description": "Progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-progressbar--docs"
+        },
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-toast--docs"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-tooltip--docs"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Dialog",
+          "description": "Modal dialog",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-dialog--docs"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-popover--docs"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Combobox",
+          "description": "Combined input and select",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-combobox--docs"
+        },
+        {
+          "name": "Empty State Placeholder",
+          "description": "Empty state display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-emptystateplaceholder--docs"
+        },
+        {
+          "name": "JSON Input",
+          "description": "JSON editor",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-jsoninput--docs"
+        },
+        {
+          "name": "Menu",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-menu--docs"
+        },
+        {
+          "name": "Modal Layout",
+          "description": "Modal content layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-modallayout--docs"
+        },
+        {
+          "name": "Status",
+          "description": "Status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-status--docs"
+        },
+        {
+          "name": "Visible Button",
+          "description": "Password visibility toggle",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://design-system.strapi.io/?path=/docs/design-system-components-visiblebutton--docs"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 50,
+  "notes": "Strapi Design System powers the Strapi admin panel. Built with React and styled-components, it provides a complete set of accessible components specifically designed for headless CMS interfaces with excellent dark mode support."
+}

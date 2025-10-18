@@ -95,7 +95,7 @@ class DesignSystemComparison {
 
             row.innerHTML = `
                 <td><input type="checkbox" class="system-checkbox" data-system-id="${system.id}" ${isChecked ? 'checked' : ''} aria-label="Select ${system.name} for comparison"></td>
-                <td class="system-name">${system.name}</td>
+                <td class="system-name"><a href="system.html?id=${system.id}" class="system-link">${system.name}</a></td>
                 <td>${system.maintainer}</td>
                 <td><a href="licenses.html#${licenseSlug}" class="license-link">${system.license}</a></td>
                 <td>
@@ -154,7 +154,6 @@ class DesignSystemComparison {
     }
 
     applyFilters() {
-        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
         const frameworkFilter = document.getElementById('frameworkFilter').value;
         const licenseFilter = document.getElementById('licenseFilter').value;
         const maintainerFilter = document.getElementById('maintainerFilter').value;
@@ -162,11 +161,6 @@ class DesignSystemComparison {
         const aiFilter = document.getElementById('aiFilter').checked;
 
         this.filteredSystems = this.systems.filter(system => {
-            // Search filter
-            const matchesSearch = !searchTerm ||
-                system.name.toLowerCase().includes(searchTerm) ||
-                system.maintainer.toLowerCase().includes(searchTerm);
-
             // Framework filter
             const matchesFramework = !frameworkFilter ||
                 system.frameworks.includes(frameworkFilter);
@@ -187,7 +181,7 @@ class DesignSystemComparison {
             // AI filter
             const matchesAI = !aiFilter || system.aiCodeGen?.supported;
 
-            return matchesSearch && matchesFramework && matchesLicense && matchesMaintainer && matchesCMS && matchesAI;
+            return matchesFramework && matchesLicense && matchesMaintainer && matchesCMS && matchesAI;
         });
 
         // Reapply current sort if any
@@ -219,14 +213,12 @@ class DesignSystemComparison {
         const activeFiltersDiv = document.getElementById('activeFilters');
         const filters = [];
 
-        const searchTerm = document.getElementById('searchInput').value;
         const frameworkFilter = document.getElementById('frameworkFilter').value;
         const licenseFilter = document.getElementById('licenseFilter').value;
         const maintainerFilter = document.getElementById('maintainerFilter').value;
         const cmsFilter = document.getElementById('cmsFilter').value;
         const aiFilter = document.getElementById('aiFilter').checked;
 
-        if (searchTerm) filters.push({ type: 'search', value: `Search: "${searchTerm}"` });
         if (frameworkFilter) filters.push({ type: 'framework', value: frameworkFilter });
         if (licenseFilter) filters.push({ type: 'license', value: licenseFilter });
         if (maintainerFilter) filters.push({ type: 'maintainer', value: maintainerFilter });
@@ -244,7 +236,6 @@ class DesignSystemComparison {
     }
 
     clearAllFilters() {
-        document.getElementById('searchInput').value = '';
         document.getElementById('frameworkFilter').value = '';
         document.getElementById('licenseFilter').value = '';
         document.getElementById('maintainerFilter').value = '';
@@ -301,11 +292,6 @@ class DesignSystemComparison {
     }
 
     attachEventListeners() {
-        // Search input
-        document.getElementById('searchInput').addEventListener('input', () => {
-            this.applyFilters();
-        });
-
         // Filter dropdowns
         document.getElementById('frameworkFilter').addEventListener('change', () => {
             this.applyFilters();

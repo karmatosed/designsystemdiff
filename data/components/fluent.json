@@ -1,0 +1,378 @@
+{
+  "systemId": "fluent",
+  "systemName": "Fluent UI",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Buttons",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Primary, secondary, and subtle button variants",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-button-button--default"
+        },
+        {
+          "name": "Compound Button",
+          "description": "Button with primary and secondary text",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-button-compoundbutton--default"
+        },
+        {
+          "name": "Menu Button",
+          "description": "Button that opens a menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-button-menubutton--default"
+        },
+        {
+          "name": "Split Button",
+          "description": "Button with primary action and menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-button-splitbutton--default"
+        },
+        {
+          "name": "Toggle Button",
+          "description": "Button that can be toggled on/off",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-button-togglebutton--default"
+        }
+      ]
+    },
+    {
+      "category": "Inputs",
+      "items": [
+        {
+          "name": "Input",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-input--default"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-textarea--default"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Selection control for multiple options",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-checkbox--default"
+        },
+        {
+          "name": "Radio Group",
+          "description": "Single selection from multiple options",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-radiogroup--default"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle between two states",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-switch--default"
+        },
+        {
+          "name": "Slider",
+          "description": "Select value from range",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-slider--default"
+        },
+        {
+          "name": "SpinButton",
+          "description": "Numeric input with increment/decrement",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-spinbutton--default"
+        },
+        {
+          "name": "Combobox",
+          "description": "Combined text input and dropdown",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-combobox--default"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Select from list of options",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-dropdown--default"
+        },
+        {
+          "name": "Rating",
+          "description": "Star rating input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/preview-components-rating--default"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Tab List",
+          "description": "Tabbed navigation interface",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-tablist--default"
+        },
+        {
+          "name": "Menu",
+          "description": "Dropdown menu with actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-menu--default"
+        },
+        {
+          "name": "Breadcrumb",
+          "description": "Navigation trail",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-breadcrumb--default"
+        },
+        {
+          "name": "Link",
+          "description": "Hyperlink component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-link--default"
+        },
+        {
+          "name": "Nav",
+          "description": "Vertical navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/preview-components-nav--default"
+        }
+      ]
+    },
+    {
+      "category": "Content",
+      "items": [
+        {
+          "name": "Card",
+          "description": "Content container with header and actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-card--default"
+        },
+        {
+          "name": "Accordion",
+          "description": "Collapsible content sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-accordion--default"
+        },
+        {
+          "name": "Table",
+          "description": "Data table component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-table--default"
+        },
+        {
+          "name": "DataGrid",
+          "description": "Advanced data table with sorting and filtering",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/preview-components-datagrid--default"
+        },
+        {
+          "name": "Tree",
+          "description": "Hierarchical tree structure",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-tree--default"
+        },
+        {
+          "name": "Divider",
+          "description": "Visual content separator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-divider--default"
+        }
+      ]
+    },
+    {
+      "category": "Display",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image or initials",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-avatar--default"
+        },
+        {
+          "name": "Badge",
+          "description": "Small status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-badge--default"
+        },
+        {
+          "name": "Counter Badge",
+          "description": "Numeric count indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-counterbadge--default"
+        },
+        {
+          "name": "Presence Badge",
+          "description": "User availability status",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-presencebadge--default"
+        },
+        {
+          "name": "Tag",
+          "description": "Labeled categorization",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/preview-components-tag--default"
+        },
+        {
+          "name": "Persona",
+          "description": "User identity with avatar and details",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-persona--default"
+        },
+        {
+          "name": "Text",
+          "description": "Typography component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-text--default"
+        },
+        {
+          "name": "Image",
+          "description": "Optimized image component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-image--default"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Dialog",
+          "description": "Modal dialog window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-dialog--default"
+        },
+        {
+          "name": "Drawer",
+          "description": "Side panel overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/preview-components-drawer--default"
+        },
+        {
+          "name": "Popover",
+          "description": "Contextual content overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-popover--default"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-tooltip--default"
+        },
+        {
+          "name": "Teaching Popover",
+          "description": "Instructional overlay with features",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/preview-components-teachingpopover--default"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-toast--default"
+        },
+        {
+          "name": "Message Bar",
+          "description": "Inline notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-messagebar--default"
+        },
+        {
+          "name": "Progress Bar",
+          "description": "Linear progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-progressbar--default"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-spinner--default"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-skeleton--default"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Portal",
+          "description": "Render content outside DOM hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-portal--default"
+        },
+        {
+          "name": "Field",
+          "description": "Form field wrapper with label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-field--default"
+        },
+        {
+          "name": "Label",
+          "description": "Text label for inputs",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://react.fluentui.dev/?path=/docs/components-label--default"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 55,
+  "notes": "Fluent UI is Microsoft's open-source design system for building applications across web, Windows, iOS, and Android. Fluent 2 provides modern React components with comprehensive accessibility and theming capabilities."
+}

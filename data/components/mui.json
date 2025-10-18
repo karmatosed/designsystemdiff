@@ -1,0 +1,371 @@
+{
+  "systemId": "mui",
+  "systemName": "MUI (Material-UI)",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Inputs",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Clickable button with multiple variants",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-button/"
+        },
+        {
+          "name": "Button Group",
+          "description": "Group related buttons together",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-button-group/"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary choice input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-checkbox/"
+        },
+        {
+          "name": "Floating Action Button",
+          "description": "Primary action button that floats",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-floating-action-button/"
+        },
+        {
+          "name": "Radio",
+          "description": "Single choice from multiple options",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-radio-button/"
+        },
+        {
+          "name": "Rating",
+          "description": "Star rating input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-rating/"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-select/"
+        },
+        {
+          "name": "Slider",
+          "description": "Range input slider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-slider/"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-switch/"
+        },
+        {
+          "name": "Text Field",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-text-field/"
+        },
+        {
+          "name": "Transfer List",
+          "description": "Move items between lists",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-transfer-list/"
+        },
+        {
+          "name": "Toggle Button",
+          "description": "Button that can be toggled on/off",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-toggle-button/"
+        }
+      ]
+    },
+    {
+      "category": "Data Display",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image or initials",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-avatar/"
+        },
+        {
+          "name": "Badge",
+          "description": "Small count or status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-badge/"
+        },
+        {
+          "name": "Chip",
+          "description": "Compact element for tags or attributes",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mui.com/material-ui/react-chip/"
+        },
+        {
+          "name": "Divider",
+          "description": "Visual separator line",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Icons",
+          "description": "Material Design icon set",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "List",
+          "description": "Vertical list of items",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Table",
+          "description": "Data table with sorting and pagination",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Contextual information on hover",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Typography",
+          "description": "Text styling and formatting",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Display important messages",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Backdrop",
+          "description": "Background overlay",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Dialog",
+          "description": "Modal dialog window",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Progress",
+          "description": "Loading progress indicator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Snackbar",
+          "description": "Brief notification message",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Surfaces",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Expandable content panels",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "App Bar",
+          "description": "Top application bar",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Card",
+          "description": "Content container with elevation",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Paper",
+          "description": "Material surface with elevation",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Bottom Navigation",
+          "description": "Mobile bottom navigation bar",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Breadcrumbs",
+          "description": "Navigation path display",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Drawer",
+          "description": "Side navigation drawer",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Link",
+          "description": "Navigation link component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Menu",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation controls",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Speed Dial",
+          "description": "Quick action menu",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Stepper",
+          "description": "Multi-step process indicator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tabbed navigation",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Box",
+          "description": "Flexible container component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Container",
+          "description": "Centered content container",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Grid",
+          "description": "Responsive grid layout",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Stack",
+          "description": "Vertical or horizontal spacing",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Image List",
+          "description": "Grid of images with masonry layout",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Utils",
+      "items": [
+        {
+          "name": "Click-Away Listener",
+          "description": "Detect clicks outside element",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Modal",
+          "description": "Base modal component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating content panel",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Popper",
+          "description": "Positioning utility",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Portal",
+          "description": "Render children outside DOM hierarchy",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Textarea Autosize",
+          "description": "Auto-resizing textarea",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Transitions",
+          "description": "Animation utilities",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 70,
+  "notes": "MUI provides one of the most comprehensive component libraries with full TypeScript support and extensive documentation. All components follow Material Design principles and include WCAG 2.1 AA accessibility support."
+}

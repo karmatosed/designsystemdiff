@@ -1,0 +1,229 @@
+{
+  "systemId": "radix-ui",
+  "systemName": "Radix UI",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Primitives",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Vertically stacked set of interactive headings",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/accordion"
+        },
+        {
+          "name": "Alert Dialog",
+          "description": "Modal dialog for important confirmations",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/alert-dialog"
+        },
+        {
+          "name": "Aspect Ratio",
+          "description": "Maintain consistent width/height ratio",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/aspect-ratio"
+        },
+        {
+          "name": "Avatar",
+          "description": "Image element with fallback",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/avatar"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/checkbox"
+        },
+        {
+          "name": "Collapsible",
+          "description": "Expandable and collapsible content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/collapsible"
+        },
+        {
+          "name": "Context Menu",
+          "description": "Right-click context menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/context-menu"
+        },
+        {
+          "name": "Dialog",
+          "description": "Modal dialog window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/dialog"
+        },
+        {
+          "name": "Dropdown Menu",
+          "description": "Menu triggered by button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/dropdown-menu"
+        },
+        {
+          "name": "Hover Card",
+          "description": "Hover-triggered preview card",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/hover-card"
+        },
+        {
+          "name": "Label",
+          "description": "Accessible form field label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/label"
+        },
+        {
+          "name": "Menubar",
+          "description": "Horizontal menu bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/menubar"
+        },
+        {
+          "name": "Navigation Menu",
+          "description": "Site navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/navigation-menu"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/popover"
+        },
+        {
+          "name": "Progress",
+          "description": "Progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/progress"
+        },
+        {
+          "name": "Radio Group",
+          "description": "Single selection from set",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/radio-group"
+        },
+        {
+          "name": "Scroll Area",
+          "description": "Custom scrollable area",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/scroll-area"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/select"
+        },
+        {
+          "name": "Separator",
+          "description": "Visual or semantic divider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/separator"
+        },
+        {
+          "name": "Slider",
+          "description": "Range input control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/slider"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/switch"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tabbed content sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/tabs"
+        },
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/toast"
+        },
+        {
+          "name": "Toggle",
+          "description": "Two-state button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/toggle"
+        },
+        {
+          "name": "Toggle Group",
+          "description": "Group of toggle buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/toggle-group"
+        },
+        {
+          "name": "Toolbar",
+          "description": "Container for action buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/toolbar"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Popup information on hover",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/components/tooltip"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Portal",
+          "description": "Render into different DOM location",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/utilities/portal"
+        },
+        {
+          "name": "Slot",
+          "description": "Merge props and children",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/utilities/slot"
+        },
+        {
+          "name": "Visually Hidden",
+          "description": "Hide visually, keep for screen readers",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.radix-ui.com/primitives/docs/utilities/visually-hidden"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 30,
+  "notes": "Radix UI provides low-level, unstyled, accessible UI primitives for React. These components are the foundation of shadcn/ui and focus on accessibility, customization, and developer experience. Each primitive includes full keyboard navigation and ARIA attributes."
+}

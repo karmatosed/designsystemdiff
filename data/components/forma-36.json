@@ -1,0 +1,310 @@
+{
+  "systemId": "forma-36",
+  "systemName": "Forma 36",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Form Elements",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Primary, secondary, and icon buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/button"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/checkbox"
+        },
+        {
+          "name": "Form Control",
+          "description": "Form field wrapper with label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/form-control"
+        },
+        {
+          "name": "Radio Button",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/radio"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/select"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/switch"
+        },
+        {
+          "name": "Text Input",
+          "description": "Single-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/text-input"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/textarea"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Box",
+          "description": "Flexible container component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/box"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/card"
+        },
+        {
+          "name": "Flex",
+          "description": "Flexbox layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/flex"
+        },
+        {
+          "name": "Grid",
+          "description": "Grid layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/grid"
+        },
+        {
+          "name": "Stack",
+          "description": "Vertical or horizontal spacing",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/stack"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Menu",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/menu"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/tabs"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Badge",
+          "description": "Status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/badge"
+        },
+        {
+          "name": "Banner",
+          "description": "Important message display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/banner"
+        },
+        {
+          "name": "Note",
+          "description": "Inline note message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/note"
+        },
+        {
+          "name": "Notification",
+          "description": "Toast notification",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/notification"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/skeleton"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/spinner"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Modal",
+          "description": "Dialog modal window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/modal"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/popover"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/tooltip"
+        }
+      ]
+    },
+    {
+      "category": "Display",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/accordion"
+        },
+        {
+          "name": "Asset",
+          "description": "Media asset display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/asset"
+        },
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/avatar"
+        },
+        {
+          "name": "Caption",
+          "description": "Image or media caption",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/caption"
+        },
+        {
+          "name": "Heading",
+          "description": "Semantic heading",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/heading"
+        },
+        {
+          "name": "Icon",
+          "description": "SVG icon",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/icon"
+        },
+        {
+          "name": "List",
+          "description": "Ordered and unordered lists",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/list"
+        },
+        {
+          "name": "Paragraph",
+          "description": "Text paragraph",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/paragraph"
+        },
+        {
+          "name": "Pill",
+          "description": "Tag or label pill",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/pill"
+        },
+        {
+          "name": "Tag",
+          "description": "Categorization label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/tag"
+        },
+        {
+          "name": "Table",
+          "description": "Data table",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/table"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Autocomplete",
+          "description": "Input with autocomplete",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/autocomplete"
+        },
+        {
+          "name": "Copy Button",
+          "description": "Copy to clipboard",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/copy-button"
+        },
+        {
+          "name": "Icon Button",
+          "description": "Button with only icon",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://f36.contentful.com/components/icon-button"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 40,
+  "notes": "Forma 36 is Contentful's design system for building CMS interfaces. It provides React components specifically designed for content management applications with excellent TypeScript support and accessibility features."
+}

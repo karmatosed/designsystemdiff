@@ -1,0 +1,273 @@
+{
+  "systemId": "material-design",
+  "systemName": "Material Design",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Actions",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Text, filled, elevated, outlined, and tonal buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/buttons"
+        },
+        {
+          "name": "FAB",
+          "description": "Floating action button for primary actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/buttons-floating-action-button"
+        },
+        {
+          "name": "Extended FAB",
+          "description": "Floating action button with text label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/buttons-floating-action-button"
+        },
+        {
+          "name": "Icon Button",
+          "description": "Clickable icons for actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/icon-buttons"
+        },
+        {
+          "name": "Segmented Button",
+          "description": "Group of toggleable buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/segmented-buttons"
+        }
+      ]
+    },
+    {
+      "category": "Communication",
+      "items": [
+        {
+          "name": "Badge",
+          "description": "Small status indicator for notifications",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/badges"
+        },
+        {
+          "name": "Progress Indicator",
+          "description": "Linear and circular progress indicators",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/progress-indicators"
+        },
+        {
+          "name": "Snackbar",
+          "description": "Brief message at bottom of screen",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/snackbars"
+        }
+      ]
+    },
+    {
+      "category": "Containment",
+      "items": [
+        {
+          "name": "Card",
+          "description": "Container for related content and actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/cards"
+        },
+        {
+          "name": "Carousel",
+          "description": "Slideshow container for browsing content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/carousel"
+        },
+        {
+          "name": "Divider",
+          "description": "Thin line to separate content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/dividers"
+        },
+        {
+          "name": "List",
+          "description": "Continuous vertical index of text or images",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/lists"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Bottom App Bar",
+          "description": "Navigation and actions at bottom of mobile screen",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/app-bars-bottom"
+        },
+        {
+          "name": "Navigation Bar",
+          "description": "Primary navigation at bottom of screen",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/navigation-bar"
+        },
+        {
+          "name": "Navigation Drawer",
+          "description": "Side panel for navigation destinations",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/navigation-drawer"
+        },
+        {
+          "name": "Navigation Rail",
+          "description": "Vertical navigation for tablet and desktop",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/navigation-rail"
+        },
+        {
+          "name": "Search Bar",
+          "description": "Allows users to search content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/search"
+        },
+        {
+          "name": "Tabs",
+          "description": "Organize content across different screens",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/tabs"
+        },
+        {
+          "name": "Top App Bar",
+          "description": "Information and actions at top of screen",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/app-bars-top"
+        }
+      ]
+    },
+    {
+      "category": "Selection",
+      "items": [
+        {
+          "name": "Checkbox",
+          "description": "Select one or more options",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/checkboxes"
+        },
+        {
+          "name": "Chip",
+          "description": "Compact element representing input, attribute, or action",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/chips"
+        },
+        {
+          "name": "Date Picker",
+          "description": "Select a date from calendar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/date-pickers"
+        },
+        {
+          "name": "Menu",
+          "description": "Temporary list of choices",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/menus"
+        },
+        {
+          "name": "Radio Button",
+          "description": "Select single option from set",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/radio-buttons"
+        },
+        {
+          "name": "Slider",
+          "description": "Select value or range from continuous set",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/sliders"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle between on and off states",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/switches"
+        },
+        {
+          "name": "Time Picker",
+          "description": "Select time from clock interface",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/time-pickers"
+        }
+      ]
+    },
+    {
+      "category": "Text Inputs",
+      "items": [
+        {
+          "name": "Text Field",
+          "description": "Single-line or multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/text-fields"
+        }
+      ]
+    },
+    {
+      "category": "Dialogs",
+      "items": [
+        {
+          "name": "Dialog",
+          "description": "Modal window for important information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/dialogs"
+        },
+        {
+          "name": "Bottom Sheet",
+          "description": "Modal surface from bottom of screen",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/bottom-sheets"
+        },
+        {
+          "name": "Side Sheet",
+          "description": "Modal surface from side of screen",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/side-sheets"
+        }
+      ]
+    },
+    {
+      "category": "Tooltips",
+      "items": [
+        {
+          "name": "Tooltip",
+          "description": "Brief informational message on hover",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://material.io/components/tooltips"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 50,
+  "notes": "Material Design is Google's open-source design system. These web components provide a comprehensive implementation of Material Design 3 with full accessibility support and extensive theming capabilities."
+}

@@ -1,0 +1,124 @@
+{
+  "systemId": "headless-ui",
+  "systemName": "Headless UI",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Components",
+      "items": [
+        {
+          "name": "Combobox",
+          "description": "Autocomplete input with dropdown",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/combobox"
+        },
+        {
+          "name": "Dialog",
+          "description": "Modal dialog overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/dialog"
+        },
+        {
+          "name": "Disclosure",
+          "description": "Show and hide content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/disclosure"
+        },
+        {
+          "name": "Listbox",
+          "description": "Custom select dropdown",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/listbox"
+        },
+        {
+          "name": "Menu",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/menu"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating panel overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/popover"
+        },
+        {
+          "name": "Radio Group",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/radio-group"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/switch"
+        },
+        {
+          "name": "Tab Group",
+          "description": "Tabbed interface",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/tabs"
+        },
+        {
+          "name": "Transition",
+          "description": "Animated transitions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/react/transition"
+        }
+      ]
+    },
+    {
+      "category": "Vue Components",
+      "items": [
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/vue/checkbox"
+        },
+        {
+          "name": "Description",
+          "description": "Accessible descriptions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/vue/description"
+        },
+        {
+          "name": "Field",
+          "description": "Form field container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/vue/field"
+        },
+        {
+          "name": "Label",
+          "description": "Form labels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/vue/label"
+        },
+        {
+          "name": "Select",
+          "description": "Native select enhancement",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://headlessui.com/vue/select"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 15,
+  "notes": "Headless UI provides completely unstyled, fully accessible UI components for React and Vue, designed to integrate with Tailwind CSS. Created by Tailwind Labs, these components handle all the complex accessibility and interaction logic, letting you focus on styling."
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Design System Details - Design System Diff</title>
+    <meta name="description" content="Detailed component audit and information for design systems">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="header">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <div>
+                    <div class="title" id="systemName">Loading...</div>
+                    <p class="subtitle"><a href="index.html" class="back-link">← Back to comparison</a></p>
+                </div>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="finder.html" class="about-link">Finder</a>
+                    <a href="licenses.html" class="about-link">Licenses</a>
+                    <a href="about.html" class="about-link">About</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="main-content">
+        <div id="loadingState" class="loading-state">
+            <p>Loading system details...</p>
+        </div>
+
+        <div id="errorState" class="error-state" style="display: none;">
+            <p>System not found or component data not available.</p>
+            <p><a href="index.html" class="back-link">Return to comparison table</a></p>
+        </div>
+
+        <div id="systemContent" style="display: none;">
+            <!-- System Overview -->
+            <section class="system-overview">
+                <div class="system-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Maintainer:</span>
+                        <span class="meta-value" id="maintainer"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">License:</span>
+                        <span class="meta-value" id="license"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Frameworks:</span>
+                        <span class="meta-value" id="frameworks"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Components:</span>
+                        <span class="meta-value" id="componentCount"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">GitHub Stars:</span>
+                        <span class="meta-value" id="stars"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Accessibility:</span>
+                        <span class="meta-value" id="accessibility"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Theming:</span>
+                        <span class="meta-value" id="theming"></span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">TypeScript:</span>
+                        <span class="meta-value" id="typescript"></span>
+                    </div>
+                </div>
+
+                <div class="system-links" id="systemLinks">
+                    <!-- Links populated by JS -->
+                </div>
+
+                <div class="system-notes" id="systemNotes" style="display: none;">
+                    <h3>About This System</h3>
+                    <p id="notesContent"></p>
+                </div>
+            </section>
+
+            <!-- Component Audit -->
+            <section class="component-audit">
+                <h2 class="section-heading">Component Audit</h2>
+                <p class="section-description">Complete list of available components organized by category. Last updated: <span id="lastUpdated"></span></p>
+
+                <div id="componentCategories">
+                    <!-- Categories populated by JS -->
+                </div>
+
+                <div class="component-summary">
+                    <h3>Summary</h3>
+                    <p>Total components: <strong id="totalComponents"></strong></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Open source design system comparison tool • <a href="https://github.com/karmatosed/desginsystemdiff.com" target="_blank" rel="noopener">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="js/system.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+{
+  "systemId": "atlassian",
+  "systemName": "Atlassian Design System",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Core Components",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User or team profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/avatar/"
+        },
+        {
+          "name": "Badge",
+          "description": "Status or count indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/badge/"
+        },
+        {
+          "name": "Banner",
+          "description": "Important system-wide messages",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/banner/"
+        },
+        {
+          "name": "Blanket",
+          "description": "Screen overlay backdrop",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/blanket/"
+        },
+        {
+          "name": "Breadcrumbs",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/breadcrumbs/"
+        },
+        {
+          "name": "Button",
+          "description": "Primary, secondary, and subtle buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/button/"
+        },
+        {
+          "name": "Calendar",
+          "description": "Date selection calendar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/calendar/"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/checkbox/"
+        },
+        {
+          "name": "Code",
+          "description": "Display inline or block code",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/code/"
+        },
+        {
+          "name": "Comment",
+          "description": "User comment display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/comment/"
+        },
+        {
+          "name": "Datetime Picker",
+          "description": "Date and time selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/datetime-picker/"
+        },
+        {
+          "name": "Dropdown Menu",
+          "description": "Menu with actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/dropdown-menu/"
+        },
+        {
+          "name": "Dynamic Table",
+          "description": "Sortable data table",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/dynamic-table/"
+        },
+        {
+          "name": "Empty State",
+          "description": "No content placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/empty-state/"
+        },
+        {
+          "name": "Flag",
+          "description": "System notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/flag/"
+        },
+        {
+          "name": "Form",
+          "description": "Form layout and validation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/form/"
+        },
+        {
+          "name": "Icon",
+          "description": "SVG icon library",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/icon/"
+        },
+        {
+          "name": "Inline Dialog",
+          "description": "Contextual overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/inline-dialog/"
+        },
+        {
+          "name": "Inline Edit",
+          "description": "Editable text in place",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/inline-edit/"
+        },
+        {
+          "name": "Lozenge",
+          "description": "Status pill indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/lozenge/"
+        },
+        {
+          "name": "Modal Dialog",
+          "description": "Modal window overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/modal-dialog/"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/pagination/"
+        },
+        {
+          "name": "Popup",
+          "description": "Floating content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/popup/"
+        },
+        {
+          "name": "Progress Bar",
+          "description": "Progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/progress-bar/"
+        },
+        {
+          "name": "Progress Tracker",
+          "description": "Multi-step progress",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/progress-tracker/"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/radio/"
+        },
+        {
+          "name": "Range",
+          "description": "Value range slider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/range/"
+        },
+        {
+          "name": "Section Message",
+          "description": "Contextual messaging",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/section-message/"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/select/"
+        },
+        {
+          "name": "Side Navigation",
+          "description": "Sidebar navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/side-navigation/"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/spinner/"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/tabs/"
+        },
+        {
+          "name": "Tag",
+          "description": "Removable label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/tag/"
+        },
+        {
+          "name": "Text Field",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/textfield/"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/textarea/"
+        },
+        {
+          "name": "Toggle",
+          "description": "Binary toggle switch",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/toggle/"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/tooltip/"
+        },
+        {
+          "name": "Tree",
+          "description": "Hierarchical tree structure",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://atlassian.design/components/tree/"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 40,
+  "notes": "Atlassian Design System powers products like Jira, Confluence, and Trello. It provides enterprise-grade React components with comprehensive accessibility features and extensive design resources for building complex productivity applications."
+}

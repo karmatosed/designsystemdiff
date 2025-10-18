@@ -1,0 +1,269 @@
+{
+  "systemId": "openeuropa",
+  "systemName": "OpenEuropa Theme",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Elements",
+      "items": [
+        {
+          "name": "Button",
+          "description": "EU standard buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Form Elements",
+          "description": "Text inputs, selects, checkboxes",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Links",
+          "description": "Styled hyperlinks",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Typography",
+          "description": "Headings and text styles",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        }
+      ]
+    },
+    {
+      "category": "Components",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible content sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Breadcrumb",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Carousel",
+          "description": "Content slideshow",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Date Block",
+          "description": "Date display component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Description List",
+          "description": "Key-value pair lists",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "File",
+          "description": "File download links",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Gallery",
+          "description": "Image gallery",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Icon",
+          "description": "Icon library",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "In-page Navigation",
+          "description": "Table of contents navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Label",
+          "description": "Status labels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Language Switcher",
+          "description": "Multi-language selector",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Link Block",
+          "description": "Link collection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "List Item",
+          "description": "Content list display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Navigation",
+          "description": "Site navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Page Header",
+          "description": "Page title and metadata",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Search",
+          "description": "Search form",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Social Media",
+          "description": "Social media links",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Table",
+          "description": "Data tables",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Tag",
+          "description": "Content tags",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Timeline",
+          "description": "Event timeline",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        }
+      ]
+    },
+    {
+      "category": "Patterns",
+      "items": [
+        {
+          "name": "Banner",
+          "description": "Page banner",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Featured Item",
+          "description": "Highlighted content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Footer",
+          "description": "Site footer",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Header",
+          "description": "Site header",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Hero Banner",
+          "description": "Hero section",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Listing",
+          "description": "Content listings",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "News List",
+          "description": "News article listings",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Publication",
+          "description": "Publication display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        },
+        {
+          "name": "Related Links",
+          "description": "Related content links",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/openeuropa/oe_theme"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 35,
+  "notes": "OpenEuropa Theme is based on the Europa Component Library (ECL) for European Union institutions and bodies. Built for Drupal, it implements EU design standards with multilingual support, strict accessibility compliance, and components tailored for government websites."
+}

@@ -1,0 +1,614 @@
+{
+  "systemId": "primereact",
+  "systemName": "PrimeReact",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Form",
+      "items": [
+        {
+          "name": "AutoComplete",
+          "description": "Input with autocomplete suggestions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/autocomplete/"
+        },
+        {
+          "name": "Calendar",
+          "description": "Date picker with calendar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/calendar/"
+        },
+        {
+          "name": "Cascad
+
+e Select",
+          "description": "Hierarchical selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/cascadeselect/"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/checkbox/"
+        },
+        {
+          "name": "Chips",
+          "description": "Tag input with autocomplete",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/chips/"
+        },
+        {
+          "name": "ColorPicker",
+          "description": "Color selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/colorpicker/"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/dropdown/"
+        },
+        {
+          "name": "Editor",
+          "description": "Rich text editor",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/editor/"
+        },
+        {
+          "name": "InputMask",
+          "description": "Masked input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/inputmask/"
+        },
+        {
+          "name": "InputNumber",
+          "description": "Numeric input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/inputnumber/"
+        },
+        {
+          "name": "InputSwitch",
+          "description": "Toggle switch",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/inputswitch/"
+        },
+        {
+          "name": "InputText",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/inputtext/"
+        },
+        {
+          "name": "InputTextarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/inputtextarea/"
+        },
+        {
+          "name": "Knob",
+          "description": "Dial knob input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/knob/"
+        },
+        {
+          "name": "ListBox",
+          "description": "List selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/listbox/"
+        },
+        {
+          "name": "MultiSelect",
+          "description": "Multiple selection dropdown",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/multiselect/"
+        },
+        {
+          "name": "Password",
+          "description": "Password input with strength meter",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/password/"
+        },
+        {
+          "name": "RadioButton",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/radiobutton/"
+        },
+        {
+          "name": "Rating",
+          "description": "Star rating input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/rating/"
+        },
+        {
+          "name": "SelectButton",
+          "description": "Button-style selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/selectbutton/"
+        },
+        {
+          "name": "Slider",
+          "description": "Range slider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/slider/"
+        },
+        {
+          "name": "TreeSelect",
+          "description": "Tree structure selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/treeselect/"
+        },
+        {
+          "name": "TriStateCheckbox",
+          "description": "Three-state checkbox",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/tristatecheckbox/"
+        }
+      ]
+    },
+    {
+      "category": "Button",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Interactive button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/button/"
+        },
+        {
+          "name": "SpeedDial",
+          "description": "Floating action button with menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/speeddial/"
+        },
+        {
+          "name": "SplitButton",
+          "description": "Button with dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/splitbutton/"
+        }
+      ]
+    },
+    {
+      "category": "Data",
+      "items": [
+        {
+          "name": "DataTable",
+          "description": "Advanced data table",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/datatable/"
+        },
+        {
+          "name": "DataView",
+          "description": "Data display with layouts",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/dataview/"
+        },
+        {
+          "name": "OrderList",
+          "description": "Reorderable list",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/orderlist/"
+        },
+        {
+          "name": "OrganizationChart",
+          "description": "Hierarchical organization display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/organizationchart/"
+        },
+        {
+          "name": "Paginator",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/paginator/"
+        },
+        {
+          "name": "PickList",
+          "description": "Transfer items between lists",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/picklist/"
+        },
+        {
+          "name": "Timeline",
+          "description": "Event timeline",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/timeline/"
+        },
+        {
+          "name": "Tree",
+          "description": "Hierarchical tree",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/tree/"
+        },
+        {
+          "name": "TreeTable",
+          "description": "Tree structure in table",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/treetable/"
+        },
+        {
+          "name": "VirtualScroller",
+          "description": "Virtual scrolling for large lists",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/virtualscroller/"
+        }
+      ]
+    },
+    {
+      "category": "Panel",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible content panels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/accordion/"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/card/"
+        },
+        {
+          "name": "Divider",
+          "description": "Content separator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/divider/"
+        },
+        {
+          "name": "Fieldset",
+          "description": "Grouping container with legend",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/fieldset/"
+        },
+        {
+          "name": "Panel",
+          "description": "Collapsible content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/panel/"
+        },
+        {
+          "name": "ScrollPanel",
+          "description": "Custom scrollable panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/scrollpanel/"
+        },
+        {
+          "name": "Splitter",
+          "description": "Resizable split panels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/splitter/"
+        },
+        {
+          "name": "TabView",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/tabview/"
+        },
+        {
+          "name": "Toolbar",
+          "description": "Action toolbar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/toolbar/"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "ConfirmDialog",
+          "description": "Confirmation dialog",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/confirmdialog/"
+        },
+        {
+          "name": "ConfirmPopup",
+          "description": "Confirmation popover",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/confirmpopup/"
+        },
+        {
+          "name": "Dialog",
+          "description": "Modal dialog window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/dialog/"
+        },
+        {
+          "name": "OverlayPanel",
+          "description": "Floating overlay panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/overlaypanel/"
+        },
+        {
+          "name": "Sidebar",
+          "description": "Side panel overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/sidebar/"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/tooltip/"
+        }
+      ]
+    },
+    {
+      "category": "File",
+      "items": [
+        {
+          "name": "FileUpload",
+          "description": "File upload with preview",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/fileupload/"
+        }
+      ]
+    },
+    {
+      "category": "Menu",
+      "items": [
+        {
+          "name": "Breadcrumb",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/breadcrumb/"
+        },
+        {
+          "name": "ContextMenu",
+          "description": "Right-click menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/contextmenu/"
+        },
+        {
+          "name": "Dock",
+          "description": "macOS-style dock menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/dock/"
+        },
+        {
+          "name": "Menu",
+          "description": "Navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/menu/"
+        },
+        {
+          "name": "Menubar",
+          "description": "Horizontal menu bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/menubar/"
+        },
+        {
+          "name": "MegaMenu",
+          "description": "Multi-column dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/megamenu/"
+        },
+        {
+          "name": "PanelMenu",
+          "description": "Accordion-style menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/panelmenu/"
+        },
+        {
+          "name": "Steps",
+          "description": "Step indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/steps/"
+        },
+        {
+          "name": "TabMenu",
+          "description": "Tab-style menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/tabmenu/"
+        },
+        {
+          "name": "TieredMenu",
+          "description": "Nested menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/tieredmenu/"
+        }
+      ]
+    },
+    {
+      "category": "Messages",
+      "items": [
+        {
+          "name": "Message",
+          "description": "Inline message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/message/"
+        },
+        {
+          "name": "Messages",
+          "description": "Message list",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/messages/"
+        },
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/toast/"
+        }
+      ]
+    },
+    {
+      "category": "Media",
+      "items": [
+        {
+          "name": "Carousel",
+          "description": "Slideshow component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/carousel/"
+        },
+        {
+          "name": "Galleria",
+          "description": "Image gallery with thumbnails",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/galleria/"
+        },
+        {
+          "name": "Image",
+          "description": "Image with preview",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/image/"
+        }
+      ]
+    },
+    {
+      "category": "Misc",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/avatar/"
+        },
+        {
+          "name": "Badge",
+          "description": "Status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/badge/"
+        },
+        {
+          "name": "BlockUI",
+          "description": "Block user interaction",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/blockui/"
+        },
+        {
+          "name": "Chip",
+          "description": "Compact element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/chip/"
+        },
+        {
+          "name": "Inplace",
+          "description": "Inline edit",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/inplace/"
+        },
+        {
+          "name": "ProgressBar",
+          "description": "Progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/progressbar/"
+        },
+        {
+          "name": "ProgressSpinner",
+          "description": "Loading spinner",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/progressspinner/"
+        },
+        {
+          "name": "ScrollTop",
+          "description": "Scroll to top button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/scrolltop/"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/skeleton/"
+        },
+        {
+          "name": "Tag",
+          "description": "Label tag",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/tag/"
+        },
+        {
+          "name": "Terminal",
+          "description": "Command terminal interface",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primereact.org/terminal/"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 90,
+  "notes": "PrimeReact is a comprehensive React UI component library with 90+ components optimized for business applications. It provides advanced data management components, extensive theming options, and professional support available for enterprise use."
+}

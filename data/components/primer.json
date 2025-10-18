@@ -1,0 +1,329 @@
+{
+  "systemId": "primer",
+  "systemName": "Primer Design System",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Actions",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Primary, secondary, and danger buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/button"
+        },
+        {
+          "name": "IconButton",
+          "description": "Button with only an icon",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/icon-button"
+        },
+        {
+          "name": "Link Button",
+          "description": "Link styled as button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/link-button"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "ActionList",
+          "description": "List of interactive actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/action-list"
+        },
+        {
+          "name": "ActionMenu",
+          "description": "Menu with actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/action-menu"
+        },
+        {
+          "name": "Breadcrumbs",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/breadcrumbs"
+        },
+        {
+          "name": "Link",
+          "description": "Hyperlink component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/link"
+        },
+        {
+          "name": "NavList",
+          "description": "Navigation list",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/nav-list"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/pagination"
+        },
+        {
+          "name": "TabNav",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/tab-nav"
+        },
+        {
+          "name": "UnderlineNav",
+          "description": "Underlined navigation tabs",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/underline-nav"
+        }
+      ]
+    },
+    {
+      "category": "Forms",
+      "items": [
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/checkbox"
+        },
+        {
+          "name": "FormControl",
+          "description": "Form field wrapper",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/form-control"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/radio"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/select"
+        },
+        {
+          "name": "TextInput",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/text-input"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/textarea"
+        }
+      ]
+    },
+    {
+      "category": "Display",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/avatar"
+        },
+        {
+          "name": "Label",
+          "description": "Tag or status label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/label"
+        },
+        {
+          "name": "CounterLabel",
+          "description": "Numeric counter badge",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/counter-label"
+        },
+        {
+          "name": "IssueLabelToken",
+          "description": "Issue label display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/issue-label-token"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Box",
+          "description": "Flexible container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/box"
+        },
+        {
+          "name": "Heading",
+          "description": "Semantic heading",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/heading"
+        },
+        {
+          "name": "PageHeader",
+          "description": "Page header layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/page-header"
+        },
+        {
+          "name": "PageLayout",
+          "description": "Page layout structure",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/page-layout"
+        },
+        {
+          "name": "SplitPageLayout",
+          "description": "Two-column page layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/split-page-layout"
+        },
+        {
+          "name": "Text",
+          "description": "Text component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/text"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Dialog",
+          "description": "Modal dialog",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/dialog"
+        },
+        {
+          "name": "Overlay",
+          "description": "Floating overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/overlay"
+        },
+        {
+          "name": "SelectPanel",
+          "description": "Selection dialog panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/select-panel"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Banner",
+          "description": "Full-width notification banner",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/banner"
+        },
+        {
+          "name": "Flash",
+          "description": "Alert message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/flash"
+        },
+        {
+          "name": "ProgressBar",
+          "description": "Progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/progress-bar"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/spinner"
+        },
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/toast"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Autocomplete",
+          "description": "Input with autocomplete",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/autocomplete"
+        },
+        {
+          "name": "Blankslate",
+          "description": "Empty state display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/blankslate"
+        },
+        {
+          "name": "SegmentedControl",
+          "description": "Segmented button group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/segmented-control"
+        },
+        {
+          "name": "Token",
+          "description": "Removable token chip",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/token"
+        },
+        {
+          "name": "TreeView",
+          "description": "Hierarchical tree structure",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://primer.style/components/tree-view"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 35,
+  "notes": "Primer is GitHub's design system, providing React and CSS components for building interfaces that match GitHub's UI. It's built with accessibility and developer experience in mind, and powers GitHub's own web interfaces."
+}

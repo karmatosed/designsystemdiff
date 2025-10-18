@@ -1,0 +1,359 @@
+{
+  "systemId": "shadcn-ui",
+  "systemName": "shadcn/ui",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Form",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Displays a button or component with button functionality",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/button"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/checkbox"
+        },
+        {
+          "name": "Input",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/input"
+        },
+        {
+          "name": "Label",
+          "description": "Form field label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/label"
+        },
+        {
+          "name": "Radio Group",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/radio-group"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/select"
+        },
+        {
+          "name": "Slider",
+          "description": "Range value selector",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/slider"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/switch"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/textarea"
+        },
+        {
+          "name": "Form",
+          "description": "Form validation and management",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/form"
+        }
+      ]
+    },
+    {
+      "category": "Data Display",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/avatar"
+        },
+        {
+          "name": "Badge",
+          "description": "Status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/badge"
+        },
+        {
+          "name": "Calendar",
+          "description": "Date calendar display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/calendar"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/card"
+        },
+        {
+          "name": "Carousel",
+          "description": "Slideshow component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/carousel"
+        },
+        {
+          "name": "Table",
+          "description": "Data table",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/table"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Alert Dialog",
+          "description": "Modal confirmation dialog",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/alert-dialog"
+        },
+        {
+          "name": "Dialog",
+          "description": "Modal dialog window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/dialog"
+        },
+        {
+          "name": "Drawer",
+          "description": "Side panel overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/drawer"
+        },
+        {
+          "name": "Dropdown Menu",
+          "description": "Contextual menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/dropdown-menu"
+        },
+        {
+          "name": "Hover Card",
+          "description": "Hover-triggered card",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/hover-card"
+        },
+        {
+          "name": "Popover",
+          "description": "Contextual popover",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/popover"
+        },
+        {
+          "name": "Sheet",
+          "description": "Side sheet panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/sheet"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/tooltip"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Breadcrumb",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/breadcrumb"
+        },
+        {
+          "name": "Context Menu",
+          "description": "Right-click menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/context-menu"
+        },
+        {
+          "name": "Menubar",
+          "description": "Application menu bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/menubar"
+        },
+        {
+          "name": "Navigation Menu",
+          "description": "Navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/navigation-menu"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/pagination"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/tabs"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Alert message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/alert"
+        },
+        {
+          "name": "Progress",
+          "description": "Progress bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/progress"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/skeleton"
+        },
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/toast"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/accordion"
+        },
+        {
+          "name": "Aspect Ratio",
+          "description": "Maintain aspect ratio",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/aspect-ratio"
+        },
+        {
+          "name": "Collapsible",
+          "description": "Toggle content visibility",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/collapsible"
+        },
+        {
+          "name": "Resizable",
+          "description": "Resizable panels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/resizable"
+        },
+        {
+          "name": "Scroll Area",
+          "description": "Custom scrollable area",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/scroll-area"
+        },
+        {
+          "name": "Separator",
+          "description": "Visual divider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/separator"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Command",
+          "description": "Command palette",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/command"
+        },
+        {
+          "name": "Combobox",
+          "description": "Searchable select",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/combobox"
+        },
+        {
+          "name": "Date Picker",
+          "description": "Date selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/date-picker"
+        },
+        {
+          "name": "Toggle",
+          "description": "Two-state button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/toggle"
+        },
+        {
+          "name": "Toggle Group",
+          "description": "Group of toggle buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ui.shadcn.com/docs/components/toggle-group"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 45,
+  "notes": "shadcn/ui is a collection of re-usable components built with Radix UI and Tailwind CSS. Unlike traditional component libraries, you copy and paste the code into your app, giving you full control and ownership. All components are accessible and customizable."
+}

@@ -1,0 +1,329 @@
+{
+  "systemId": "carbon",
+  "systemName": "Carbon Design System",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Buttons",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Primary, secondary, tertiary, and danger buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/button/usage"
+        },
+        {
+          "name": "Icon Button",
+          "description": "Button with only an icon",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/button/usage#icon-only-buttons"
+        }
+      ]
+    },
+    {
+      "category": "Form Inputs",
+      "items": [
+        {
+          "name": "Text Input",
+          "description": "Single-line text field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/text-input/usage"
+        },
+        {
+          "name": "Text Area",
+          "description": "Multi-line text field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/text-area/usage"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Select from a list of options",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/dropdown/usage"
+        },
+        {
+          "name": "Combo Box",
+          "description": "Searchable dropdown with autocomplete",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/combo-box/usage"
+        },
+        {
+          "name": "Multi-select",
+          "description": "Select multiple options from list",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/dropdown/usage#multiselect"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/checkbox/usage"
+        },
+        {
+          "name": "Radio Button",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/radio-button/usage"
+        },
+        {
+          "name": "Toggle",
+          "description": "Binary on/off switch",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/toggle/usage"
+        },
+        {
+          "name": "Slider",
+          "description": "Select value from range",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/slider/usage"
+        },
+        {
+          "name": "File Uploader",
+          "description": "Upload files interface",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/file-uploader/usage"
+        },
+        {
+          "name": "Number Input",
+          "description": "Numeric input with steppers",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/number-input/usage"
+        },
+        {
+          "name": "Date Picker",
+          "description": "Select date from calendar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/date-picker/usage"
+        },
+        {
+          "name": "Time Picker",
+          "description": "Select time from dropdown",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/time-picker/usage"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Breadcrumb",
+          "description": "Navigation hierarchy trail",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/breadcrumb/usage"
+        },
+        {
+          "name": "Tabs",
+          "description": "Organize content into sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/tabs/usage"
+        },
+        {
+          "name": "UI Shell",
+          "description": "Application header and navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/UI-shell-header/usage"
+        },
+        {
+          "name": "Link",
+          "description": "Hyperlink component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/link/usage"
+        },
+        {
+          "name": "Pagination",
+          "description": "Navigate through pages of content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/pagination/usage"
+        },
+        {
+          "name": "Progress Indicator",
+          "description": "Multi-step process tracker",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/progress-indicator/usage"
+        }
+      ]
+    },
+    {
+      "category": "Data Display",
+      "items": [
+        {
+          "name": "Data Table",
+          "description": "Display and manipulate tabular data",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/data-table/usage"
+        },
+        {
+          "name": "Structured List",
+          "description": "Simple data list with rows and columns",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/structured-list/usage"
+        },
+        {
+          "name": "Tree View",
+          "description": "Hierarchical list structure",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/tree-view/usage"
+        },
+        {
+          "name": "Accordion",
+          "description": "Collapsible content sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/accordion/usage"
+        },
+        {
+          "name": "Tile",
+          "description": "Content container with various styles",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/tile/usage"
+        },
+        {
+          "name": "Tag",
+          "description": "Label for categorization",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/tag/usage"
+        },
+        {
+          "name": "Code Snippet",
+          "description": "Display code with copy functionality",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/code-snippet/usage"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Notification",
+          "description": "Inline, toast, and actionable notifications",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/notification/usage"
+        },
+        {
+          "name": "Loading",
+          "description": "Loading spinner indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/loading/usage"
+        },
+        {
+          "name": "Progress Bar",
+          "description": "Visual progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/progress-bar/usage"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/skeleton/usage"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Modal",
+          "description": "Dialog window overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/modal/usage"
+        },
+        {
+          "name": "Popover",
+          "description": "Contextual information overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/popover/usage"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/tooltip/usage"
+        },
+        {
+          "name": "Menu",
+          "description": "Contextual action menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/menu/usage"
+        }
+      ]
+    },
+    {
+      "category": "Search & Filter",
+      "items": [
+        {
+          "name": "Search",
+          "description": "Search input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/search/usage"
+        },
+        {
+          "name": "Contained List",
+          "description": "Filterable list of items",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/contained-list/usage"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Grid",
+          "description": "Responsive layout grid",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/elements/2x-grid/overview"
+        },
+        {
+          "name": "Content Switcher",
+          "description": "Toggle between content sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://carbondesignsystem.com/components/content-switcher/usage"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 65,
+  "notes": "Carbon is IBM's open-source design system for products and digital experiences. With comprehensive React, Vue, Angular, Svelte, and Web Components implementations, Carbon provides enterprise-grade accessibility and extensive design resources."
+}

@@ -1,0 +1,383 @@
+{
+  "systemId": "wordpress-components",
+  "systemName": "WordPress Components",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Panel",
+          "description": "Collapsible content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-panel--docs"
+        },
+        {
+          "name": "Placeholder",
+          "description": "Empty state placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-placeholder--docs"
+        },
+        {
+          "name": "Responsive Wrapper",
+          "description": "Maintain aspect ratio wrapper",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-responsivewrapper--docs"
+        },
+        {
+          "name": "Sandbox",
+          "description": "Safe iframe container",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-sandbox--docs"
+        }
+      ]
+    },
+    {
+      "category": "Form Controls",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Interactive button",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-button--docs"
+        },
+        {
+          "name": "CheckboxControl",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-checkboxcontrol--docs"
+        },
+        {
+          "name": "ColorPicker",
+          "description": "Color selection",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-colorpicker--docs"
+        },
+        {
+          "name": "DateTimePicker",
+          "description": "Date and time selection",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-datetimepicker--docs"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-dropdown--docs"
+        },
+        {
+          "name": "FormToggle",
+          "description": "Toggle switch",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-formtoggle--docs"
+        },
+        {
+          "name": "RadioControl",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-radiocontrol--docs"
+        },
+        {
+          "name": "RangeControl",
+          "description": "Number range slider",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-rangecontrol--docs"
+        },
+        {
+          "name": "SearchControl",
+          "description": "Search input field",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-searchcontrol--docs"
+        },
+        {
+          "name": "SelectControl",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-selectcontrol--docs"
+        },
+        {
+          "name": "TextControl",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-textcontrol--docs"
+        },
+        {
+          "name": "TextareaControl",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-textareacontrol--docs"
+        },
+        {
+          "name": "ToggleControl",
+          "description": "Toggle switch with label",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-togglecontrol--docs"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "TabPanel",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-tabpanel--docs"
+        },
+        {
+          "name": "NavigableContainer",
+          "description": "Keyboard navigation container",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-navigablecontainer--docs"
+        }
+      ]
+    },
+    {
+      "category": "Media",
+      "items": [
+        {
+          "name": "MediaUpload",
+          "description": "Media library upload",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-mediaupload--docs"
+        },
+        {
+          "name": "MediaPlaceholder",
+          "description": "Media upload placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-mediaplaceholder--docs"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Notice",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-notice--docs"
+        },
+        {
+          "name": "Snackbar",
+          "description": "Brief notification",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-snackbar--docs"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-spinner--docs"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Modal",
+          "description": "Modal dialog window",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-modal--docs"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-popover--docs"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-tooltip--docs"
+        }
+      ]
+    },
+    {
+      "category": "Typography",
+      "items": [
+        {
+          "name": "FontSizePicker",
+          "description": "Font size selection",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-fontsizepicker--docs"
+        },
+        {
+          "name": "RichText",
+          "description": "Rich text editor",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-richtext--docs"
+        }
+      ]
+    },
+    {
+      "category": "Toolbars",
+      "items": [
+        {
+          "name": "Toolbar",
+          "description": "Action toolbar",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-toolbar--docs"
+        },
+        {
+          "name": "ToolbarButton",
+          "description": "Toolbar button",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-toolbarbutton--docs"
+        },
+        {
+          "name": "ToolbarGroup",
+          "description": "Group toolbar buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-toolbargroup--docs"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "AnglePickerControl",
+          "description": "Angle degree selector",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-anglepickercontrol--docs"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-card--docs"
+        },
+        {
+          "name": "ClipboardButton",
+          "description": "Copy to clipboard",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-clipboardbutton--docs"
+        },
+        {
+          "name": "Dashicon",
+          "description": "WordPress icon library",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-dashicon--docs"
+        },
+        {
+          "name": "Disabled",
+          "description": "Disable child components",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-disabled--docs"
+        },
+        {
+          "name": "Draggable",
+          "description": "Drag and drop wrapper",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-draggable--docs"
+        },
+        {
+          "name": "DropZone",
+          "description": "File drop zone",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-dropzone--docs"
+        },
+        {
+          "name": "ExternalLink",
+          "description": "External link component",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-externallink--docs"
+        },
+        {
+          "name": "FocalPointPicker",
+          "description": "Image focal point selector",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-focalpointpicker--docs"
+        },
+        {
+          "name": "Icon",
+          "description": "Icon display",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-icon--docs"
+        },
+        {
+          "name": "IconButton",
+          "description": "Button with icon",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-iconbutton--docs"
+        },
+        {
+          "name": "MenuGroup",
+          "description": "Menu section group",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-menugroup--docs"
+        },
+        {
+          "name": "MenuItem",
+          "description": "Menu item",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-menuitem--docs"
+        },
+        {
+          "name": "ResizableBox",
+          "description": "Resizable container",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-resizablebox--docs"
+        },
+        {
+          "name": "ScrollLock",
+          "description": "Prevent page scrolling",
+          "documented": true,
+          "accessibility": "Full",
+          "storybookUrl": "https://wordpress.github.io/gutenberg/?path=/docs/components-scrolllock--docs"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 50,
+  "notes": "WordPress Components are the building blocks of the Gutenberg block editor. These React components provide a consistent, accessible interface for building WordPress blocks and plugins with full integration into the WordPress ecosystem."
+}

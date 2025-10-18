@@ -1,0 +1,288 @@
+{
+  "systemId": "civictheme",
+  "systemName": "CivicTheme",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Atoms",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Primary, secondary, and tertiary buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Icon",
+          "description": "SVG icon library",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Input",
+          "description": "Text input fields",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Link",
+          "description": "Styled hyperlinks",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Tag",
+          "description": "Label tag",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        }
+      ]
+    },
+    {
+      "category": "Molecules",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible content panels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Alert",
+          "description": "Alert message display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Attachment",
+          "description": "File download links",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Breadcrumb",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Callout",
+          "description": "Highlighted content box",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Card",
+          "description": "Content container card",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Message",
+          "description": "System messages",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Navigation",
+          "description": "Navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Promo",
+          "description": "Promotional content block",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Quote",
+          "description": "Blockquote styling",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Search",
+          "description": "Search form",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Table",
+          "description": "Data tables",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        }
+      ]
+    },
+    {
+      "category": "Organisms",
+      "items": [
+        {
+          "name": "Banner",
+          "description": "Page hero banner",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Campaign",
+          "description": "Campaign content section",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Event",
+          "description": "Event display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Footer",
+          "description": "Site footer",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Form",
+          "description": "Form layouts",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Header",
+          "description": "Site header",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "List",
+          "description": "Content listing",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Listing",
+          "description": "Advanced content listings",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Map",
+          "description": "Embedded map",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Service Card",
+          "description": "Service information card",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Skip Link",
+          "description": "Accessibility skip links",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Slider",
+          "description": "Content carousel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        }
+      ]
+    },
+    {
+      "category": "Templates",
+      "items": [
+        {
+          "name": "Content Page",
+          "description": "Standard content page layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Landing Page",
+          "description": "Landing page layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        },
+        {
+          "name": "Service Page",
+          "description": "Service information page",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.civictheme.io/"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 40,
+  "notes": "CivicTheme is an open-source design system for government and civic websites built on Drupal. It follows atomic design principles with comprehensive WCAG 2.2 AA compliance, Figma design kit integration, and Storybook component documentation."
+}

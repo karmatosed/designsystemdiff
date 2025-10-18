@@ -1,0 +1,227 @@
+{
+  "systemId": "emulsify",
+  "systemName": "Emulsify",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Elements",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Primary and secondary buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Form Elements",
+          "description": "Text inputs, selects, and checkboxes",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Headings",
+          "description": "Semantic heading styles",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Links",
+          "description": "Styled hyperlinks",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Lists",
+          "description": "Ordered and unordered lists",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        }
+      ]
+    },
+    {
+      "category": "Components",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible content sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Breadcrumb",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Card",
+          "description": "Content container with image and text",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "CTA",
+          "description": "Call-to-action component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Footer",
+          "description": "Site footer",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Header",
+          "description": "Site header with navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Hero",
+          "description": "Hero banner section",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Image",
+          "description": "Responsive images",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Menu",
+          "description": "Navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Quote",
+          "description": "Blockquote styling",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Search",
+          "description": "Search form",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Status",
+          "description": "Status messages",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Table",
+          "description": "Data tables",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Teaser",
+          "description": "Content preview cards",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Video",
+          "description": "Embedded video player",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        }
+      ]
+    },
+    {
+      "category": "Organisms",
+      "items": [
+        {
+          "name": "Article",
+          "description": "Article content template",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Block",
+          "description": "Drupal block regions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Node",
+          "description": "Drupal node templates",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Page",
+          "description": "Page layout templates",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Paragraph",
+          "description": "Drupal paragraphs",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "Region",
+          "description": "Theme regions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        },
+        {
+          "name": "View",
+          "description": "Drupal views templates",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://docs.emulsify.info/"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 30,
+  "notes": "Emulsify is a component-driven Drupal theme using Storybook and design tokens. It follows atomic design principles and integrates Figma designs with Drupal through design tokens, enabling collaborative design-to-development workflows."
+}

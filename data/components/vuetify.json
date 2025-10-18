@@ -1,0 +1,502 @@
+{
+  "systemId": "vuetify",
+  "systemName": "Vuetify",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Containment",
+      "items": [
+        {
+          "name": "Card",
+          "description": "Content container with header and actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/cards/"
+        },
+        {
+          "name": "Expansion Panel",
+          "description": "Expandable content panels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/expansion-panels/"
+        },
+        {
+          "name": "List",
+          "description": "Vertical list of items",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/lists/"
+        },
+        {
+          "name": "Sheet",
+          "description": "Surface background container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/sheets/"
+        }
+      ]
+    },
+    {
+      "category": "Forms",
+      "items": [
+        {
+          "name": "Autocomplete",
+          "description": "Input with autocomplete suggestions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/autocompletes/"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/checkboxes/"
+        },
+        {
+          "name": "Combobox",
+          "description": "Combined input and select",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/combobox/"
+        },
+        {
+          "name": "File Input",
+          "description": "File upload input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/file-inputs/"
+        },
+        {
+          "name": "Form",
+          "description": "Form wrapper with validation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/forms/"
+        },
+        {
+          "name": "Input",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/inputs/"
+        },
+        {
+          "name": "OTP Input",
+          "description": "One-time password input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/otp-input/"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/radio/"
+        },
+        {
+          "name": "Range Slider",
+          "description": "Select range of values",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/range-sliders/"
+        },
+        {
+          "name": "Rating",
+          "description": "Star rating input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/ratings/"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/selects/"
+        },
+        {
+          "name": "Slider",
+          "description": "Value selection slider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/sliders/"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/switches/"
+        },
+        {
+          "name": "Text Field",
+          "description": "Enhanced text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/text-fields/"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/textareas/"
+        }
+      ]
+    },
+    {
+      "category": "Data & Display",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/avatars/"
+        },
+        {
+          "name": "Badge",
+          "description": "Status indicator badge",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/badges/"
+        },
+        {
+          "name": "Chip",
+          "description": "Compact element for tags",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/chips/"
+        },
+        {
+          "name": "Data Iterator",
+          "description": "Display and manipulate data",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/data-iterators/"
+        },
+        {
+          "name": "Data Table",
+          "description": "Tabular data display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/data-tables/"
+        },
+        {
+          "name": "Icon",
+          "description": "Material Design icons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/icons/"
+        },
+        {
+          "name": "Table",
+          "description": "Simple table display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/tables/"
+        },
+        {
+          "name": "Timeline",
+          "description": "Vertical timeline display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/timelines/"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/tooltips/"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Alert message display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/alerts/"
+        },
+        {
+          "name": "Banner",
+          "description": "Prominent messaging banner",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/banners/"
+        },
+        {
+          "name": "Progress Circular",
+          "description": "Circular progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/progress-circular/"
+        },
+        {
+          "name": "Progress Linear",
+          "description": "Linear progress bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/progress-linear/"
+        },
+        {
+          "name": "Skeleton Loader",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/skeleton-loaders/"
+        },
+        {
+          "name": "Snackbar",
+          "description": "Brief notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/snackbars/"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "App Bar",
+          "description": "Application top bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/app-bars/"
+        },
+        {
+          "name": "Bottom Navigation",
+          "description": "Bottom navigation bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/bottom-navigation/"
+        },
+        {
+          "name": "Breadcrumbs",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/breadcrumbs/"
+        },
+        {
+          "name": "Footer",
+          "description": "Application footer",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/footers/"
+        },
+        {
+          "name": "Navigation Drawer",
+          "description": "Side navigation panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/navigation-drawers/"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/paginations/"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/tabs/"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Bottom Sheet",
+          "description": "Bottom modal sheet",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/bottom-sheets/"
+        },
+        {
+          "name": "Dialog",
+          "description": "Modal dialog window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/dialogs/"
+        },
+        {
+          "name": "Menu",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/menus/"
+        },
+        {
+          "name": "Overlay",
+          "description": "Full-screen overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/overlays/"
+        }
+      ]
+    },
+    {
+      "category": "Selection",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Interactive button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/buttons/"
+        },
+        {
+          "name": "Button Group",
+          "description": "Group related buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/button-groups/"
+        },
+        {
+          "name": "Chip Group",
+          "description": "Group of chips",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/chip-groups/"
+        },
+        {
+          "name": "Floating Action Button",
+          "description": "Floating action button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/floating-action-buttons/"
+        },
+        {
+          "name": "Item Group",
+          "description": "Selectable item group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/item-groups/"
+        },
+        {
+          "name": "Slide Group",
+          "description": "Horizontal sliding selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/slide-groups/"
+        }
+      ]
+    },
+    {
+      "category": "Pickers",
+      "items": [
+        {
+          "name": "Color Picker",
+          "description": "Color selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/color-pickers/"
+        },
+        {
+          "name": "Date Picker",
+          "description": "Date selection from calendar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/date-pickers/"
+        }
+      ]
+    },
+    {
+      "category": "Misc",
+      "items": [
+        {
+          "name": "Calendar",
+          "description": "Event calendar display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/calendars/"
+        },
+        {
+          "name": "Carousel",
+          "description": "Slideshow component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/carousels/"
+        },
+        {
+          "name": "Divider",
+          "description": "Content separator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/dividers/"
+        },
+        {
+          "name": "Hover",
+          "description": "Hover state wrapper",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/hover/"
+        },
+        {
+          "name": "Image",
+          "description": "Responsive image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/images/"
+        },
+        {
+          "name": "Infinite Scroll",
+          "description": "Infinite scrolling",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/infinite-scroller/"
+        },
+        {
+          "name": "Lazy",
+          "description": "Lazy loading wrapper",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/lazy/"
+        },
+        {
+          "name": "Parallax",
+          "description": "Parallax scroll effect",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/parallax/"
+        },
+        {
+          "name": "Sparkline",
+          "description": "Mini chart visualization",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/sparklines/"
+        },
+        {
+          "name": "Stepper",
+          "description": "Step-by-step navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/steppers/"
+        },
+        {
+          "name": "Virtual Scroller",
+          "description": "Virtualized scrolling",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://vuetifyjs.com/en/components/virtual-scrollers/"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 80,
+  "notes": "Vuetify is a complete Vue UI component framework built on Material Design principles. It provides a comprehensive set of components with extensive customization options, RTL support, and excellent internationalization capabilities."
+}

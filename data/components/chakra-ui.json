@@ -1,0 +1,429 @@
+{
+  "systemId": "chakra",
+  "systemName": "Chakra UI",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Box",
+          "description": "Fundamental layout building block",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Center",
+          "description": "Center content horizontally and vertically",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Container",
+          "description": "Constrain content to max-width",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Flex",
+          "description": "Flexbox layout container",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Grid",
+          "description": "CSS Grid layout container",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "SimpleGrid",
+          "description": "Responsive grid with equal columns",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Stack",
+          "description": "Stack elements with spacing",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Wrap",
+          "description": "Flex wrap container",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Forms",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Interactive button component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.chakra-ui.com/docs/components/button"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Multi-select checkbox input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.chakra-ui.com/docs/components/checkbox"
+        },
+        {
+          "name": "Editable",
+          "description": "Inline editable text",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Form Control",
+          "description": "Form field wrapper with label and helper",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Icon Button",
+          "description": "Button with only an icon",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Input",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.chakra-ui.com/docs/components/input"
+        },
+        {
+          "name": "Number Input",
+          "description": "Numeric input with steppers",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.chakra-ui.com/docs/components/number-input"
+        },
+        {
+          "name": "Pin Input",
+          "description": "OTP/PIN code input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Radio",
+          "description": "Single-select radio input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Range Slider",
+          "description": "Range selection slider",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Select",
+          "description": "Native select dropdown",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Slider",
+          "description": "Single value slider",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch control",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Data Display",
+      "items": [
+        {
+          "name": "Badge",
+          "description": "Status or count indicator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Card",
+          "description": "Content container with header and footer",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Code",
+          "description": "Inline or block code display",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Divider",
+          "description": "Visual content separator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Kbd",
+          "description": "Keyboard key display",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "List",
+          "description": "Ordered or unordered list",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Stat",
+          "description": "Display statistics with label and value",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Table",
+          "description": "Data table display",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tag",
+          "description": "Labeled tag or category",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Status message display",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Circular Progress",
+          "description": "Circular loading indicator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Progress",
+          "description": "Linear progress bar",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Content loading placeholder",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading spinner",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Typography",
+      "items": [
+        {
+          "name": "Heading",
+          "description": "Semantic heading component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Highlight",
+          "description": "Highlight text with background",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Text",
+          "description": "Paragraph text component",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Alert Dialog",
+          "description": "Confirmation dialog",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Drawer",
+          "description": "Side panel overlay",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Menu",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Modal",
+          "description": "Dialog modal window",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Popover",
+          "description": "Contextual content overlay",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information tooltip",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Disclosure",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible content sections",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tabbed content navigation",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Visually Hidden",
+          "description": "Hide content visually but keep for screen readers",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Breadcrumb",
+          "description": "Hierarchical navigation trail",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Link",
+          "description": "Navigation link component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Link Overlay",
+          "description": "Make entire container clickable",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Skip Nav",
+          "description": "Skip to main content link",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Stepper",
+          "description": "Multi-step process indicator",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Media & Icons",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image or initials",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Icon",
+          "description": "SVG icon wrapper",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Image",
+          "description": "Optimized image component",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Other",
+      "items": [
+        {
+          "name": "Close Button",
+          "description": "Standard close/dismiss button",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Portal",
+          "description": "Render component outside DOM hierarchy",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Show/Hide",
+          "description": "Conditional rendering utility",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Transitions",
+          "description": "Animation transition utilities",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 75,
+  "notes": "Chakra UI is built with accessibility in mind from the ground up. All components are WCAG compliant and follow WAI-ARIA best practices. The library emphasizes composability and is fully compatible with TypeScript."
+}

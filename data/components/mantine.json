@@ -1,0 +1,649 @@
+{
+  "systemId": "mantine",
+  "systemName": "Mantine",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Inputs",
+      "items": [
+        {
+          "name": "TextInput",
+          "description": "Single-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/text-input/"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/textarea/"
+        },
+        {
+          "name": "NumberInput",
+          "description": "Numeric input with controls",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/number-input/"
+        },
+        {
+          "name": "PasswordInput",
+          "description": "Password input with visibility toggle",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/password-input/"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/select/"
+        },
+        {
+          "name": "MultiSelect",
+          "description": "Multiple item selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/multi-select/"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/checkbox/"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/radio/"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/switch/"
+        },
+        {
+          "name": "Slider",
+          "description": "Range value selector",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/slider/"
+        },
+        {
+          "name": "RangeSlider",
+          "description": "Select value range",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/range-slider/"
+        },
+        {
+          "name": "ColorInput",
+          "description": "Color selection input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/color-input/"
+        },
+        {
+          "name": "ColorPicker",
+          "description": "Advanced color picker",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/color-picker/"
+        },
+        {
+          "name": "DatePicker",
+          "description": "Date selection from calendar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/dates/date-picker/"
+        },
+        {
+          "name": "DateTimePicker",
+          "description": "Date and time selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/dates/date-time-picker/"
+        },
+        {
+          "name": "FileInput",
+          "description": "File upload input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/file-input/"
+        },
+        {
+          "name": "JsonInput",
+          "description": "JSON editor with validation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/json-input/"
+        },
+        {
+          "name": "PinInput",
+          "description": "PIN/OTP code input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/pin-input/"
+        },
+        {
+          "name": "Rating",
+          "description": "Star rating input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/rating/"
+        },
+        {
+          "name": "SegmentedControl",
+          "description": "Segmented button group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/segmented-control/"
+        },
+        {
+          "name": "TagsInput",
+          "description": "Tag input with autocomplete",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/tags-input/"
+        },
+        {
+          "name": "Autocomplete",
+          "description": "Input with suggestions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/autocomplete/"
+        }
+      ]
+    },
+    {
+      "category": "Buttons",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Interactive button component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/button/"
+        },
+        {
+          "name": "ActionIcon",
+          "description": "Icon button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/action-icon/"
+        },
+        {
+          "name": "CopyButton",
+          "description": "Copy to clipboard button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/copy-button/"
+        },
+        {
+          "name": "FileButton",
+          "description": "File upload trigger",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/file-button/"
+        },
+        {
+          "name": "UnstyledButton",
+          "description": "Button without default styles",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/unstyled-button/"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Anchor",
+          "description": "Link component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/anchor/"
+        },
+        {
+          "name": "Breadcrumbs",
+          "description": "Navigation path display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/breadcrumbs/"
+        },
+        {
+          "name": "Burger",
+          "description": "Menu burger icon",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/burger/"
+        },
+        {
+          "name": "NavLink",
+          "description": "Navigation link with active state",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/nav-link/"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation controls",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/pagination/"
+        },
+        {
+          "name": "Stepper",
+          "description": "Step-by-step navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/stepper/"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tabbed navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/tabs/"
+        }
+      ]
+    },
+    {
+      "category": "Data Display",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/accordion/"
+        },
+        {
+          "name": "Avatar",
+          "description": "User avatar display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/avatar/"
+        },
+        {
+          "name": "BackgroundImage",
+          "description": "Background image container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/background-image/"
+        },
+        {
+          "name": "Badge",
+          "description": "Status indicator badge",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/badge/"
+        },
+        {
+          "name": "Card",
+          "description": "Content container card",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/card/"
+        },
+        {
+          "name": "Image",
+          "description": "Image component with loader",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/image/"
+        },
+        {
+          "name": "Indicator",
+          "description": "Position indicator over element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/indicator/"
+        },
+        {
+          "name": "Kbd",
+          "description": "Keyboard key display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/kbd/"
+        },
+        {
+          "name": "List",
+          "description": "Ordered and unordered lists",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/list/"
+        },
+        {
+          "name": "Table",
+          "description": "Data table display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/table/"
+        },
+        {
+          "name": "Timeline",
+          "description": "Vertical timeline",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/timeline/"
+        },
+        {
+          "name": "ThemeIcon",
+          "description": "Icon with theme background",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/theme-icon/"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Modal",
+          "description": "Dialog modal window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/modal/"
+        },
+        {
+          "name": "Drawer",
+          "description": "Side panel overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/drawer/"
+        },
+        {
+          "name": "Popover",
+          "description": "Contextual popover",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/popover/"
+        },
+        {
+          "name": "HoverCard",
+          "description": "Hover-triggered card",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/hover-card/"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information tooltip",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/tooltip/"
+        },
+        {
+          "name": "Menu",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/menu/"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Alert message display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/alert/"
+        },
+        {
+          "name": "Notification",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/notification/"
+        },
+        {
+          "name": "Loader",
+          "description": "Loading spinner",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/loader/"
+        },
+        {
+          "name": "Progress",
+          "description": "Progress bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/progress/"
+        },
+        {
+          "name": "RingProgress",
+          "description": "Circular progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/ring-progress/"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/skeleton/"
+        }
+      ]
+    },
+    {
+      "category": "Typography",
+      "items": [
+        {
+          "name": "Text",
+          "description": "Text component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/text/"
+        },
+        {
+          "name": "Title",
+          "description": "Heading component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/title/"
+        },
+        {
+          "name": "Highlight",
+          "description": "Highlighted text",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/highlight/"
+        },
+        {
+          "name": "Code",
+          "description": "Inline code display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/code/"
+        },
+        {
+          "name": "Mark",
+          "description": "Marked/highlighted text",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/mark/"
+        },
+        {
+          "name": "Blockquote",
+          "description": "Quote block",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/blockquote/"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "AppShell",
+          "description": "Application layout shell",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/app-shell/"
+        },
+        {
+          "name": "AspectRatio",
+          "description": "Maintain aspect ratio container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/aspect-ratio/"
+        },
+        {
+          "name": "Center",
+          "description": "Center content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/center/"
+        },
+        {
+          "name": "Container",
+          "description": "Responsive container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/container/"
+        },
+        {
+          "name": "Divider",
+          "description": "Content divider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/divider/"
+        },
+        {
+          "name": "Flex",
+          "description": "Flexbox container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/flex/"
+        },
+        {
+          "name": "Grid",
+          "description": "Grid layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/grid/"
+        },
+        {
+          "name": "Group",
+          "description": "Group elements horizontally",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/group/"
+        },
+        {
+          "name": "Paper",
+          "description": "Content surface",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/paper/"
+        },
+        {
+          "name": "SimpleGrid",
+          "description": "Simple responsive grid",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/simple-grid/"
+        },
+        {
+          "name": "Space",
+          "description": "Add spacing",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/space/"
+        },
+        {
+          "name": "Stack",
+          "description": "Vertical element stack",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/stack/"
+        }
+      ]
+    },
+    {
+      "category": "Misc",
+      "items": [
+        {
+          "name": "Affix",
+          "description": "Fixed positioned element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/affix/"
+        },
+        {
+          "name": "Chip",
+          "description": "Compact selection element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/chip/"
+        },
+        {
+          "name": "Dialog",
+          "description": "Fixed dialog notification",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/dialog/"
+        },
+        {
+          "name": "Fieldset",
+          "description": "Group form fields",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/fieldset/"
+        },
+        {
+          "name": "FloatingIndicator",
+          "description": "Animated floating indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/floating-indicator/"
+        },
+        {
+          "name": "Portal",
+          "description": "Render outside DOM hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/portal/"
+        },
+        {
+          "name": "ScrollArea",
+          "description": "Custom scrollable area",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/scroll-area/"
+        },
+        {
+          "name": "Spotlight",
+          "description": "Command palette search",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/x/spotlight/"
+        },
+        {
+          "name": "Transition",
+          "description": "Animation transitions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://mantine.dev/core/transition/"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 100,
+  "notes": "Mantine is a fully-featured React components library with 100+ customizable components and hooks. It includes a powerful theming system, excellent TypeScript support, and comprehensive accessibility features out of the box."
+}

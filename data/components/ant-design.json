@@ -1,0 +1,513 @@
+{
+  "systemId": "ant-design",
+  "systemName": "Ant Design",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Primary, default, dashed, text, and link buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/button"
+        },
+        {
+          "name": "Icon",
+          "description": "Semantic vector graphics icons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/icon"
+        },
+        {
+          "name": "Typography",
+          "description": "Text display and formatting",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/typography"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Grid",
+          "description": "24-column responsive grid system",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/grid"
+        },
+        {
+          "name": "Layout",
+          "description": "Page layout structure",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/layout"
+        },
+        {
+          "name": "Space",
+          "description": "Set spacing between components",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/space"
+        },
+        {
+          "name": "Divider",
+          "description": "Divide content sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/divider"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Affix",
+          "description": "Pin element to viewport",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/affix"
+        },
+        {
+          "name": "Breadcrumb",
+          "description": "Display page hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/breadcrumb"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Dropdown menu overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/dropdown"
+        },
+        {
+          "name": "Menu",
+          "description": "Navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/menu"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation controls",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/pagination"
+        },
+        {
+          "name": "Steps",
+          "description": "Multi-step process indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/steps"
+        }
+      ]
+    },
+    {
+      "category": "Data Entry",
+      "items": [
+        {
+          "name": "AutoComplete",
+          "description": "Input with autocomplete suggestions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/auto-complete"
+        },
+        {
+          "name": "Cascader",
+          "description": "Hierarchical selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/cascader"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Multiple selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/checkbox"
+        },
+        {
+          "name": "ColorPicker",
+          "description": "Color selection input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/color-picker"
+        },
+        {
+          "name": "DatePicker",
+          "description": "Date and time selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/date-picker"
+        },
+        {
+          "name": "Form",
+          "description": "Form field container and validation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/form"
+        },
+        {
+          "name": "Input",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/input"
+        },
+        {
+          "name": "InputNumber",
+          "description": "Numeric input with controls",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/input-number"
+        },
+        {
+          "name": "Mentions",
+          "description": "@mention input component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/mentions"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/radio"
+        },
+        {
+          "name": "Rate",
+          "description": "Star rating input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/rate"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/select"
+        },
+        {
+          "name": "Slider",
+          "description": "Range input slider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/slider"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/switch"
+        },
+        {
+          "name": "TimePicker",
+          "description": "Time selection input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/time-picker"
+        },
+        {
+          "name": "Transfer",
+          "description": "Move items between lists",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/transfer"
+        },
+        {
+          "name": "TreeSelect",
+          "description": "Tree structured selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/tree-select"
+        },
+        {
+          "name": "Upload",
+          "description": "File upload component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/upload"
+        }
+      ]
+    },
+    {
+      "category": "Data Display",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile representation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/avatar"
+        },
+        {
+          "name": "Badge",
+          "description": "Small status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/badge"
+        },
+        {
+          "name": "Calendar",
+          "description": "Calendar date display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/calendar"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/card"
+        },
+        {
+          "name": "Carousel",
+          "description": "Slideshow component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/carousel"
+        },
+        {
+          "name": "Collapse",
+          "description": "Collapsible content panels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/collapse"
+        },
+        {
+          "name": "Descriptions",
+          "description": "Display multiple fields in groups",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/descriptions"
+        },
+        {
+          "name": "Empty",
+          "description": "Empty state placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/empty"
+        },
+        {
+          "name": "Image",
+          "description": "Image display with preview",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/image"
+        },
+        {
+          "name": "List",
+          "description": "List of items",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/list"
+        },
+        {
+          "name": "Popover",
+          "description": "Contextual overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/popover"
+        },
+        {
+          "name": "QRCode",
+          "description": "Generate QR codes",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/qrcode"
+        },
+        {
+          "name": "Segmented",
+          "description": "Segmented controls",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/segmented"
+        },
+        {
+          "name": "Statistic",
+          "description": "Display statistics",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/statistic"
+        },
+        {
+          "name": "Table",
+          "description": "Data table with sorting and filtering",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/table"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/tabs"
+        },
+        {
+          "name": "Tag",
+          "description": "Categorization labels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/tag"
+        },
+        {
+          "name": "Timeline",
+          "description": "Vertical timeline display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/timeline"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/tooltip"
+        },
+        {
+          "name": "Tour",
+          "description": "Feature tour guide",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/tour"
+        },
+        {
+          "name": "Tree",
+          "description": "Hierarchical tree structure",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/tree"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Alert message display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/alert"
+        },
+        {
+          "name": "Drawer",
+          "description": "Side panel overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/drawer"
+        },
+        {
+          "name": "Message",
+          "description": "Global message notification",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/message"
+        },
+        {
+          "name": "Modal",
+          "description": "Dialog modal window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/modal"
+        },
+        {
+          "name": "Notification",
+          "description": "Notification message box",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/notification"
+        },
+        {
+          "name": "Popconfirm",
+          "description": "Confirmation popover",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/popconfirm"
+        },
+        {
+          "name": "Progress",
+          "description": "Progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/progress"
+        },
+        {
+          "name": "Result",
+          "description": "Result feedback display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/result"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/skeleton"
+        },
+        {
+          "name": "Spin",
+          "description": "Loading spinner",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/spin"
+        }
+      ]
+    },
+    {
+      "category": "Other",
+      "items": [
+        {
+          "name": "Anchor",
+          "description": "Navigation to page sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/anchor"
+        },
+        {
+          "name": "BackTop",
+          "description": "Scroll to top button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/back-top"
+        },
+        {
+          "name": "ConfigProvider",
+          "description": "Global configuration",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/config-provider"
+        },
+        {
+          "name": "FloatButton",
+          "description": "Floating action button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/float-button"
+        },
+        {
+          "name": "Watermark",
+          "description": "Add watermark to page",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://ant.design/components/watermark"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 70,
+  "notes": "Ant Design is a comprehensive enterprise-class UI design system created by Ant Group. It provides a rich set of high-quality React components with excellent internationalization support and is widely used in enterprise applications."
+}

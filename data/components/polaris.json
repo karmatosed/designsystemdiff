@@ -1,0 +1,348 @@
+{
+  "systemId": "polaris",
+  "systemName": "Polaris",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Actions",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Trigger actions and events",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/actions/button"
+        },
+        {
+          "name": "Button Group",
+          "description": "Group related buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/actions/button-group"
+        },
+        {
+          "name": "Link",
+          "description": "Navigation to other pages",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/actions/link"
+        }
+      ]
+    },
+    {
+      "category": "Forms",
+      "items": [
+        {
+          "name": "Autocomplete",
+          "description": "Input with suggestions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/autocomplete"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Multiple selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/checkbox"
+        },
+        {
+          "name": "Choice List",
+          "description": "List of selectable choices",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/choice-list"
+        },
+        {
+          "name": "Color Picker",
+          "description": "Select colors",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/color-picker"
+        },
+        {
+          "name": "Date Picker",
+          "description": "Select dates from calendar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/date-picker"
+        },
+        {
+          "name": "Filters",
+          "description": "Filter and sort data",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/filters"
+        },
+        {
+          "name": "Form",
+          "description": "Form container with validation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/form"
+        },
+        {
+          "name": "Radio Button",
+          "description": "Single selection from set",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/radio-button"
+        },
+        {
+          "name": "Range Slider",
+          "description": "Select range of values",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/range-slider"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/select"
+        },
+        {
+          "name": "Tag",
+          "description": "Removable labels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/tag"
+        },
+        {
+          "name": "Text Field",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/selection-and-input/text-field"
+        }
+      ]
+    },
+    {
+      "category": "Structure",
+      "items": [
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/layout-and-structure/card"
+        },
+        {
+          "name": "Divider",
+          "description": "Visual separator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/layout-and-structure/divider"
+        },
+        {
+          "name": "Layout",
+          "description": "Page layout structure",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/layout-and-structure/layout"
+        },
+        {
+          "name": "Page",
+          "description": "Page container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/layout-and-structure/page"
+        }
+      ]
+    },
+    {
+      "category": "Lists",
+      "items": [
+        {
+          "name": "Data Table",
+          "description": "Tabular data display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/lists/data-table"
+        },
+        {
+          "name": "List",
+          "description": "Vertical list of items",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/lists/list"
+        },
+        {
+          "name": "Resource List",
+          "description": "List with bulk actions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/lists/resource-list"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Banner",
+          "description": "Contextual messaging",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/feedback-indicators/banner"
+        },
+        {
+          "name": "Progress Bar",
+          "description": "Progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/feedback-indicators/progress-bar"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/feedback-indicators/skeleton"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/feedback-indicators/spinner"
+        },
+        {
+          "name": "Toast",
+          "description": "Brief notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/feedback-indicators/toast"
+        }
+      ]
+    },
+    {
+      "category": "Overlays",
+      "items": [
+        {
+          "name": "Modal",
+          "description": "Dialog overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/overlays/modal"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/overlays/popover"
+        },
+        {
+          "name": "Sheet",
+          "description": "Side panel overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/overlays/sheet"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/overlays/tooltip"
+        }
+      ]
+    },
+    {
+      "category": "Images & Icons",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/images-and-icons/avatar"
+        },
+        {
+          "name": "Icon",
+          "description": "SVG icon display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/images-and-icons/icon"
+        },
+        {
+          "name": "Thumbnail",
+          "description": "Small preview image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/images-and-icons/thumbnail"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Navigation",
+          "description": "App navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/navigation/navigation"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/navigation/pagination"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/navigation/tabs"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Badge",
+          "description": "Status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/badge"
+        },
+        {
+          "name": "Call out Card",
+          "description": "Promotional message card",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/callout-card"
+        },
+        {
+          "name": "Empty State",
+          "description": "No content placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/empty-state"
+        },
+        {
+          "name": "Exception List",
+          "description": "List of exceptions",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/exception-list"
+        },
+        {
+          "name": "Keyboard Shortcuts",
+          "description": "Keyboard shortcut hints",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://polaris.shopify.com/components/keyboard-shortcuts"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 45,
+  "notes": "Polaris is Shopify's design system for building admin interfaces and merchant experiences. It provides React components specifically designed for e-commerce and admin applications with extensive accessibility features and commerce-specific patterns."
+}

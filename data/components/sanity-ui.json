@@ -1,0 +1,229 @@
+{
+  "systemId": "sanity-ui",
+  "systemName": "Sanity UI",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Primitives",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/avatar"
+        },
+        {
+          "name": "Badge",
+          "description": "Status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/badge"
+        },
+        {
+          "name": "Box",
+          "description": "Flexible container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/box"
+        },
+        {
+          "name": "Button",
+          "description": "Interactive button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/button"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/card"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/checkbox"
+        },
+        {
+          "name": "Code",
+          "description": "Code display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/code"
+        },
+        {
+          "name": "Container",
+          "description": "Responsive container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/container"
+        },
+        {
+          "name": "Flex",
+          "description": "Flexbox layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/flex"
+        },
+        {
+          "name": "Grid",
+          "description": "Grid layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/grid"
+        },
+        {
+          "name": "Heading",
+          "description": "Semantic heading",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/heading"
+        },
+        {
+          "name": "Inline",
+          "description": "Inline layout",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/inline"
+        },
+        {
+          "name": "Kbd",
+          "description": "Keyboard key display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/kbd"
+        },
+        {
+          "name": "Label",
+          "description": "Form label",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/label"
+        },
+        {
+          "name": "Menu",
+          "description": "Dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/menu"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/radio"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/select"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/spinner"
+        },
+        {
+          "name": "Stack",
+          "description": "Vertical or horizontal stack",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/stack"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/switch"
+        },
+        {
+          "name": "Tab",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/tab"
+        },
+        {
+          "name": "Text",
+          "description": "Text component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/text"
+        },
+        {
+          "name": "Text Area",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/text-area"
+        },
+        {
+          "name": "Text Input",
+          "description": "Single-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/text-input"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/primitive/tooltip"
+        }
+      ]
+    },
+    {
+      "category": "Composed",
+      "items": [
+        {
+          "name": "Autocomplete",
+          "description": "Input with autocomplete",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/composed/autocomplete"
+        },
+        {
+          "name": "Dialog",
+          "description": "Modal dialog",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/composed/dialog"
+        },
+        {
+          "name": "Menu Button",
+          "description": "Button with menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/composed/menu-button"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating content panel",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/composed/popover"
+        },
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://www.sanity.io/ui/docs/composed/toast"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 30,
+  "notes": "Sanity UI is the component library for Sanity Studio. Built with React and styled-components, it provides a minimalist, highly themeable set of components designed specifically for content management interfaces with excellent dark mode support."
+}

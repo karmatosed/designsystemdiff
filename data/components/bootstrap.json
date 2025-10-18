@@ -1,0 +1,259 @@
+{
+  "systemId": "bootstrap",
+  "systemName": "Bootstrap",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Alerts",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Contextual feedback messages",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/alerts/"
+        }
+      ]
+    },
+    {
+      "category": "Buttons",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Custom button styles with multiple variants",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/buttons/"
+        },
+        {
+          "name": "Button Group",
+          "description": "Group buttons together on a single line",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/button-group/"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Navbar",
+          "description": "Responsive navigation header",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/navbar/"
+        },
+        {
+          "name": "Breadcrumb",
+          "description": "Navigation hierarchy indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/breadcrumb/"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation links",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/pagination/"
+        },
+        {
+          "name": "Nav & Tabs",
+          "description": "Navigation styles and tabbed interfaces",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/navs-tabs/"
+        }
+      ]
+    },
+    {
+      "category": "Forms",
+      "items": [
+        {
+          "name": "Form Control",
+          "description": "Text inputs and selects",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/forms/form-control/"
+        },
+        {
+          "name": "Select",
+          "description": "Custom select styles",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/forms/select/"
+        },
+        {
+          "name": "Checkbox & Radio",
+          "description": "Custom checkbox and radio styles",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/forms/checks-radios/"
+        },
+        {
+          "name": "Range",
+          "description": "Custom range input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/forms/range/"
+        },
+        {
+          "name": "Input Group",
+          "description": "Extend form controls with text or buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/forms/input-group/"
+        },
+        {
+          "name": "Floating Labels",
+          "description": "Floating form labels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/forms/floating-labels/"
+        }
+      ]
+    },
+    {
+      "category": "Content",
+      "items": [
+        {
+          "name": "Card",
+          "description": "Flexible content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/card/"
+        },
+        {
+          "name": "Accordion",
+          "description": "Vertically collapsing content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/accordion/"
+        },
+        {
+          "name": "List Group",
+          "description": "Flexible list component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/list-group/"
+        },
+        {
+          "name": "Carousel",
+          "description": "Slideshow component for cycling through content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/carousel/"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Modal",
+          "description": "Dialog window overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/modal/"
+        },
+        {
+          "name": "Offcanvas",
+          "description": "Hidden sidebar for navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/offcanvas/"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Toggleable contextual overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/dropdowns/"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Contextual text popup",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/tooltips/"
+        },
+        {
+          "name": "Popover",
+          "description": "Contextual content overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/popovers/"
+        },
+        {
+          "name": "Toast",
+          "description": "Push notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/toasts/"
+        }
+      ]
+    },
+    {
+      "category": "Indicators",
+      "items": [
+        {
+          "name": "Badge",
+          "description": "Small count and labeling component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/badge/"
+        },
+        {
+          "name": "Progress",
+          "description": "Progress bar component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/progress/"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading spinner indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/spinners/"
+        },
+        {
+          "name": "Placeholder",
+          "description": "Loading placeholder component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/placeholders/"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Close Button",
+          "description": "Generic close button",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/close-button/"
+        },
+        {
+          "name": "Collapse",
+          "description": "Toggle visibility of content",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/collapse/"
+        },
+        {
+          "name": "Scrollspy",
+          "description": "Automatically update nav based on scroll",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://getbootstrap.com/docs/5.3/components/scrollspy/"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 40,
+  "notes": "Bootstrap is the most popular CSS framework for building responsive, mobile-first sites. Components are built with HTML, CSS, and JavaScript with comprehensive documentation and broad browser support."
+}

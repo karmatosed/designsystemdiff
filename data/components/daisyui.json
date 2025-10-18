@@ -1,0 +1,396 @@
+{
+  "systemId": "daisyui",
+  "systemName": "DaisyUI",
+  "lastUpdated": "2025-01-15",
+  "components": [
+    {
+      "category": "Actions",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Clickable button in various styles",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/button/"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Toggleable dropdown menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/dropdown/"
+        },
+        {
+          "name": "Modal",
+          "description": "Dialog modal window",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/modal/"
+        },
+        {
+          "name": "Swap",
+          "description": "Toggle between two states with animation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/swap/"
+        },
+        {
+          "name": "Theme Controller",
+          "description": "Switch between themes",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/theme-controller/"
+        }
+      ]
+    },
+    {
+      "category": "Data Display",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Collapsible content sections",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/accordion/"
+        },
+        {
+          "name": "Avatar",
+          "description": "Profile picture or placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/avatar/"
+        },
+        {
+          "name": "Badge",
+          "description": "Small status indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/badge/"
+        },
+        {
+          "name": "Card",
+          "description": "Content container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/card/"
+        },
+        {
+          "name": "Carousel",
+          "description": "Slideshow component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/carousel/"
+        },
+        {
+          "name": "Chat Bubble",
+          "description": "Chat message display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/chat/"
+        },
+        {
+          "name": "Collapse",
+          "description": "Toggle content visibility",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/collapse/"
+        },
+        {
+          "name": "Countdown",
+          "description": "Countdown timer display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/countdown/"
+        },
+        {
+          "name": "Diff",
+          "description": "Side-by-side comparison",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/diff/"
+        },
+        {
+          "name": "Kbd",
+          "description": "Keyboard key display",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/kbd/"
+        },
+        {
+          "name": "Stat",
+          "description": "Display statistics",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/stat/"
+        },
+        {
+          "name": "Table",
+          "description": "Data table",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/table/"
+        },
+        {
+          "name": "Timeline",
+          "description": "Vertical timeline",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/timeline/"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Breadcrumbs",
+          "description": "Navigation hierarchy",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/breadcrumbs/"
+        },
+        {
+          "name": "Bottom Navigation",
+          "description": "Mobile bottom nav bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/bottom-navigation/"
+        },
+        {
+          "name": "Link",
+          "description": "Styled hyperlink",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/link/"
+        },
+        {
+          "name": "Menu",
+          "description": "Navigation menu",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/menu/"
+        },
+        {
+          "name": "Navbar",
+          "description": "Navigation bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/navbar/"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/pagination/"
+        },
+        {
+          "name": "Steps",
+          "description": "Multi-step indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/steps/"
+        },
+        {
+          "name": "Tab",
+          "description": "Tab navigation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/tab/"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Alert",
+          "description": "Alert message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/alert/"
+        },
+        {
+          "name": "Loading",
+          "description": "Loading spinner",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/loading/"
+        },
+        {
+          "name": "Progress",
+          "description": "Progress bar",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/progress/"
+        },
+        {
+          "name": "Radial Progress",
+          "description": "Circular progress indicator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/radial-progress/"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/skeleton/"
+        },
+        {
+          "name": "Toast",
+          "description": "Notification message",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/toast/"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Hover information",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/tooltip/"
+        }
+      ]
+    },
+    {
+      "category": "Data Input",
+      "items": [
+        {
+          "name": "Checkbox",
+          "description": "Binary selection control",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/checkbox/"
+        },
+        {
+          "name": "File Input",
+          "description": "File upload input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/file-input/"
+        },
+        {
+          "name": "Radio",
+          "description": "Single selection from group",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/radio/"
+        },
+        {
+          "name": "Range",
+          "description": "Range slider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/range/"
+        },
+        {
+          "name": "Rating",
+          "description": "Star rating input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/rating/"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown selection",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/select/"
+        },
+        {
+          "name": "Text Input",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/input/"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/textarea/"
+        },
+        {
+          "name": "Toggle",
+          "description": "Toggle switch",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/toggle/"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Artboard",
+          "description": "Device mockup container",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/artboard/"
+        },
+        {
+          "name": "Divider",
+          "description": "Content separator",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/divider/"
+        },
+        {
+          "name": "Drawer",
+          "description": "Side panel overlay",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/drawer/"
+        },
+        {
+          "name": "Footer",
+          "description": "Page footer",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/footer/"
+        },
+        {
+          "name": "Hero",
+          "description": "Hero section",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/hero/"
+        },
+        {
+          "name": "Indicator",
+          "description": "Position indicator over element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/indicator/"
+        },
+        {
+          "name": "Join",
+          "description": "Join elements together",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/join/"
+        },
+        {
+          "name": "Mask",
+          "description": "Image masking shapes",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/mask/"
+        },
+        {
+          "name": "Stack",
+          "description": "Stack elements",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://daisyui.com/components/stack/"
+        }
+      ]
+    }
+  ],
+  "totalComponents": 50,
+  "notes": "DaisyUI is the most popular component library for Tailwind CSS. It adds semantic class names to Tailwind with extensive theming capabilities, allowing you to build complete interfaces quickly while maintaining the flexibility of utility-first CSS."
+}
