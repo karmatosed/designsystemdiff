@@ -303,7 +303,6 @@ class DesignSystemComparison {
         const totalCount = this.systems.length;
         const filteredCount = this.filteredSystems.length;
         const resultCount = document.getElementById('resultCount');
-        const totalComponentsEl = document.getElementById('totalComponents');
 
         // Only show count when filtering is active
         if (filteredCount < totalCount) {
@@ -311,10 +310,6 @@ class DesignSystemComparison {
         } else {
             resultCount.textContent = '';
         }
-
-        // Calculate total components across filtered systems
-        const totalComponents = this.filteredSystems.reduce((sum, system) => sum + system.componentCount, 0);
-        totalComponentsEl.textContent = `Total: ${totalComponents}+ components`;
 
         // Update active filters display
         this.updateActiveFilters();
