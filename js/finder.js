@@ -3,14 +3,16 @@
 class DesignSystemFinder {
     constructor() {
         this.systems = [];
+        this.componentData = {};
         this.answers = {
             framework: null,
             typescript: null,
             experience: null,
-            priorities: []
+            priorities: [],
+            components: []
         };
         this.currentStep = 1;
-        this.totalSteps = 4;
+        this.totalSteps = 5;
         this.init();
     }
 
@@ -72,9 +74,31 @@ class DesignSystemFinder {
                     }
                 }
 
-                // Enable/disable find button
-                const findBtn = document.getElementById('findSystemsBtn');
-                findBtn.disabled = this.answers.priorities.length === 0;
+                // Enable/disable next button
+                const nextBtn = document.getElementById('nextStep4Btn');
+                nextBtn.disabled = this.answers.priorities.length === 0;
+            });
+        });
+
+        // Step 4: Next button
+        document.getElementById('nextStep4Btn').addEventListener('click', () => {
+            this.nextStep();
+        });
+
+        // Step 5: Component selection (multi-select, optional)
+        document.querySelectorAll('#step5 .option-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const value = btn.dataset.value;
+
+                if (btn.classList.contains('selected')) {
+                    // Deselect
+                    btn.classList.remove('selected');
+                    this.answers.components = this.answers.components.filter(c => c !== value);
+                } else {
+                    // Select (no limit)
+                    btn.classList.add('selected');
+                    this.answers.components.push(value);
+                }
             });
         });
 
@@ -134,7 +158,12 @@ class DesignSystemFinder {
         progressBar.setAttribute('aria-valuenow', progress);
     }
 
-    showResults() {
+    async showResults() {
+        // Load component data if components were selected
+        if (this.answers.components.length > 0) {
+            await this.loadComponentData();
+        }
+
         // Calculate scores for all systems
         const scoredSystems = this.systems.map(system => ({
             ...system,
@@ -152,9 +181,47 @@ class DesignSystemFinder {
         this.renderResults(topMatches);
 
         // Show results step
-        this.currentStep = 5;
+        this.currentStep = 6;
         this.updateSteps();
         this.updateProgress();
+    }
+
+    async loadComponentData() {
+        // Load component data for systems that have it
+        const systemsToLoad = this.systems.filter(s => s.id);
+
+        for (const system of systemsToLoad) {
+            try {
+                const response = await fetch(`data/components/${system.id}.json`);
+                if (response.ok) {
+                    this.componentData[system.id] = await response.json();
+                }
+            } catch (error) {
+                // Component data not available for this system
+            }
+        }
+    }
+
+    hasComponent(system, componentName) {
+        if (!this.componentData[system.id]) {
+            return false;
+        }
+
+        const data = this.componentData[system.id];
+        const normalizedSearch = componentName.toLowerCase();
+
+        // Search through all categories
+        for (const category of data.components) {
+            for (const component of category.items) {
+                const normalizedComponentName = component.name.toLowerCase();
+                if (normalizedComponentName.includes(normalizedSearch) ||
+                    normalizedSearch.includes(normalizedComponentName)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 
     calculateScore(system) {
@@ -233,6 +300,22 @@ class DesignSystemFinder {
             }
         });
 
+        // Component matching (5 points per matched component)
+        if (this.answers.components.length > 0) {
+            let matchedComponents = 0;
+            this.answers.components.forEach(componentName => {
+                if (this.hasComponent(system, componentName)) {
+                    matchedComponents++;
+                    score += 5;
+                }
+            });
+
+            // Bonus if all requested components are available
+            if (matchedComponents === this.answers.components.length && matchedComponents > 0) {
+                score += 10;
+            }
+        }
+
         return score;
     }
 
@@ -285,7 +368,20 @@ class DesignSystemFinder {
         if (system.figmaUrl) reasons.push('Figma components available');
         if (system.storybookUrl) reasons.push('Storybook documentation');
 
-        return reasons.slice(0, 5); // Limit to top 5 reasons
+        // Add component matches
+        if (this.answers.components.length > 0) {
+            const matchedComponents = this.answers.components.filter(c =>
+                this.hasComponent(system, c)
+            );
+
+            if (matchedComponents.length === this.answers.components.length) {
+                reasons.push(`Has all ${matchedComponents.length} requested components`);
+            } else if (matchedComponents.length > 0) {
+                reasons.push(`Has ${matchedComponents.length} of ${this.answers.components.length} requested components`);
+            }
+        }
+
+        return reasons.slice(0, 6); // Limit to top 6 reasons
     }
 
     formatStars(stars) {
@@ -361,7 +457,8 @@ class DesignSystemFinder {
             framework: null,
             typescript: null,
             experience: null,
-            priorities: []
+            priorities: [],
+            components: []
         };
         this.currentStep = 1;
 

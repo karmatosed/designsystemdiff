@@ -123,11 +123,31 @@
                         <span>Good with LLMs</span>
                     </button>
                 </div>
-                <button class="next-btn" id="findSystemsBtn" disabled>Find My System</button>
+                <button class="next-btn" id="nextStep4Btn" disabled>Next</button>
+            </div>
+
+            <div class="wizard-step" id="step5" data-step="5">
+                <h2 class="wizard-heading">Need specific components?</h2>
+                <p class="wizard-description">Select any components you specifically need (optional)</p>
+                <div class="option-grid" style="grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
+                    <button class="option-btn multi-select" data-value="Button">Button</button>
+                    <button class="option-btn multi-select" data-value="Modal">Modal</button>
+                    <button class="option-btn multi-select" data-value="Dropdown">Dropdown</button>
+                    <button class="option-btn multi-select" data-value="Table">Table</button>
+                    <button class="option-btn multi-select" data-value="Form">Form</button>
+                    <button class="option-btn multi-select" data-value="Card">Card</button>
+                    <button class="option-btn multi-select" data-value="Tabs">Tabs</button>
+                    <button class="option-btn multi-select" data-value="Tooltip">Tooltip</button>
+                    <button class="option-btn multi-select" data-value="Date Picker">Date Picker</button>
+                    <button class="option-btn multi-select" data-value="Navigation">Navigation</button>
+                    <button class="option-btn multi-select" data-value="Accordion">Accordion</button>
+                    <button class="option-btn multi-select" data-value="Carousel">Carousel</button>
+                </div>
+                <button class="next-btn" id="findSystemsBtn">Find My System</button>
             </div>
 
             <!-- Results -->
-            <div class="wizard-step" id="results" data-step="5">
+            <div class="wizard-step" id="results" data-step="6">
                 <h2 class="wizard-heading">Your Top Matches</h2>
                 <div id="resultsContainer"></div>
                 <div class="results-actions">

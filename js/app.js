@@ -303,6 +303,7 @@ class DesignSystemComparison {
         const totalCount = this.systems.length;
         const filteredCount = this.filteredSystems.length;
         const resultCount = document.getElementById('resultCount');
+        const totalComponentsEl = document.getElementById('totalComponents');
 
         // Only show count when filtering is active
         if (filteredCount < totalCount) {
@@ -310,6 +311,10 @@ class DesignSystemComparison {
         } else {
             resultCount.textContent = '';
         }
+
+        // Calculate total components across filtered systems
+        const totalComponents = this.filteredSystems.reduce((sum, system) => sum + system.componentCount, 0);
+        totalComponentsEl.textContent = `Total: ${totalComponents}+ components`;
 
         // Update active filters display
         this.updateActiveFilters();
@@ -518,21 +523,50 @@ class DesignSystemComparison {
         }
     }
 
-    showDiff() {
+    async showDiff() {
         if (this.selectedSystems.size !== 2) return;
 
         const selectedIds = Array.from(this.selectedSystems);
         const system1 = this.systems.find(s => s.id === selectedIds[0]);
         const system2 = this.systems.find(s => s.id === selectedIds[1]);
 
+        // Load component data for both systems
+        const [componentData1, componentData2] = await Promise.all([
+            this.loadComponentData(system1.id),
+            this.loadComponentData(system2.id)
+        ]);
+
         const diffContent = document.getElementById('diffContent');
-        diffContent.innerHTML = this.generateDiff(system1, system2);
+        diffContent.innerHTML = this.generateDiff(system1, system2, componentData1, componentData2);
+
+        // Add event listener for component comparison toggle
+        const toggleBtn = document.getElementById('toggleComponentComparison');
+        if (toggleBtn) {
+            toggleBtn.addEventListener('click', () => {
+                const comparisonSection = document.getElementById('componentComparisonSection');
+                const isHidden = comparisonSection.style.display === 'none';
+                comparisonSection.style.display = isHidden ? 'block' : 'none';
+                toggleBtn.textContent = isHidden ? '▼ Hide Component Comparison' : '▶ Show Component Comparison';
+            });
+        }
 
         document.getElementById('diffView').style.display = 'block';
         document.getElementById('diffView').scrollIntoView({ behavior: 'smooth' });
     }
 
-    generateDiff(system1, system2) {
+    async loadComponentData(systemId) {
+        try {
+            const response = await fetch(`data/components/${systemId}.json`);
+            if (response.ok) {
+                return await response.json();
+            }
+        } catch (error) {
+            // Component data not available
+        }
+        return null;
+    }
+
+    generateDiff(system1, system2, componentData1, componentData2) {
         // Create table structure
         const table = document.createElement('table');
         table.className = 'diff-table';
@@ -703,10 +737,146 @@ class DesignSystemComparison {
 
         table.appendChild(tbody);
 
-        // Create a container div and return its innerHTML
+        // Create a container div
         const container = document.createElement('div');
         container.appendChild(table);
+
+        // Add component comparison section if data is available
+        if (componentData1 || componentData2) {
+            const comparisonToggle = document.createElement('button');
+            comparisonToggle.id = 'toggleComponentComparison';
+            comparisonToggle.className = 'secondary-btn';
+            comparisonToggle.textContent = '▶ Show Component Comparison';
+            comparisonToggle.style.marginTop = 'var(--spacing-lg)';
+            comparisonToggle.style.width = '100%';
+            container.appendChild(comparisonToggle);
+
+            const comparisonSection = document.createElement('div');
+            comparisonSection.id = 'componentComparisonSection';
+            comparisonSection.style.display = 'none';
+            comparisonSection.style.marginTop = 'var(--spacing-lg)';
+
+            const comparisonHTML = this.generateComponentComparison(system1, system2, componentData1, componentData2);
+            comparisonSection.innerHTML = comparisonHTML;
+
+            container.appendChild(comparisonSection);
+        }
+
         return container.innerHTML;
+    }
+
+    generateComponentComparison(system1, system2, componentData1, componentData2) {
+        if (!componentData1 && !componentData2) {
+            return '<p style="color: var(--color-text-secondary); text-align: center; padding: var(--spacing-lg);">Component data not available for these systems.</p>';
+        }
+
+        // Collect all unique component names
+        const allComponents = new Set();
+
+        if (componentData1) {
+            componentData1.components.forEach(category => {
+                category.items.forEach(component => {
+                    allComponents.add(component.name);
+                });
+            });
+        }
+
+        if (componentData2) {
+            componentData2.components.forEach(category => {
+                category.items.forEach(component => {
+                    allComponents.add(component.name);
+                });
+            });
+        }
+
+        // Helper to find component in system data
+        const findComponent = (data, name) => {
+            if (!data) return null;
+
+            for (const category of data.components) {
+                const component = category.items.find(c => c.name === name);
+                if (component) {
+                    return { ...component, category: category.category };
+                }
+            }
+            return null;
+        };
+
+        // Build comparison table
+        let html = '<h3 style="margin-bottom: var(--spacing-md); font-size: 1.25rem;">Component Availability</h3>';
+        html += '<div class="component-table-container">';
+        html += '<table class="component-table">';
+        html += '<thead><tr>';
+        html += '<th>Component</th>';
+        html += `<th>${system1.name}</th>`;
+        html += `<th>${system2.name}</th>`;
+        html += '</tr></thead>';
+        html += '<tbody>';
+
+        const sortedComponents = Array.from(allComponents).sort();
+
+        sortedComponents.forEach(componentName => {
+            const comp1 = findComponent(componentData1, componentName);
+            const comp2 = findComponent(componentData2, componentName);
+
+            html += '<tr>';
+            html += `<td><strong>${componentName}</strong></td>`;
+
+            // System 1
+            html += '<td>';
+            if (comp1) {
+                html += `<span style="color: var(--color-primary);">✓</span> ${comp1.category}`;
+                if (comp1.storybookUrl || comp1.docsUrl) {
+                    const url = comp1.storybookUrl || comp1.docsUrl;
+                    const linkText = comp1.storybookUrl ? 'Storybook' : 'Docs';
+                    html += ` <a href="${url}" class="link-btn" target="_blank" rel="noopener">${linkText}</a>`;
+                }
+            } else {
+                html += '<span style="color: var(--color-text-secondary);">—</span>';
+            }
+            html += '</td>';
+
+            // System 2
+            html += '<td>';
+            if (comp2) {
+                html += `<span style="color: var(--color-primary);">✓</span> ${comp2.category}`;
+                if (comp2.storybookUrl || comp2.docsUrl) {
+                    const url = comp2.storybookUrl || comp2.docsUrl;
+                    const linkText = comp2.storybookUrl ? 'Storybook' : 'Docs';
+                    html += ` <a href="${url}" class="link-btn" target="_blank" rel="noopener">${linkText}</a>`;
+                }
+            } else {
+                html += '<span style="color: var(--color-text-secondary);">—</span>';
+            }
+            html += '</td>';
+
+            html += '</tr>';
+        });
+
+        html += '</tbody></table></div>';
+
+        // Add summary
+        const system1Count = componentData1 ? componentData1.totalComponents : 0;
+        const system2Count = componentData2 ? componentData2.totalComponents : 0;
+
+        html += '<div style="margin-top: var(--spacing-md); padding: var(--spacing-md); background: var(--color-surface); border: 1px solid var(--color-border);">';
+        html += `<p style="color: var(--color-text-secondary); margin-bottom: var(--spacing-xs);"><strong>Total Components:</strong> ${system1.name}: ${system1Count}+ | ${system2.name}: ${system2Count}+</p>`;
+
+        // Calculate overlap
+        if (componentData1 && componentData2) {
+            let overlap = 0;
+            sortedComponents.forEach(name => {
+                if (findComponent(componentData1, name) && findComponent(componentData2, name)) {
+                    overlap++;
+                }
+            });
+            const overlapPercent = Math.round((overlap / sortedComponents.length) * 100);
+            html += `<p style="color: var(--color-text-secondary);"><strong>Component Overlap:</strong> ${overlap} of ${sortedComponents.length} common components (${overlapPercent}%)</p>`;
+        }
+
+        html += '</div>';
+
+        return html;
     }
 }
 
