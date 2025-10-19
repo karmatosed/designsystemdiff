@@ -81,59 +81,165 @@ class DesignSystemComparison {
 
         noResults.style.display = 'none';
 
+        const fragment = document.createDocumentFragment();
+
         this.filteredSystems.forEach(system => {
             const row = document.createElement('tr');
-            const aiQuality = system.aiCodeGen?.supported
-                ? `<span class="ai-quality ai-quality-${system.aiCodeGen.quality}" title="${system.aiCodeGen.notes}">${system.aiCodeGen.quality}</span>`
-                : '—';
-
-            const aiTick = system.aiCodeGen?.supported ? '✓' : '';
-            const tsTick = system.typescript ? '✓' : '';
-
             const isChecked = this.selectedSystems.has(system.id);
             const licenseSlug = this.getLicenseSlug(system.license);
 
-            row.innerHTML = `
-                <td><input type="checkbox" class="system-checkbox" data-system-id="${system.id}" ${isChecked ? 'checked' : ''} aria-label="Select ${system.name} for comparison"></td>
-                <td class="system-name"><a href="system.html?id=${system.id}" class="system-link">${system.name}</a></td>
-                <td>${system.maintainer}</td>
-                <td><a href="licenses.html#${licenseSlug}" class="license-link">${system.license}</a></td>
-                <td>
-                    <div class="frameworks">
-                        ${system.frameworks.map(fw => `<span class="framework-tag">${fw}</span>`).join('')}
-                    </div>
-                </td>
-                <td>${system.componentCount}+</td>
-                <td>${this.formatStars(system.githubStars)}</td>
-                <td>${system.accessibility}</td>
-                <td>${system.theming}</td>
-                <td style="text-align: center;">${tsTick}</td>
-                <td style="text-align: center;">${aiTick}</td>
-                <td>${aiQuality}</td>
-                <td>
-                    <div class="links">
-                        ${system.figmaUrl ? `<a href="${system.figmaUrl}" class="link-btn" target="_blank" rel="noopener">Figma</a>` : ''}
-                        ${system.penpotUrl ? `<a href="${system.penpotUrl}" class="link-btn" target="_blank" rel="noopener">Penpot</a>` : ''}
-                        ${system.storybookUrl ? `<a href="${system.storybookUrl}" class="link-btn" target="_blank" rel="noopener">Storybook</a>` : ''}
-                        ${!system.figmaUrl && !system.penpotUrl && !system.storybookUrl ? '—' : ''}
-                    </div>
-                </td>
-                <td>
-                    <div class="links">
-                        <a href="${system.docsUrl}" class="link-btn" target="_blank" rel="noopener">Docs</a>
-                        <a href="${system.githubUrl}" class="link-btn" target="_blank" rel="noopener">GitHub</a>
-                    </div>
-                </td>
-            `;
-            tbody.appendChild(row);
-        });
-
-        // Attach checkbox listeners
-        document.querySelectorAll('.system-checkbox').forEach(checkbox => {
+            // Checkbox cell
+            const checkboxCell = row.insertCell();
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.className = 'system-checkbox';
+            checkbox.dataset.systemId = system.id;
+            checkbox.checked = isChecked;
+            checkbox.setAttribute('aria-label', `Select ${system.name} for comparison`);
             checkbox.addEventListener('change', (e) => {
                 this.handleCheckboxChange(e.target);
             });
+            checkboxCell.appendChild(checkbox);
+
+            // System name cell
+            const nameCell = row.insertCell();
+            nameCell.className = 'system-name';
+            const nameLink = document.createElement('a');
+            nameLink.href = `system.html?id=${system.id}`;
+            nameLink.className = 'system-link';
+            nameLink.textContent = system.name;
+            nameCell.appendChild(nameLink);
+
+            // Maintainer cell
+            const maintainerCell = row.insertCell();
+            maintainerCell.textContent = system.maintainer;
+
+            // License cell
+            const licenseCell = row.insertCell();
+            const licenseLink = document.createElement('a');
+            licenseLink.href = `licenses.html#${licenseSlug}`;
+            licenseLink.className = 'license-link';
+            licenseLink.textContent = system.license;
+            licenseCell.appendChild(licenseLink);
+
+            // Frameworks cell
+            const frameworksCell = row.insertCell();
+            const frameworksDiv = document.createElement('div');
+            frameworksDiv.className = 'frameworks';
+            system.frameworks.forEach(fw => {
+                const span = document.createElement('span');
+                span.className = 'framework-tag';
+                span.textContent = fw;
+                frameworksDiv.appendChild(span);
+            });
+            frameworksCell.appendChild(frameworksDiv);
+
+            // Component count cell
+            const componentCell = row.insertCell();
+            componentCell.textContent = system.componentCount + '+';
+
+            // Stars cell
+            const starsCell = row.insertCell();
+            starsCell.textContent = this.formatStars(system.githubStars);
+
+            // Accessibility cell
+            const a11yCell = row.insertCell();
+            a11yCell.textContent = system.accessibility;
+
+            // Theming cell
+            const themingCell = row.insertCell();
+            themingCell.textContent = system.theming;
+
+            // TypeScript cell
+            const tsCell = row.insertCell();
+            tsCell.style.textAlign = 'center';
+            tsCell.textContent = system.typescript ? '✓' : '';
+
+            // AI tick cell
+            const aiTickCell = row.insertCell();
+            aiTickCell.style.textAlign = 'center';
+            aiTickCell.textContent = system.aiCodeGen?.supported ? '✓' : '';
+
+            // AI quality cell
+            const aiQualityCell = row.insertCell();
+            if (system.aiCodeGen?.supported) {
+                const qualitySpan = document.createElement('span');
+                qualitySpan.className = `ai-quality ai-quality-${system.aiCodeGen.quality}`;
+                qualitySpan.title = system.aiCodeGen.notes;
+                qualitySpan.textContent = system.aiCodeGen.quality;
+                aiQualityCell.appendChild(qualitySpan);
+            } else {
+                aiQualityCell.textContent = '—';
+            }
+
+            // Design tools cell
+            const designToolsCell = row.insertCell();
+            const designLinksDiv = document.createElement('div');
+            designLinksDiv.className = 'links';
+
+            if (system.figmaUrl) {
+                const figmaLink = document.createElement('a');
+                figmaLink.href = system.figmaUrl;
+                figmaLink.className = 'link-btn';
+                figmaLink.target = '_blank';
+                figmaLink.rel = 'noopener';
+                figmaLink.textContent = 'Figma';
+                designLinksDiv.appendChild(figmaLink);
+            }
+
+            if (system.penpotUrl) {
+                const penpotLink = document.createElement('a');
+                penpotLink.href = system.penpotUrl;
+                penpotLink.className = 'link-btn';
+                penpotLink.target = '_blank';
+                penpotLink.rel = 'noopener';
+                penpotLink.textContent = 'Penpot';
+                designLinksDiv.appendChild(penpotLink);
+            }
+
+            if (system.storybookUrl) {
+                const storybookLink = document.createElement('a');
+                storybookLink.href = system.storybookUrl;
+                storybookLink.className = 'link-btn';
+                storybookLink.target = '_blank';
+                storybookLink.rel = 'noopener';
+                storybookLink.textContent = 'Storybook';
+                designLinksDiv.appendChild(storybookLink);
+            }
+
+            if (!system.figmaUrl && !system.penpotUrl && !system.storybookUrl) {
+                designLinksDiv.textContent = '—';
+            }
+
+            designToolsCell.appendChild(designLinksDiv);
+
+            // Resources cell
+            const resourcesCell = row.insertCell();
+            const resourcesDiv = document.createElement('div');
+            resourcesDiv.className = 'links';
+
+            const docsLink = document.createElement('a');
+            docsLink.href = system.docsUrl;
+            docsLink.className = 'link-btn';
+            docsLink.target = '_blank';
+            docsLink.rel = 'noopener';
+            docsLink.textContent = 'Docs';
+            resourcesDiv.appendChild(docsLink);
+
+            const githubLink = document.createElement('a');
+            githubLink.href = system.githubUrl;
+            githubLink.className = 'link-btn';
+            githubLink.target = '_blank';
+            githubLink.rel = 'noopener';
+            githubLink.textContent = 'GitHub';
+            resourcesDiv.appendChild(githubLink);
+
+            resourcesCell.appendChild(resourcesDiv);
+
+            fragment.appendChild(row);
         });
+
+        tbody.appendChild(fragment);
     }
 
     formatStars(stars) {
@@ -211,7 +317,7 @@ class DesignSystemComparison {
 
     updateActiveFilters() {
         const activeFiltersDiv = document.getElementById('activeFilters');
-        const filters = [];
+        activeFiltersDiv.innerHTML = '';
 
         const frameworkFilter = document.getElementById('frameworkFilter').value;
         const licenseFilter = document.getElementById('licenseFilter').value;
@@ -219,20 +325,26 @@ class DesignSystemComparison {
         const cmsFilter = document.getElementById('cmsFilter').value;
         const aiFilter = document.getElementById('aiFilter').checked;
 
-        if (frameworkFilter) filters.push({ type: 'framework', value: frameworkFilter });
-        if (licenseFilter) filters.push({ type: 'license', value: licenseFilter });
-        if (maintainerFilter) filters.push({ type: 'maintainer', value: maintainerFilter });
-        if (cmsFilter) filters.push({ type: 'cms', value: cmsFilter === 'cms' ? 'CMS Only' : 'Non-CMS Only' });
-        if (aiFilter) filters.push({ type: 'ai', value: 'AI Code-Gen' });
+        const filters = [];
+        if (frameworkFilter) filters.push(frameworkFilter);
+        if (licenseFilter) filters.push(licenseFilter);
+        if (maintainerFilter) filters.push(maintainerFilter);
+        if (cmsFilter) filters.push(cmsFilter === 'cms' ? 'CMS Only' : 'Non-CMS Only');
+        if (aiFilter) filters.push('AI Code-Gen');
 
         if (filters.length === 0) {
-            activeFiltersDiv.innerHTML = '';
             return;
         }
 
-        activeFiltersDiv.innerHTML = filters.map(filter =>
-            `<span class="filter-pill">${filter.value}</span>`
-        ).join('');
+        const fragment = document.createDocumentFragment();
+        filters.forEach(filterValue => {
+            const span = document.createElement('span');
+            span.className = 'filter-pill';
+            span.textContent = filterValue;
+            fragment.appendChild(span);
+        });
+
+        activeFiltersDiv.appendChild(fragment);
     }
 
     clearAllFilters() {
@@ -421,101 +533,180 @@ class DesignSystemComparison {
     }
 
     generateDiff(system1, system2) {
-        // Frameworks diff
+        // Create table structure
+        const table = document.createElement('table');
+        table.className = 'diff-table';
+
+        // Create thead
+        const thead = document.createElement('thead');
+        const headerRow = document.createElement('tr');
+
+        const thAttr = document.createElement('th');
+        thAttr.textContent = 'Attribute';
+        headerRow.appendChild(thAttr);
+
+        const thSys1 = document.createElement('th');
+        thSys1.textContent = system1.name;
+        headerRow.appendChild(thSys1);
+
+        const thSys2 = document.createElement('th');
+        thSys2.textContent = system2.name;
+        headerRow.appendChild(thSys2);
+
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+
+        // Create tbody
+        const tbody = document.createElement('tbody');
+
+        // Helper function to create a diff row
+        const createDiffRow = (label, value1, value2, isDifferent = false) => {
+            const row = document.createElement('tr');
+
+            const labelCell = document.createElement('td');
+            labelCell.className = 'diff-label';
+            labelCell.textContent = label;
+            row.appendChild(labelCell);
+
+            const valueCell1 = document.createElement('td');
+            valueCell1.className = isDifferent ? 'diff-value diff-value-changed' : 'diff-value';
+            if (typeof value1 === 'string') {
+                valueCell1.textContent = value1;
+            } else {
+                valueCell1.appendChild(value1);
+            }
+            row.appendChild(valueCell1);
+
+            const valueCell2 = document.createElement('td');
+            valueCell2.className = isDifferent ? 'diff-value diff-value-changed' : 'diff-value';
+            if (typeof value2 === 'string') {
+                valueCell2.textContent = value2;
+            } else {
+                valueCell2.appendChild(value2);
+            }
+            row.appendChild(valueCell2);
+
+            return row;
+        };
+
+        // Maintainer
+        tbody.appendChild(createDiffRow(
+            'Maintainer',
+            system1.maintainer,
+            system2.maintainer,
+            system1.maintainer !== system2.maintainer
+        ));
+
+        // License
+        tbody.appendChild(createDiffRow(
+            'License',
+            system1.license,
+            system2.license,
+            system1.license !== system2.license
+        ));
+
+        // Frameworks
         const frameworks1 = new Set(system1.frameworks);
         const frameworks2 = new Set(system2.frameworks);
         const allFrameworks = new Set([...frameworks1, ...frameworks2]);
 
-        const frameworksList1 = Array.from(allFrameworks).sort().map(fw => {
-            const in1 = frameworks1.has(fw);
-            const in2 = frameworks2.has(fw);
-            if (in1 && in2) return `<li class="common">${fw}</li>`;
-            if (in1) return `<li class="added">${fw}</li>`;
-            return `<li class="removed">${fw}</li>`;
-        }).join('');
+        const createFrameworkList = (systemFrameworks, otherFrameworks) => {
+            const ul = document.createElement('ul');
+            ul.className = 'diff-list';
 
-        const frameworksList2 = Array.from(allFrameworks).sort().map(fw => {
-            const in1 = frameworks1.has(fw);
-            const in2 = frameworks2.has(fw);
-            if (in1 && in2) return `<li class="common">${fw}</li>`;
-            if (in2) return `<li class="added">${fw}</li>`;
-            return `<li class="removed">${fw}</li>`;
-        }).join('');
+            Array.from(allFrameworks).sort().forEach(fw => {
+                const li = document.createElement('li');
+                const inSystem = systemFrameworks.has(fw);
+                const inOther = otherFrameworks.has(fw);
 
-        // Design tools
-        const hasFigma1 = system1.figmaUrl ? '+ Yes' : '- No';
-        const hasFigma2 = system2.figmaUrl ? '+ Yes' : '- No';
-        const hasStorybook1 = system1.storybookUrl ? '+ Yes' : '- No';
-        const hasStorybook2 = system2.storybookUrl ? '+ Yes' : '- No';
+                if (inSystem && inOther) {
+                    li.className = 'common';
+                } else if (inSystem) {
+                    li.className = 'added';
+                } else {
+                    li.className = 'removed';
+                }
 
-        return `
-            <table class="diff-table">
-                <thead>
-                    <tr>
-                        <th>Attribute</th>
-                        <th>${system1.name}</th>
-                        <th>${system2.name}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="diff-label">Maintainer</td>
-                        <td class="diff-value ${system1.maintainer !== system2.maintainer ? 'diff-value-changed' : ''}">${system1.maintainer}</td>
-                        <td class="diff-value ${system1.maintainer !== system2.maintainer ? 'diff-value-changed' : ''}">${system2.maintainer}</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">License</td>
-                        <td class="diff-value ${system1.license !== system2.license ? 'diff-value-changed' : ''}">${system1.license}</td>
-                        <td class="diff-value ${system1.license !== system2.license ? 'diff-value-changed' : ''}">${system2.license}</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">Frameworks</td>
-                        <td><ul class="diff-list">${frameworksList1}</ul></td>
-                        <td><ul class="diff-list">${frameworksList2}</ul></td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">Components</td>
-                        <td class="diff-value ${system1.componentCount !== system2.componentCount ? 'diff-value-changed' : ''}">${system1.componentCount}+</td>
-                        <td class="diff-value ${system1.componentCount !== system2.componentCount ? 'diff-value-changed' : ''}">${system2.componentCount}+</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">GitHub Stars</td>
-                        <td class="diff-value">${this.formatStars(system1.githubStars)}</td>
-                        <td class="diff-value">${this.formatStars(system2.githubStars)}</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">Accessibility</td>
-                        <td class="diff-value ${system1.accessibility !== system2.accessibility ? 'diff-value-changed' : ''}">${system1.accessibility}</td>
-                        <td class="diff-value ${system1.accessibility !== system2.accessibility ? 'diff-value-changed' : ''}">${system2.accessibility}</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">Theming</td>
-                        <td class="diff-value ${system1.theming !== system2.theming ? 'diff-value-changed' : ''}">${system1.theming}</td>
-                        <td class="diff-value ${system1.theming !== system2.theming ? 'diff-value-changed' : ''}">${system2.theming}</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">AI Support</td>
-                        <td class="diff-value ${system1.aiCodeGen?.quality !== system2.aiCodeGen?.quality ? 'diff-value-changed' : ''}">${system1.aiCodeGen?.quality || 'N/A'}</td>
-                        <td class="diff-value ${system1.aiCodeGen?.quality !== system2.aiCodeGen?.quality ? 'diff-value-changed' : ''}">${system2.aiCodeGen?.quality || 'N/A'}</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">Figma</td>
-                        <td class="diff-value">${hasFigma1}</td>
-                        <td class="diff-value">${hasFigma2}</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">Storybook</td>
-                        <td class="diff-value">${hasStorybook1}</td>
-                        <td class="diff-value">${hasStorybook2}</td>
-                    </tr>
-                    <tr>
-                        <td class="diff-label">Maturity</td>
-                        <td class="diff-value ${system1.maturity !== system2.maturity ? 'diff-value-changed' : ''}">${system1.maturity}</td>
-                        <td class="diff-value ${system1.maturity !== system2.maturity ? 'diff-value-changed' : ''}">${system2.maturity}</td>
-                    </tr>
-                </tbody>
-            </table>
-        `;
+                li.textContent = fw;
+                ul.appendChild(li);
+            });
+
+            return ul;
+        };
+
+        tbody.appendChild(createDiffRow(
+            'Frameworks',
+            createFrameworkList(frameworks1, frameworks2),
+            createFrameworkList(frameworks2, frameworks1)
+        ));
+
+        // Components
+        tbody.appendChild(createDiffRow(
+            'Components',
+            system1.componentCount + '+',
+            system2.componentCount + '+',
+            system1.componentCount !== system2.componentCount
+        ));
+
+        // GitHub Stars
+        tbody.appendChild(createDiffRow(
+            'GitHub Stars',
+            this.formatStars(system1.githubStars),
+            this.formatStars(system2.githubStars)
+        ));
+
+        // Accessibility
+        tbody.appendChild(createDiffRow(
+            'Accessibility',
+            system1.accessibility,
+            system2.accessibility,
+            system1.accessibility !== system2.accessibility
+        ));
+
+        // Theming
+        tbody.appendChild(createDiffRow(
+            'Theming',
+            system1.theming,
+            system2.theming,
+            system1.theming !== system2.theming
+        ));
+
+        // AI Support
+        tbody.appendChild(createDiffRow(
+            'AI Support',
+            system1.aiCodeGen?.quality || 'N/A',
+            system2.aiCodeGen?.quality || 'N/A',
+            system1.aiCodeGen?.quality !== system2.aiCodeGen?.quality
+        ));
+
+        // Figma
+        tbody.appendChild(createDiffRow(
+            'Figma',
+            system1.figmaUrl ? '+ Yes' : '- No',
+            system2.figmaUrl ? '+ Yes' : '- No'
+        ));
+
+        // Storybook
+        tbody.appendChild(createDiffRow(
+            'Storybook',
+            system1.storybookUrl ? '+ Yes' : '- No',
+            system2.storybookUrl ? '+ Yes' : '- No'
+        ));
+
+        // Maturity
+        tbody.appendChild(createDiffRow(
+            'Maturity',
+            system1.maturity,
+            system2.maturity,
+            system1.maturity !== system2.maturity
+        ));
+
+        table.appendChild(tbody);
+
+        // Create a container div and return its innerHTML
+        const container = document.createElement('div');
+        container.appendChild(table);
+        return container.innerHTML;
     }
 }
 

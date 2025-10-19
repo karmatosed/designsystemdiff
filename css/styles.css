@@ -388,11 +388,11 @@ body.fullscreen-mode .table-container {
 }
 
 .comparison-table th[data-sort]::after {
-    content: '';
+    content: ' ↕';
     display: inline-block;
     margin-left: 6px;
     opacity: 0.3;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .comparison-table th[data-sort].sort-asc::after {
@@ -412,15 +412,13 @@ body.fullscreen-mode .table-container {
     outline-offset: -2px;
 }
 
-.comparison-table th[data-sort]::after {
-    content: ' ↕';
-    opacity: 0.3;
-    font-size: 12px;
-}
-
 .comparison-table td {
     padding: var(--spacing-md);
     border-top: 1px solid var(--color-border);
+}
+
+.comparison-table tbody tr {
+    contain: layout style;
 }
 
 .comparison-table tbody tr:hover {
@@ -818,15 +816,18 @@ body.fullscreen-mode .table-container {
     background: var(--color-primary);
     transition: width 0.3s ease;
     width: 0;
+    will-change: width;
 }
 
 .wizard-step {
     display: none;
     animation: fadeIn 0.3s ease;
+    contain: layout style paint;
 }
 
 .wizard-step.active {
     display: block;
+    will-change: opacity, transform;
 }
 
 @keyframes fadeIn {
@@ -1296,6 +1297,10 @@ body.fullscreen-mode .table-container {
 .component-table td {
     padding: var(--spacing-md);
     border-top: 1px solid var(--color-border);
+}
+
+.component-table tbody tr {
+    contain: layout style;
 }
 
 .component-table tbody tr:hover {

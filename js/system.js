@@ -71,10 +71,26 @@ class SystemDetailPage {
     renderOverview() {
         // Basic metadata
         document.getElementById('maintainer').textContent = this.systemData.maintainer;
-        document.getElementById('license').innerHTML = `<a href="licenses.html#${this.systemData.license.toLowerCase().replace(/\s+/g, '-')}" class="license-link">${this.systemData.license}</a>`;
-        document.getElementById('frameworks').innerHTML = this.systemData.frameworks
-            .map(fw => `<span class="framework-tag">${fw}</span>`)
-            .join(' ');
+
+        // License link
+        const licenseContainer = document.getElementById('license');
+        licenseContainer.innerHTML = '';
+        const licenseLink = document.createElement('a');
+        licenseLink.href = `licenses.html#${this.systemData.license.toLowerCase().replace(/\s+/g, '-')}`;
+        licenseLink.className = 'license-link';
+        licenseLink.textContent = this.systemData.license;
+        licenseContainer.appendChild(licenseLink);
+
+        // Frameworks
+        const frameworksContainer = document.getElementById('frameworks');
+        frameworksContainer.innerHTML = '';
+        this.systemData.frameworks.forEach(fw => {
+            const span = document.createElement('span');
+            span.className = 'framework-tag';
+            span.textContent = fw;
+            frameworksContainer.appendChild(span);
+        });
+
         document.getElementById('componentCount').textContent = this.systemData.componentCount + '+';
         document.getElementById('stars').textContent = this.formatStars(this.systemData.githubStars);
         document.getElementById('accessibility').textContent = this.systemData.accessibility;
@@ -83,20 +99,43 @@ class SystemDetailPage {
 
         // Links
         const linksContainer = document.getElementById('systemLinks');
-        const links = [];
+        linksContainer.innerHTML = '';
 
-        links.push(`<a href="${this.systemData.docsUrl}" class="primary-btn" target="_blank" rel="noopener">Documentation</a>`);
-        links.push(`<a href="${this.systemData.githubUrl}" class="secondary-btn" target="_blank" rel="noopener">GitHub</a>`);
+        const docsLink = document.createElement('a');
+        docsLink.href = this.systemData.docsUrl;
+        docsLink.className = 'primary-btn';
+        docsLink.target = '_blank';
+        docsLink.rel = 'noopener';
+        docsLink.textContent = 'Documentation';
+        linksContainer.appendChild(docsLink);
+
+        const githubLink = document.createElement('a');
+        githubLink.href = this.systemData.githubUrl;
+        githubLink.className = 'secondary-btn';
+        githubLink.target = '_blank';
+        githubLink.rel = 'noopener';
+        githubLink.textContent = 'GitHub';
+        linksContainer.appendChild(githubLink);
 
         if (this.systemData.storybookUrl) {
-            links.push(`<a href="${this.systemData.storybookUrl}" class="secondary-btn" target="_blank" rel="noopener">Storybook</a>`);
+            const storybookLink = document.createElement('a');
+            storybookLink.href = this.systemData.storybookUrl;
+            storybookLink.className = 'secondary-btn';
+            storybookLink.target = '_blank';
+            storybookLink.rel = 'noopener';
+            storybookLink.textContent = 'Storybook';
+            linksContainer.appendChild(storybookLink);
         }
 
         if (this.systemData.figmaUrl) {
-            links.push(`<a href="${this.systemData.figmaUrl}" class="secondary-btn" target="_blank" rel="noopener">Figma</a>`);
+            const figmaLink = document.createElement('a');
+            figmaLink.href = this.systemData.figmaUrl;
+            figmaLink.className = 'secondary-btn';
+            figmaLink.target = '_blank';
+            figmaLink.rel = 'noopener';
+            figmaLink.textContent = 'Figma';
+            linksContainer.appendChild(figmaLink);
         }
-
-        linksContainer.innerHTML = links.join('');
 
         // Notes if available
         if (this.componentData && this.componentData.notes) {
@@ -110,47 +149,88 @@ class SystemDetailPage {
         document.getElementById('totalComponents').textContent = this.componentData.totalComponents;
 
         const categoriesContainer = document.getElementById('componentCategories');
+        const fragment = document.createDocumentFragment();
 
-        categoriesContainer.innerHTML = this.componentData.components.map(category => `
-            <div class="component-category">
-                <h3 class="category-heading">${category.category} <span class="category-count">(${category.items.length})</span></h3>
-                <div class="component-table-container">
-                    <table class="component-table">
-                        <thead>
-                            <tr>
-                                <th>Component</th>
-                                <th>Description</th>
-                                <th style="width: 120px; text-align: center;">Documented</th>
-                                <th style="width: 120px; text-align: center;">Accessibility</th>
-                                <th style="width: 150px;">Links</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            ${category.items.map(component => {
-                                const links = [];
-                                // Prioritize Storybook over Docs
-                                if (component.storybookUrl) {
-                                    links.push(`<a href="${component.storybookUrl}" class="link-btn" target="_blank" rel="noopener">Storybook</a>`);
-                                } else if (component.docsUrl) {
-                                    links.push(`<a href="${component.docsUrl}" class="link-btn" target="_blank" rel="noopener">Docs</a>`);
-                                }
-                                const linksHtml = links.length > 0 ? `<div class="links">${links.join('')}</div>` : '—';
+        this.componentData.components.forEach(category => {
+            const categoryDiv = document.createElement('div');
+            categoryDiv.className = 'component-category';
 
-                                return `
-                                <tr>
-                                    <td><strong>${this.escapeHtml(component.name)}</strong></td>
-                                    <td>${this.escapeHtml(component.description)}</td>
-                                    <td style="text-align: center;">${component.documented ? '✓' : '—'}</td>
-                                    <td style="text-align: center;">${this.escapeHtml(component.accessibility || 'Full')}</td>
-                                    <td>${linksHtml}</td>
-                                </tr>
-                                `;
-                            }).join('')}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        `).join('');
+            const heading = document.createElement('h3');
+            heading.className = 'category-heading';
+            heading.innerHTML = `${this.escapeHtml(category.category)} <span class="category-count">(${category.items.length})</span>`;
+
+            const tableContainer = document.createElement('div');
+            tableContainer.className = 'component-table-container';
+
+            const table = document.createElement('table');
+            table.className = 'component-table';
+            table.innerHTML = `
+                <thead>
+                    <tr>
+                        <th>Component</th>
+                        <th>Description</th>
+                        <th style="width: 120px; text-align: center;">Documented</th>
+                        <th style="width: 120px; text-align: center;">Accessibility</th>
+                        <th style="width: 150px;">Links</th>
+                    </tr>
+                </thead>
+            `;
+
+            const tbody = document.createElement('tbody');
+            category.items.forEach(component => {
+                const row = tbody.insertRow();
+
+                // Component name
+                const nameCell = row.insertCell();
+                const nameStrong = document.createElement('strong');
+                nameStrong.textContent = component.name;
+                nameCell.appendChild(nameStrong);
+
+                // Description
+                const descCell = row.insertCell();
+                descCell.textContent = component.description;
+
+                // Documented
+                const docCell = row.insertCell();
+                docCell.style.textAlign = 'center';
+                docCell.textContent = component.documented ? '✓' : '—';
+
+                // Accessibility
+                const a11yCell = row.insertCell();
+                a11yCell.style.textAlign = 'center';
+                a11yCell.textContent = component.accessibility || 'Full';
+
+                // Links
+                const linksCell = row.insertCell();
+                if (component.storybookUrl || component.docsUrl) {
+                    const linksDiv = document.createElement('div');
+                    linksDiv.className = 'links';
+
+                    const url = component.storybookUrl || component.docsUrl;
+                    const linkText = component.storybookUrl ? 'Storybook' : 'Docs';
+
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.className = 'link-btn';
+                    link.target = '_blank';
+                    link.rel = 'noopener';
+                    link.textContent = linkText;
+
+                    linksDiv.appendChild(link);
+                    linksCell.appendChild(linksDiv);
+                } else {
+                    linksCell.textContent = '—';
+                }
+            });
+
+            table.appendChild(tbody);
+            tableContainer.appendChild(table);
+            categoryDiv.appendChild(heading);
+            categoryDiv.appendChild(tableContainer);
+            fragment.appendChild(categoryDiv);
+        });
+
+        categoriesContainer.appendChild(fragment);
     }
 
     formatStars(stars) {
