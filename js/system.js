@@ -128,20 +128,20 @@ class SystemDetailPage {
                         <tbody>
                             ${category.items.map(component => {
                                 const links = [];
-                                if (component.docsUrl) {
-                                    links.push(`<a href="${component.docsUrl}" class="link-btn" target="_blank" rel="noopener">Docs</a>`);
-                                }
+                                // Prioritize Storybook over Docs
                                 if (component.storybookUrl) {
                                     links.push(`<a href="${component.storybookUrl}" class="link-btn" target="_blank" rel="noopener">Storybook</a>`);
+                                } else if (component.docsUrl) {
+                                    links.push(`<a href="${component.docsUrl}" class="link-btn" target="_blank" rel="noopener">Docs</a>`);
                                 }
                                 const linksHtml = links.length > 0 ? `<div class="links">${links.join('')}</div>` : '—';
 
                                 return `
                                 <tr>
-                                    <td><strong>${component.name}</strong></td>
-                                    <td>${component.description}</td>
+                                    <td><strong>${this.escapeHtml(component.name)}</strong></td>
+                                    <td>${this.escapeHtml(component.description)}</td>
                                     <td style="text-align: center;">${component.documented ? '✓' : '—'}</td>
-                                    <td style="text-align: center;">${component.accessibility}</td>
+                                    <td style="text-align: center;">${this.escapeHtml(component.accessibility || 'Full')}</td>
                                     <td>${linksHtml}</td>
                                 </tr>
                                 `;
@@ -158,6 +158,13 @@ class SystemDetailPage {
             return (stars / 1000).toFixed(1) + 'k';
         }
         return stars.toString();
+    }
+
+    escapeHtml(text) {
+        if (!text) return '';
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
     }
 
     showError() {
