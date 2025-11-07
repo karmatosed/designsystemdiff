@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Statistics - Design System Diff</title>
+    <meta name="title" content="Statistics - Design System Diff">
+    <meta name="description" content="Statistics and insights about open source design systems. See trends in frameworks, licensing, AI support, and more.">
+    <link rel="canonical" href="https://designsystemdiff.com/stats.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://designsystemdiff.com/stats.html">
+    <meta property="og:title" content="Statistics - Design System Diff">
+    <meta property="og:description" content="Statistics and insights about open source design systems.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://designsystemdiff.com/stats.html">
+    <meta property="twitter:title" content="Statistics - Design System Diff">
+    <meta property="twitter:description" content="Statistics and insights about open source design systems.">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="header">
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                <div>
+                    <div class="title">Design System Diff</div>
+                    <p class="subtitle">Statistics and insights</p>
+                </div>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="index.html" class="about-link">Home</a>
+                    <a href="finder.html" class="about-link">Finder</a>
+                    <a href="licenses.html" class="about-link">Licenses</a>
+                    <a href="about.html" class="about-link">About</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" id="main-content">
+        <section class="intro-section">
+            <h1 class="page-heading">Design System Statistics</h1>
+            <p class="intro-text">Insights and trends across <span id="totalSystems">0</span> open source design systems.</p>
+        </section>
+
+        <div class="stats-grid">
+            <!-- Overview Section -->
+            <section class="stat-section">
+                <h2 class="stat-section-title">📊 Overview</h2>
+                <div class="stat-cards">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalSystemsCard">0</div>
+                        <div class="stat-label">Design Systems</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalComponents">0</div>
+                        <div class="stat-label">Total Components</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalStars">0</div>
+                        <div class="stat-label">GitHub Stars</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="uniqueMaintainers">0</div>
+                        <div class="stat-label">Unique Maintainers</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI & Development -->
+            <section class="stat-section">
+                <h2 class="stat-section-title">🤖 AI & Development</h2>
+                <div class="stat-detail">
+                    <div class="stat-row">
+                        <span class="stat-label">AI code generation compatible</span>
+                        <span class="stat-value-inline" id="aiSupported">0/0 (0%)</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">TypeScript support</span>
+                        <span class="stat-value-inline" id="tsSupport">0/0 (0%)</span>
+                    </div>
+                </div>
+
+                <div class="ai-explanation">
+                    <strong>What does "AI code generation compatible" mean?</strong>
+                    <p>This indicates how effectively AI tools (ChatGPT, Claude, GitHub Copilot, etc.) can generate working code for each design system based on documentation quality, training data availability, and API consistency.</p>
+                </div>
+
+                <div class="stat-breakdown" id="aiQuality"></div>
+            </section>
+
+            <!-- Frameworks -->
+            <section class="stat-section">
+                <h2 class="stat-section-title">🎨 Frameworks</h2>
+                <div class="stat-bars" id="frameworkBars"></div>
+            </section>
+
+            <!-- Licensing -->
+            <section class="stat-section">
+                <h2 class="stat-section-title">📜 Licensing</h2>
+                <div class="stat-bars" id="licenseBars"></div>
+            </section>
+
+            <!-- Accessibility -->
+            <section class="stat-section">
+                <h2 class="stat-section-title">♿ Accessibility</h2>
+                <div class="stat-detail">
+                    <div class="stat-row">
+                        <span class="stat-label">WCAG 2.1 AA</span>
+                        <span class="stat-value-inline" id="wcag21aa">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">WCAG 2.2 AA</span>
+                        <span class="stat-value-inline" id="wcag22aa">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">WCAG 2.1 AAA</span>
+                        <span class="stat-value-inline" id="wcag21aaa">0</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Design Tools -->
+            <section class="stat-section">
+                <h2 class="stat-section-title">🎭 Design Tools</h2>
+                <div class="stat-detail">
+                    <div class="stat-row">
+                        <span class="stat-label">Has Figma files</span>
+                        <span class="stat-value-inline" id="hasFigma">0/0 (0%)</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Has Storybook</span>
+                        <span class="stat-value-inline" id="hasStorybook">0/0 (0%)</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Has demo/playground</span>
+                        <span class="stat-value-inline" id="hasDemo">0/0 (0%)</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Component Stats -->
+            <section class="stat-section">
+                <h2 class="stat-section-title">📦 Components</h2>
+                <div class="stat-detail">
+                    <div class="stat-row">
+                        <span class="stat-label">Average per system</span>
+                        <span class="stat-value-inline" id="avgComponents">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Median</span>
+                        <span class="stat-value-inline" id="medianComponents">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Smallest library</span>
+                        <span class="stat-value-inline" id="minComponents">0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-label">Largest library</span>
+                        <span class="stat-value-inline" id="maxComponents">0</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Theming -->
+            <section class="stat-section">
+                <h2 class="stat-section-title">🎨 Theming</h2>
+                <div class="stat-bars" id="themingBars"></div>
+            </section>
+
+            <!-- Top 10 by Stars -->
+            <section class="stat-section stat-section-wide">
+                <h2 class="stat-section-title">⭐ Top 10 by GitHub Stars</h2>
+                <div class="top-list" id="topStars"></div>
+            </section>
+
+            <!-- Fun Facts -->
+            <section class="stat-section stat-section-wide">
+                <h2 class="stat-section-title">🎯 Insights</h2>
+                <div class="insights-grid" id="insights"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Open source design system comparison tool • <a href="https://github.com/karmatosed/desginsystemdiff.com" target="_blank" rel="noopener">View on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="js/stats.js" defer></script>
+</body>
+</html>
