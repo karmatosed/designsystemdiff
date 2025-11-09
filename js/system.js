@@ -5,6 +5,7 @@ class SystemDetailPage {
         this.systemId = null;
         this.systemData = null;
         this.componentData = null;
+        this.allSystems = [];
         this.init();
     }
 
@@ -31,22 +32,22 @@ class SystemDetailPage {
         // Load main system data
         const systemsResponse = await fetch('data/systems.json');
         const systemsData = await systemsResponse.json();
-        this.systemData = systemsData.systems.find(s => s.id === this.systemId);
+        this.allSystems = systemsData.systems;
+        this.systemData = this.allSystems.find(s => s.id === this.systemId);
 
         if (!this.systemData) {
             throw new Error('System not found');
         }
 
-        // Load component data
+        // Load component data (optional)
         try {
             const componentResponse = await fetch(`data/components/${this.systemId}.json`);
-            if (!componentResponse.ok) {
-                throw new Error('Component data not found');
+            if (componentResponse.ok) {
+                this.componentData = await componentResponse.json();
             }
-            this.componentData = await componentResponse.json();
         } catch (error) {
             console.warn('Component data not available for this system');
-            throw error;
+            // Don't throw - component data is optional
         }
     }
 
@@ -59,12 +60,64 @@ class SystemDetailPage {
         document.getElementById('pageTitle').textContent = `${this.systemData.name} - Design System Diff`;
         document.getElementById('systemName').textContent = this.systemData.name;
 
+        // Render statistics
+        this.renderStatistics();
+
         // Render system overview
         this.renderOverview();
 
         // Render component audit
         if (this.componentData) {
             this.renderComponentAudit();
+        }
+    }
+
+    renderStatistics() {
+        try {
+            // Calculate averages and rankings
+            const totalSystems = this.allSystems.length;
+            const avgStars = Math.round(this.allSystems.reduce((sum, s) => sum + s.githubStars, 0) / totalSystems);
+            const avgComponents = Math.round(this.allSystems.reduce((sum, s) => sum + s.componentCount, 0) / totalSystems);
+
+            // Rankings
+            const byStars = [...this.allSystems].sort((a, b) => b.githubStars - a.githubStars);
+            const byComponents = [...this.allSystems].sort((a, b) => b.componentCount - a.componentCount);
+            const popularityRank = byStars.findIndex(s => s.id === this.systemId) + 1;
+            const sizeRank = byComponents.findIndex(s => s.id === this.systemId) + 1;
+
+            // Overview stats
+            document.getElementById('statsStars').textContent = this.formatStars(this.systemData.githubStars) + ' ⭐';
+            document.getElementById('statsComponents').textContent = this.systemData.componentCount + '+';
+            document.getElementById('statsFrameworks').textContent = this.systemData.frameworks.join(', ');
+            document.getElementById('statsLastUpdated').textContent = this.systemData.lastUpdated;
+
+            // Comparison stats
+            const starsVsAvg = ((this.systemData.githubStars / avgStars - 1) * 100).toFixed(0);
+            const starsVsAvgText = starsVsAvg >= 0 ? `+${starsVsAvg}%` : `${starsVsAvg}%`;
+            document.getElementById('statsStarsVsAvg').textContent = starsVsAvgText;
+
+            const componentsVsAvg = ((this.systemData.componentCount / avgComponents - 1) * 100).toFixed(0);
+            const componentsVsAvgText = componentsVsAvg >= 0 ? `+${componentsVsAvg}%` : `${componentsVsAvg}%`;
+            document.getElementById('statsComponentsVsAvg').textContent = componentsVsAvgText;
+
+            document.getElementById('statsPopularityRank').textContent = `#${popularityRank} of ${totalSystems}`;
+            document.getElementById('statsSizeRank').textContent = `#${sizeRank} of ${totalSystems}`;
+
+            // Features
+            document.getElementById('statsTypescript').textContent = this.systemData.typescript ? '✓ Yes' : '✗ No';
+            document.getElementById('statsAccessibility').textContent = this.systemData.accessibility;
+            document.getElementById('statsTheming').textContent = this.systemData.theming;
+            document.getElementById('statsAI').textContent = this.systemData.aiCodeGen?.quality
+                ? `${this.systemData.aiCodeGen.quality.charAt(0).toUpperCase() + this.systemData.aiCodeGen.quality.slice(1)}`
+                : 'Not specified';
+
+            // Resources
+            document.getElementById('statsHasDocs').textContent = this.systemData.docsUrl ? '✓ Available' : '✗ Not available';
+            document.getElementById('statsHasStorybook').textContent = this.systemData.storybookUrl ? '✓ Available' : '✗ Not available';
+            document.getElementById('statsHasFigma').textContent = this.systemData.figmaUrl ? '✓ Available' : '✗ Not available';
+            document.getElementById('statsHasDemo').textContent = this.systemData.demoUrl ? '✓ Available' : '✗ Not available';
+        } catch (error) {
+            console.error('Error rendering statistics:', error);
         }
     }
 

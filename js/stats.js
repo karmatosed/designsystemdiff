@@ -125,6 +125,33 @@ function calculateStats() {
 
     renderBars('themingBars', theming, totalSystems);
 
+    // System Type (Generic vs Product-Specific)
+    const genericCount = systems.filter(s => !s.cms).length;
+    const productSpecificCount = systems.filter(s => s.cms).length;
+
+    document.getElementById('genericCount').textContent =
+        `${genericCount}/${totalSystems} (${(genericCount/totalSystems*100).toFixed(1)}%)`;
+    document.getElementById('productSpecificCount').textContent =
+        `${productSpecificCount}/${totalSystems} (${(productSpecificCount/totalSystems*100).toFixed(1)}%)`;
+
+    // Product breakdown
+    const products = {};
+    systems.forEach(s => {
+        if (s.cms) {
+            products[s.cms] = (products[s.cms] || 0) + 1;
+        }
+    });
+
+    const productBreakdownHTML = Object.entries(products)
+        .sort((a, b) => b[1] - a[1])
+        .map(([product, count]) => `
+            <div class="stat-row">
+                <span class="stat-label">${product}</span>
+                <span class="stat-value-inline">${count} ${count === 1 ? 'system' : 'systems'}</span>
+            </div>
+        `).join('');
+    document.getElementById('productBreakdown').innerHTML = productBreakdownHTML;
+
     // Top 10 by Stars
     const topStars = [...systems]
         .sort((a, b) => b.githubStars - a.githubStars)
@@ -153,7 +180,7 @@ function calculateStats() {
         `Average system has ${avgComponents} components`,
         `${wcag21aaa > 0 ? wcag21aaa + ' system achieves' : 'Only 1 system achieves'} WCAG AAA compliance`,
         `${(licenses['MIT']/totalSystems*100).toFixed(1)}% use permissive MIT license`,
-        `${cmsCount} systems are CMS-specific (${(cmsCount/totalSystems*100).toFixed(1)}%)`,
+        `${genericCount} generic systems work with any project, ${productSpecificCount} are product-specific`,
         `Average ${avgStars.toLocaleString()} stars per system`,
         `${hasFigma > hasStorybook ? 'Figma' : 'Storybook'} is more popular (${Math.max(hasFigma, hasStorybook)} vs ${Math.min(hasFigma, hasStorybook)})`
     ];

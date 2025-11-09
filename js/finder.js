@@ -364,6 +364,11 @@ class DesignSystemFinder {
             }
         });
 
+        // Product-specific note
+        if (system.cms) {
+            reasons.push(`Designed for ${system.cms} projects`);
+        }
+
         // Add design tools if available
         if (system.figmaUrl) reasons.push('Figma components available');
         if (system.storybookUrl) reasons.push('Storybook documentation');
@@ -411,6 +416,7 @@ class DesignSystemFinder {
                         <h3 class="result-title">
                             ${index === 0 ? '<span class="best-match">Best Match</span>' : ''}
                             ${system.name}
+                            ${system.cms ? `<span class="product-badge" title="Designed for ${system.cms}">${system.cms}</span>` : ''}
                         </h3>
                         <div class="result-meta">
                             ${system.frameworks.map(fw => `<span class="framework-tag">${fw}</span>`).join('')}
@@ -446,7 +452,7 @@ class DesignSystemFinder {
                     <a href="${system.docsUrl}" class="primary-btn" target="_blank" rel="noopener">View Docs</a>
                     <a href="${system.githubUrl}" class="secondary-btn" target="_blank" rel="noopener">GitHub</a>
                     ${system.storybookUrl ? `<a href="${system.storybookUrl}" class="secondary-btn" target="_blank" rel="noopener">Storybook</a>` : ''}
-                    ${system.figmaUrl ? `<a href="${system.figmaUrl}" class="secondary-btn" target="_blank" rel="noopener">Figma</a>` : ''}
+                    ${system.figmaUrl ? `<a href="${system.figmaUrl}" class="secondary-btn" target="_blank" rel="noopener" ${system.figmaPaid ? 'title="Has paid Figma UI kit options"' : ''}>Figma${system.figmaPaid ? ' 💰' : ''}</a>` : ''}
                 </div>
             </div>
         `).join('');

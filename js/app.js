@@ -110,6 +110,15 @@ class DesignSystemComparison {
             nameLink.textContent = system.name;
             nameCell.appendChild(nameLink);
 
+            // Add product-specific badge if applicable
+            if (system.cms) {
+                const productBadge = document.createElement('span');
+                productBadge.className = 'product-badge';
+                productBadge.textContent = system.cms;
+                productBadge.title = `Designed for ${system.cms}`;
+                nameCell.appendChild(productBadge);
+            }
+
             // Maintainer cell
             const maintainerCell = row.insertCell();
             maintainerCell.textContent = system.maintainer;
@@ -184,6 +193,10 @@ class DesignSystemComparison {
                 figmaLink.target = '_blank';
                 figmaLink.rel = 'noopener';
                 figmaLink.textContent = 'Figma';
+                if (system.figmaPaid) {
+                    figmaLink.textContent += ' 💰';
+                    figmaLink.title = 'Has paid Figma UI kit options';
+                }
                 designLinksDiv.appendChild(figmaLink);
             }
 
@@ -279,10 +292,10 @@ class DesignSystemComparison {
             const matchesMaintainer = !maintainerFilter ||
                 system.maintainer === maintainerFilter;
 
-            // CMS filter
+            // Type filter (generic vs product-specific)
             const matchesCMS = !cmsFilter ||
-                (cmsFilter === 'cms' && system.cms) ||
-                (cmsFilter === 'non-cms' && !system.cms);
+                (cmsFilter === 'product-specific' && system.cms) ||
+                (cmsFilter === 'generic' && !system.cms);
 
             // AI filter
             const matchesAI = !aiFilter || system.aiCodeGen?.supported;
@@ -329,7 +342,7 @@ class DesignSystemComparison {
         if (frameworkFilter) filters.push(frameworkFilter);
         if (licenseFilter) filters.push(licenseFilter);
         if (maintainerFilter) filters.push(maintainerFilter);
-        if (cmsFilter) filters.push(cmsFilter === 'cms' ? 'CMS Only' : 'Non-CMS Only');
+        if (cmsFilter) filters.push(cmsFilter === 'product-specific' ? 'Product-Specific' : 'Generic');
         if (aiFilter) filters.push('AI Code-Gen');
 
         if (filters.length === 0) {
