@@ -315,6 +315,7 @@ input[type="checkbox"]:checked::after {
     cursor: pointer;
     transition: all 0.2s;
     min-width: 44px;
+    white-space: nowrap;
 }
 
 .fullscreen-btn:hover {
