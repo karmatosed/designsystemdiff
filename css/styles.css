@@ -1647,6 +1647,7 @@ body.fullscreen-mode .table-container {
     padding: var(--spacing-md);
     background: var(--color-bg);
     border: 1px solid var(--color-border);
+    min-width: 0;
 }
 
 .stat-card .stat-value {
@@ -1655,6 +1656,9 @@ body.fullscreen-mode .table-container {
     color: var(--color-primary);
     margin-bottom: var(--spacing-xs);
     line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .stat-card .stat-label {
@@ -1761,6 +1765,7 @@ body.fullscreen-mode .table-container {
     background: var(--color-bg);
     border: 1px solid var(--color-border);
     transition: border-color 0.2s;
+    min-width: 0;
 }
 
 .top-item:hover {
@@ -1771,11 +1776,16 @@ body.fullscreen-mode .table-container {
     font-weight: 600;
     color: var(--color-text-secondary);
     font-size: 14px;
+    flex-shrink: 0;
 }
 
 .top-name {
     color: var(--color-text);
     font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
 }
 
 .top-value {
@@ -1783,6 +1793,7 @@ body.fullscreen-mode .table-container {
     font-weight: 600;
     font-size: 14px;
     white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .insights-grid {

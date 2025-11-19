@@ -107,10 +107,14 @@ function calculateStats() {
     const componentCounts = systems.map(s => s.componentCount);
     const avgComponents = (componentCounts.reduce((a, b) => a + b, 0) / componentCounts.length).toFixed(1);
     const medianComponents = median(componentCounts);
-    const minComponents = Math.min(...componentCounts);
-    const maxComponents = Math.max(...componentCounts);
-    const minSystem = systems.find(s => s.componentCount === minComponents);
-    const maxSystem = systems.find(s => s.componentCount === maxComponents);
+
+    // Exclude non-component libraries (0 components) from min/max
+    const componentLibraries = systems.filter(s => s.componentCount > 0);
+    const componentLibraryCounts = componentLibraries.map(s => s.componentCount);
+    const minComponents = Math.min(...componentLibraryCounts);
+    const maxComponents = Math.max(...componentLibraryCounts);
+    const minSystem = componentLibraries.find(s => s.componentCount === minComponents);
+    const maxSystem = componentLibraries.find(s => s.componentCount === maxComponents);
 
     document.getElementById('avgComponents').textContent = avgComponents;
     document.getElementById('medianComponents').textContent = medianComponents;
