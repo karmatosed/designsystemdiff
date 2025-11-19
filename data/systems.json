@@ -31,7 +31,11 @@
         "supported": true,
         "quality": "excellent",
         "notes": "Well-documented with extensive examples in LLM training data"
-      }
+      },
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "mui",
@@ -61,7 +65,11 @@
         "quality": "excellent",
         "notes": "Most popular React UI library, excellent documentation and AI support"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "bootstrap",
@@ -93,7 +101,11 @@
         "quality": "excellent",
         "notes": "Most widely known CSS framework with decades of training data"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "carbon",
@@ -126,7 +138,11 @@
         "quality": "excellent",
         "notes": "Comprehensive documentation and widely used in enterprise"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "fluent",
@@ -157,7 +173,11 @@
         "quality": "excellent",
         "notes": "Extensive Microsoft documentation and training data"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "polaris",
@@ -186,7 +206,11 @@
         "quality": "good",
         "notes": "Well-documented but more niche use case"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "ant-design",
@@ -218,7 +242,11 @@
         "quality": "good",
         "notes": "Popular but some API inconsistencies"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "chakra-ui",
@@ -247,7 +275,11 @@
         "quality": "excellent",
         "notes": "Simple API and clear documentation"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "mantine",
@@ -276,7 +308,11 @@
         "quality": "excellent",
         "notes": "Excellent documentation with interactive examples"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "shadcn-ui",
@@ -305,7 +341,11 @@
         "quality": "excellent",
         "notes": "Copy-paste approach makes it highly AI-friendly"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "radix-ui",
@@ -334,7 +374,11 @@
         "quality": "excellent",
         "notes": "Unstyled primitives with excellent accessibility, foundation for shadcn/ui"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "headless-ui",
@@ -364,7 +408,11 @@
         "quality": "excellent",
         "notes": "Unstyled components from Tailwind Labs, excellent docs"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "vuetify",
@@ -394,36 +442,11 @@
         "quality": "good",
         "notes": "Popular Vue Material Design implementation"
       },
-      "typescript": true
-    },
-    {
-      "id": "daisyui",
-      "name": "DaisyUI",
-      "logo": "",
-      "maintainer": "Pouya Saadeghi",
-      "license": "MIT",
-      "frameworks": [
-        "CSS"
-      ],
-      "componentCount": 50,
-      "githubUrl": "https://github.com/saadeghi/daisyui",
-      "githubStars": 39271,
-      "docsUrl": "https://daisyui.com",
-      "demoUrl": "https://daisyui.com/components/",
-      "storybookUrl": null,
-      "figmaUrl": "https://www.figma.com/community/file/1202618700092116017",
-      "penpotUrl": null,
-      "lastUpdated": "2025-01",
-      "accessibility": "WCAG 2.1 AA",
-      "theming": "Advanced",
-      "maturity": "Stable",
-      "cms": null,
-      "aiCodeGen": {
-        "supported": true,
-        "quality": "excellent",
-        "notes": "Tailwind CSS component library with clean API"
-      },
-      "typescript": false
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "primereact",
@@ -453,7 +476,11 @@
         "quality": "good",
         "notes": "Comprehensive component library for business applications"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "atlassian",
@@ -482,7 +509,11 @@
         "quality": "good",
         "notes": "Well-documented but less common in training data"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "primer",
@@ -512,7 +543,11 @@
         "quality": "good",
         "notes": "GitHub's own system with solid documentation"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "wordpress-components",
@@ -541,7 +576,11 @@
         "quality": "good",
         "notes": "WordPress Gutenberg components, extensive documentation"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "forma-36",
@@ -570,7 +609,11 @@
         "quality": "good",
         "notes": "Contentful design system, can be used standalone"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "sanity-ui",
@@ -599,7 +642,11 @@
         "quality": "good",
         "notes": "Sanity CMS design system, usable standalone"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "strapi-design-system",
@@ -628,7 +675,11 @@
         "quality": "good",
         "notes": "Strapi headless CMS design system, can be used standalone"
       },
-      "typescript": true
+      "typescript": true,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "emulsify",
@@ -657,7 +708,11 @@
         "quality": "fair",
         "notes": "Drupal design system with Storybook, Figma integration via design tokens"
       },
-      "typescript": false
+      "typescript": false,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "civictheme",
@@ -686,7 +741,11 @@
         "quality": "fair",
         "notes": "Government-focused Drupal design system with atomic design principles"
       },
-      "typescript": false
+      "typescript": false,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     },
     {
       "id": "openeuropa",
@@ -715,7 +774,209 @@
         "quality": "fair",
         "notes": "EU institutions Drupal theme based on Europa Component Library"
       },
-      "typescript": false
+      "typescript": false,
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
+    },
+    {
+      "id": "lit",
+      "name": "Lit",
+      "logo": "",
+      "maintainer": "Google",
+      "license": "BSD-3-Clause",
+      "frameworks": [
+        "Web Components"
+      ],
+      "componentCount": 0,
+      "githubUrl": "https://github.com/lit/lit",
+      "githubStars": 20741,
+      "docsUrl": "https://lit.dev",
+      "demoUrl": "https://lit.dev/playground",
+      "storybookUrl": null,
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-11",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Advanced",
+      "maturity": "Stable",
+      "cms": null,
+      "typescript": true,
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "excellent",
+        "notes": "Simple library for building fast, lightweight web components using native browser APIs"
+      },
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
+    },
+    {
+      "id": "pico-css",
+      "name": "Pico CSS",
+      "logo": "",
+      "maintainer": "Pico CSS Team",
+      "license": "MIT",
+      "frameworks": [
+        "CSS"
+      ],
+      "componentCount": 25,
+      "githubUrl": "https://github.com/picocss/pico",
+      "githubStars": 15988,
+      "docsUrl": "https://picocss.com",
+      "demoUrl": "https://picocss.com/examples",
+      "storybookUrl": null,
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-03",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Advanced",
+      "maturity": "Stable",
+      "cms": null,
+      "typescript": false,
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "excellent",
+        "notes": "Minimal CSS framework for semantic HTML, styles native elements like <dialog>, <details>, <progress>"
+      },
+      "usesNativeElements": true,
+      "progressiveEnhancement": true,
+      "nativeDialog": true,
+      "nativeDetails": true
+    },
+    {
+      "id": "web-awesome",
+      "name": "Web Awesome",
+      "logo": "",
+      "maintainer": "Font Awesome",
+      "license": "MIT",
+      "frameworks": [
+        "Web Components"
+      ],
+      "componentCount": 50,
+      "githubUrl": "https://github.com/shoelace-style/shoelace",
+      "githubStars": 13747,
+      "docsUrl": "https://webawesome.com",
+      "demoUrl": "https://webawesome.com/components",
+      "storybookUrl": null,
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-10",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Advanced",
+      "maturity": "Stable",
+      "cms": null,
+      "typescript": true,
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "excellent",
+        "notes": "Framework-agnostic web components (formerly Shoelace), acquired by Font Awesome in 2022"
+      },
+      "usesNativeElements": true,
+      "progressiveEnhancement": false,
+      "nativeDialog": true,
+      "nativeDetails": false
+    },
+    {
+      "id": "fast",
+      "name": "FAST",
+      "logo": "",
+      "maintainer": "Microsoft",
+      "license": "MIT",
+      "frameworks": [
+        "Web Components"
+      ],
+      "componentCount": 45,
+      "githubUrl": "https://github.com/microsoft/fast",
+      "githubStars": 9574,
+      "docsUrl": "https://fast.design",
+      "demoUrl": "https://explore.fast.design/components",
+      "storybookUrl": null,
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-11",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Advanced",
+      "maturity": "Stable",
+      "cms": null,
+      "typescript": true,
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "excellent",
+        "notes": "Adaptive interface system for modern web experiences, web components with native element support"
+      },
+      "usesNativeElements": false,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
+    },
+    {
+      "id": "open-props",
+      "name": "Open Props",
+      "logo": "",
+      "maintainer": "Adam Argyle",
+      "license": "MIT",
+      "frameworks": [
+        "CSS"
+      ],
+      "componentCount": 0,
+      "githubUrl": "https://github.com/argyleink/open-props",
+      "githubStars": 5193,
+      "docsUrl": "https://open-props.style",
+      "demoUrl": "https://open-props.style",
+      "storybookUrl": null,
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-11",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Advanced",
+      "maturity": "Stable",
+      "cms": null,
+      "typescript": false,
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "good",
+        "notes": "CSS custom properties (design tokens) for styling native HTML elements"
+      },
+      "usesNativeElements": true,
+      "progressiveEnhancement": true,
+      "nativeDialog": false,
+      "nativeDetails": false
+    },
+    {
+      "id": "lion",
+      "name": "Lion",
+      "logo": "",
+      "maintainer": "ING Bank",
+      "license": "MIT",
+      "frameworks": [
+        "Web Components"
+      ],
+      "componentCount": 30,
+      "githubUrl": "https://github.com/ing-bank/lion",
+      "githubStars": 1903,
+      "docsUrl": "https://lion.js.org",
+      "demoUrl": "https://lion.js.org",
+      "storybookUrl": null,
+      "figmaUrl": null,
+      "penpotUrl": null,
+      "lastUpdated": "2025-11",
+      "accessibility": "WCAG 2.1 AA",
+      "theming": "Moderate",
+      "maturity": "Stable",
+      "cms": null,
+      "typescript": false,
+      "aiCodeGen": {
+        "supported": true,
+        "quality": "good",
+        "notes": "White label web components that extend native browser elements for accessibility"
+      },
+      "usesNativeElements": true,
+      "progressiveEnhancement": false,
+      "nativeDialog": false,
+      "nativeDetails": false
     }
   ]
 }
