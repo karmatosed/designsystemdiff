@@ -1,0 +1,231 @@
+{
+  "systemId": "lion",
+  "systemName": "Lion",
+  "lastUpdated": "2025-11-18",
+  "totalComponents": 30,
+  "components": [
+    {
+      "category": "Form Inputs",
+      "items": [
+        {
+          "name": "Input",
+          "description": "Extends native <input> element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://lion-web.netlify.app/components/input/overview/",
+          "nativeElement": "input"
+        },
+        {
+          "name": "Input Amount",
+          "description": "Currency/amount input field",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input"
+        },
+        {
+          "name": "Input Date",
+          "description": "Date input with calendar",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input"
+        },
+        {
+          "name": "Input Datepicker",
+          "description": "Date picker with translations",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input"
+        },
+        {
+          "name": "Input Email",
+          "description": "Email validation input",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input[type=email]"
+        },
+        {
+          "name": "Input IBAN",
+          "description": "IBAN bank account number input",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input"
+        },
+        {
+          "name": "Input Range",
+          "description": "Extends native range slider",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input[type=range]"
+        },
+        {
+          "name": "Input Stepper",
+          "description": "Numeric input with increment/decrement",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input[type=number]"
+        },
+        {
+          "name": "Input Tel",
+          "description": "Telephone number input",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input[type=tel]"
+        },
+        {
+          "name": "Input Tel Dropdown",
+          "description": "Phone input with country selector",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://lion-web.netlify.app/components/input-tel-dropdown/overview/"
+        },
+        {
+          "name": "Textarea",
+          "description": "Extends native <textarea> element",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "textarea"
+        }
+      ]
+    },
+    {
+      "category": "Form Controls",
+      "items": [
+        {
+          "name": "Checkbox",
+          "description": "Extends native checkbox",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input[type=checkbox]"
+        },
+        {
+          "name": "Checkbox Group",
+          "description": "Group of checkboxes with validation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://github.com/ing-bank/lion/blob/master/docs/components/checkbox-group/overview.md"
+        },
+        {
+          "name": "Checkbox Indeterminate",
+          "description": "Tri-state checkbox",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input[type=checkbox]"
+        },
+        {
+          "name": "Form",
+          "description": "Form wrapper with validation",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://lion-web.netlify.app/components/form/overview/",
+          "nativeElement": "form"
+        },
+        {
+          "name": "Fieldset",
+          "description": "Form field grouping",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "fieldset"
+        },
+        {
+          "name": "Radio",
+          "description": "Extends native radio button",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "input[type=radio]"
+        },
+        {
+          "name": "Radio Group",
+          "description": "Group of radio buttons",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Select",
+          "description": "Extends native <select> element",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "select"
+        },
+        {
+          "name": "Select Rich",
+          "description": "Enhanced select with custom options",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch component",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "UI Components",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Expandable accordion component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://lion.js.org/components/accordion/overview/"
+        },
+        {
+          "name": "Button",
+          "description": "Button component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://lion-web.netlify.app/components/button/overview/"
+        },
+        {
+          "name": "Button Reset",
+          "description": "Form reset button",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Button Submit",
+          "description": "Form submit button",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Calendar",
+          "description": "Calendar date picker",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Combobox",
+          "description": "Searchable select dropdown",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Dialog",
+          "description": "Modal dialog overlay",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Listbox",
+          "description": "List selection component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Pagination",
+          "description": "Page navigation component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Contextual tooltip",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    }
+  ]
+}

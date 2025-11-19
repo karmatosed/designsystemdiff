@@ -874,9 +874,9 @@
         "quality": "excellent",
         "notes": "Framework-agnostic web components (formerly Shoelace), acquired by Font Awesome in 2022"
       },
-      "usesNativeElements": true,
+      "usesNativeElements": false,
       "progressiveEnhancement": false,
-      "nativeDialog": true,
+      "nativeDialog": false,
       "nativeDetails": false
     },
     {

@@ -1,0 +1,70 @@
+{
+  "systemId": "open-props",
+  "systemName": "Open Props",
+  "lastUpdated": "2025-11-13",
+  "totalComponents": 0,
+  "note": "Open Props is a CSS custom properties (design tokens) library, not a component library. It provides variables for colors, sizes, animations, etc. that you apply to your own HTML.",
+  "components": [
+    {
+      "category": "Design Tokens",
+      "items": [
+        {
+          "name": "Colors",
+          "description": "Comprehensive color palette with CSS variables",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://open-props.style/#colors"
+        },
+        {
+          "name": "Sizes",
+          "description": "Spacing and sizing scale",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://open-props.style/#sizes"
+        },
+        {
+          "name": "Fonts",
+          "description": "Typography variables",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://open-props.style/#fonts"
+        },
+        {
+          "name": "Shadows",
+          "description": "Box shadow utilities",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://open-props.style/#shadows"
+        },
+        {
+          "name": "Borders",
+          "description": "Border radius and width",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://open-props.style/#borders"
+        },
+        {
+          "name": "Animations",
+          "description": "Easing and animation utilities",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://open-props.style/#animations"
+        },
+        {
+          "name": "Gradients",
+          "description": "Pre-defined gradient variables",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://open-props.style/#gradients"
+        },
+        {
+          "name": "Aspect Ratios",
+          "description": "Common aspect ratio values",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://open-props.style/#aspect-ratios"
+        }
+      ]
+    }
+  ]
+}

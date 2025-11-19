@@ -1,0 +1,242 @@
+{
+  "systemId": "pico-css",
+  "systemName": "Pico CSS",
+  "lastUpdated": "2025-03-15",
+  "totalComponents": 25,
+  "components": [
+    {
+      "category": "Typography",
+      "items": [
+        {
+          "name": "Headings",
+          "description": "Native <h1> to <h6> elements",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "h1-h6"
+        },
+        {
+          "name": "Paragraph",
+          "description": "Native <p> element",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "p"
+        },
+        {
+          "name": "Lists",
+          "description": "Native <ul>, <ol>, <li> elements",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "ul, ol, li"
+        },
+        {
+          "name": "Blockquote",
+          "description": "Native <blockquote> element",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "blockquote"
+        }
+      ]
+    },
+    {
+      "category": "Forms",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Native <button> element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/button",
+          "nativeElement": "button"
+        },
+        {
+          "name": "Input",
+          "description": "Native <input> element (text, email, etc.)",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/input",
+          "nativeElement": "input"
+        },
+        {
+          "name": "Textarea",
+          "description": "Native <textarea> element",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "textarea"
+        },
+        {
+          "name": "Select",
+          "description": "Native <select> element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/select",
+          "nativeElement": "select"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Native <input type=\"checkbox\">",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/checkbox",
+          "nativeElement": "input[type=checkbox]"
+        },
+        {
+          "name": "Radio",
+          "description": "Native <input type=\"radio\">",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/radio",
+          "nativeElement": "input[type=radio]"
+        },
+        {
+          "name": "Range",
+          "description": "Native <input type=\"range\"> slider",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/range",
+          "nativeElement": "input[type=range]"
+        },
+        {
+          "name": "Switch",
+          "description": "Native <input type=\"checkbox\" role=\"switch\">",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/switch",
+          "nativeElement": "input[type=checkbox][role=switch]"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Grid",
+          "description": "Native CSS Grid",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/grid",
+          "nativeElement": "div.grid"
+        },
+        {
+          "name": "Container",
+          "description": "Native <main>, <section>, <article> elements",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "main, section, article"
+        },
+        {
+          "name": "Group",
+          "description": "Group form elements",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/group"
+        }
+      ]
+    },
+    {
+      "category": "Components",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Native <details> and <summary>",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/accordion",
+          "nativeElement": "details, summary"
+        },
+        {
+          "name": "Card",
+          "description": "Native <article> element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/card",
+          "nativeElement": "article"
+        },
+        {
+          "name": "Modal",
+          "description": "Native <dialog> element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/modal",
+          "nativeElement": "dialog"
+        },
+        {
+          "name": "Progress",
+          "description": "Native <progress> element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/progress",
+          "nativeElement": "progress"
+        },
+        {
+          "name": "Loading",
+          "description": "Button with aria-busy attribute",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/loading"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Data attribute tooltip",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/tooltip"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Nav",
+          "description": "Native <nav> element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/nav",
+          "nativeElement": "nav"
+        },
+        {
+          "name": "Breadcrumb",
+          "description": "Native <nav> with <ul>",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "nav"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Native <details> dropdown",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/dropdown",
+          "nativeElement": "details"
+        }
+      ]
+    },
+    {
+      "category": "Content",
+      "items": [
+        {
+          "name": "Table",
+          "description": "Native <table> element",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://picocss.com/docs/table",
+          "nativeElement": "table"
+        },
+        {
+          "name": "Figure",
+          "description": "Native <figure> and <figcaption>",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "figure, figcaption"
+        },
+        {
+          "name": "Code",
+          "description": "Native <code> and <pre> elements",
+          "documented": true,
+          "accessibility": "Full",
+          "nativeElement": "code, pre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "systemId": "fast",
+  "systemName": "FAST",
+  "lastUpdated": "2025-11-18",
+  "totalComponents": 45,
+  "components": [
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Accordion",
+          "description": "Expandable accordion panels",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://explore.fast.design/components/fast-accordion"
+        },
+        {
+          "name": "Anchored Region",
+          "description": "Positioned relative to anchor",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Card",
+          "description": "Content container card",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Divider",
+          "description": "Visual content separator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Toolbar",
+          "description": "Action toolbar container",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Forms",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Interactive button component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Checkbox",
+          "description": "Multi-select checkbox input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Combobox",
+          "description": "Searchable select input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Listbox",
+          "description": "List selection component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Number Field",
+          "description": "Numeric input with controls",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Radio",
+          "description": "Single-select radio button",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Radio Group",
+          "description": "Group of radio buttons",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Search",
+          "description": "Search input field",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown select input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Slider",
+          "description": "Range slider input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Text Area",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Text Field",
+          "description": "Single-line text input",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Anchor",
+          "description": "Link/anchor element",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Breadcrumb",
+          "description": "Hierarchical navigation trail",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Menu",
+          "description": "Navigation menu",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tabs",
+          "description": "Tab navigation component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tree View",
+          "description": "Hierarchical tree navigation",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Data Display",
+      "items": [
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Badge",
+          "description": "Status indicator badge",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Data Grid",
+          "description": "Advanced data table",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Progress",
+          "description": "Progress indicator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Progress Ring",
+          "description": "Circular progress indicator",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Overlay",
+      "items": [
+        {
+          "name": "Dialog",
+          "description": "Modal dialog component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Flipper",
+          "description": "Carousel navigation button",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Contextual information on hover",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Disclosure",
+          "description": "Expandable content toggle",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Horizontal Scroll",
+          "description": "Horizontal scrolling container",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Picker",
+          "description": "General picker component",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    }
+  ]
+}

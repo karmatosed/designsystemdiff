@@ -1,0 +1,370 @@
+{
+  "systemId": "web-awesome",
+  "systemName": "Web Awesome",
+  "lastUpdated": "2025-10-29",
+  "totalComponents": 50,
+  "components": [
+    {
+      "category": "Actions",
+      "items": [
+        {
+          "name": "Button",
+          "description": "Versatile button component with variants",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/button/"
+        },
+        {
+          "name": "Button Group",
+          "description": "Group related buttons together",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Copy Button",
+          "description": "Button to copy text to clipboard",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Dropdown",
+          "description": "Dropdown menu component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/dropdown"
+        },
+        {
+          "name": "Dropdown Item",
+          "description": "Individual dropdown menu item",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "QR Code",
+          "description": "Generate QR codes",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Feedback",
+      "items": [
+        {
+          "name": "Badge",
+          "description": "Small status indicator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Callout",
+          "description": "Highlighted content block",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Progress Bar",
+          "description": "Linear progress indicator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Progress Ring",
+          "description": "Circular progress indicator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Skeleton",
+          "description": "Loading placeholder",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Spinner",
+          "description": "Loading spinner",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tag",
+          "description": "Label or category tag",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tooltip",
+          "description": "Contextual information on hover",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Forms",
+      "items": [
+        {
+          "name": "Checkbox",
+          "description": "Multi-select checkbox input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Color Picker",
+          "description": "Color selection input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Input",
+          "description": "Text input field",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Option",
+          "description": "Select option element",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Radio",
+          "description": "Single-select radio button",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Radio Group",
+          "description": "Group of radio buttons",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/radio-group/"
+        },
+        {
+          "name": "Rating",
+          "description": "Star rating input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Select",
+          "description": "Dropdown select input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/select/"
+        },
+        {
+          "name": "Slider",
+          "description": "Range slider input",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Switch",
+          "description": "Toggle switch input",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/switch/"
+        },
+        {
+          "name": "Textarea",
+          "description": "Multi-line text input",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Media",
+      "items": [
+        {
+          "name": "Animated Image",
+          "description": "Image with animation controls",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Avatar",
+          "description": "User profile image",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Carousel",
+          "description": "Image/content carousel",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Carousel Item",
+          "description": "Individual carousel slide",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Comparison",
+          "description": "Before/after image comparison",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Icon",
+          "description": "Scalable icon component",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Zoomable Frame",
+          "description": "Zoom and pan content",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Navigation",
+      "items": [
+        {
+          "name": "Breadcrumb",
+          "description": "Hierarchical navigation trail",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Breadcrumb Item",
+          "description": "Individual breadcrumb link",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tab",
+          "description": "Tab navigation item",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tab Group",
+          "description": "Container for tabs",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tab Panel",
+          "description": "Tab content panel",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tree",
+          "description": "Hierarchical tree view",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Tree Item",
+          "description": "Individual tree node",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Layout",
+      "items": [
+        {
+          "name": "Card",
+          "description": "Content container card",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/card/"
+        },
+        {
+          "name": "Details",
+          "description": "Expandable details component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/details/"
+        },
+        {
+          "name": "Dialog",
+          "description": "Custom modal dialog (not native <dialog>)",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Divider",
+          "description": "Content separator",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Drawer",
+          "description": "Slide-out panel",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Page",
+          "description": "Page layout component",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/page/"
+        },
+        {
+          "name": "Scroller",
+          "description": "Custom scrollbar container",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Split Panel",
+          "description": "Resizable split layout",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "items": [
+        {
+          "name": "Animation",
+          "description": "Animation utilities",
+          "documented": true,
+          "accessibility": "Full",
+          "docsUrl": "https://webawesome.com/docs/components/animation/"
+        },
+        {
+          "name": "Format Bytes",
+          "description": "Format byte values",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Format Date",
+          "description": "Format date values",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Format Number",
+          "description": "Format numeric values",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Intersection Observer",
+          "description": "Visibility detection",
+          "documented": true,
+          "accessibility": "Full"
+        },
+        {
+          "name": "Popover",
+          "description": "Floating popover panel",
+          "documented": true,
+          "accessibility": "Full"
+        }
+      ]
+    }
+  ]
+}

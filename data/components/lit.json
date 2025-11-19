@@ -1,0 +1,49 @@
+{
+  "systemId": "lit",
+  "systemName": "Lit",
+  "lastUpdated": "2025-11-18",
+  "totalComponents": 0,
+  "note": "Lit is a library for building web components, not a component library itself. It provides the foundation (lit-element, lit-html) for creating your own components.",
+  "components": [
+    {
+      "category": "Core Libraries",
+      "items": [
+        {
+          "name": "lit-element",
+          "description": "Base class for creating web components",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://lit.dev/docs/components/defining/"
+        },
+        {
+          "name": "lit-html",
+          "description": "Efficient HTML templating library",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://lit.dev/docs/templates/overview/"
+        },
+        {
+          "name": "Decorators",
+          "description": "TypeScript decorators for web components",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://lit.dev/docs/components/decorators/"
+        },
+        {
+          "name": "Reactive Properties",
+          "description": "Data binding and reactivity",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://lit.dev/docs/components/properties/"
+        },
+        {
+          "name": "Directives",
+          "description": "Template rendering directives",
+          "documented": true,
+          "accessibility": "N/A",
+          "docsUrl": "https://lit.dev/docs/templates/directives/"
+        }
+      ]
+    }
+  ]
+}
